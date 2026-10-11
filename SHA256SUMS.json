@@ -168,5 +168,6 @@
   "evidence/review_checks_a5131ce_results.zip": "2363e4e96c6e49483199fefb1deb5b5af4fe034d1d3cc463058c623b3ba715b9",
   "tests/test_reference_baseline.py": "dc231be745efe05b34c6e439a6508a0dc51ad8ba695b027a95d264058d5f133f",
   "tests/test_run_submission.py": "011ddd360409da5fce633202a544912718ef26fd77a6ec889f17940a0e4eb800",
-  ".github/workflows/checks.yml": "fa658d7e12c7e19fff63895733232a7ba0b379aac0513d1bc880bac60a28036e"
+  ".github/workflows/checks.yml": "fa658d7e12c7e19fff63895733232a7ba0b379aac0513d1bc880bac60a28036e",
+  "supplementary/Mangrove_Pulse_Engineering_Checks.ipynb": "8661ebf7976e31ec30e724b26b89d16ad9c83683fa682f152d2d107f7c9dd04a"
 }
