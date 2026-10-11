@@ -1,5 +1,11 @@
 # Colab notebooks and execution records
 
+## Review sensitivity notebook
+
+[Review checks source](../supplementary/Mangrove_Pulse_Review_Checks.ipynb) · [Open from GitHub in Colab](https://colab.research.google.com/github/Salim-Ammar/mangrove-pulse/blob/main/supplementary/Mangrove_Pulse_Review_Checks.ipynb)
+
+This twentieth notebook tests the standalone reproduction route, the eligible-cell edge base rate and an exploratory reverse split for commit a5131ce. Execution evidence is not yet recorded. The 19 earlier team-owned copies below remain unchanged.
+
 ## Repository notebooks in the team's Drive
 
 These links open the team-owned Colab copies of the 19 notebooks in this repository. The [Drive folder](https://drive.google.com/drive/folders/1OBsACkqWNBxGpBK25VhkaJY8D95VNNXK) groups them. Drive reports link-viewer access for all 19; the executed release copy also opened in a signed-out browser with changes disabled. Readers can use their own Colab runtimes and save edits only to their own copies.

@@ -159,7 +159,7 @@ mangrove-pulse/
 | [Cached dated-context replay source](supplementary/Mangrove_Pulse_Offline_Context_Replay.ipynb) | Inspect the cache-only scene-label replay. | This source copy has no stored outputs; hosted execution/report evidence is documented in the dated-context guide. |
 | [Tarif hyperspectral qualification](supplementary/Mangrove_Pulse_Tarif_Scene_Qualification_Executed.ipynb) | Inspect an actual bounded spectral read, quality screening and fixed-window figure. | Separate water-dominated crop; not mangrove truth, model improvement or a site switch. |
 
-The table highlights the main entry points. Start with the results reading notebook for the main demonstration. The [Colab register](docs/COLAB_LINKS.md) links all 19 notebooks and distinguishes saved execution records from source notebooks; saved results can be read without acquiring the data again.
+The table highlights the main entry points. Start with the results reading notebook for the main demonstration. The [Colab register](docs/COLAB_LINKS.md) links all 20 notebooks and distinguishes saved execution records from source notebooks; saved results can be read without acquiring the data again.
 
 Original execution records retain their recorded prose and outputs. The main reading copy and current guides provide the revised explanations; the [provenance record](docs/PROVENANCE.md) distinguishes presentation edits from new executions.
 
