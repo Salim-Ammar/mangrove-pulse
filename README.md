@@ -16,7 +16,12 @@ Arab Youth Space Hackathon: 813 Challenge
 
 [Results notebook](Mangrove_Pulse_Review.ipynb) · [Inspection briefs](docs/CASES.md) · [Evidence map](docs/CLAIM_EVIDENCE_MAP.md) · [Official starter repository](https://github.com/Tnecniv-Teikram/813-hyperspectral-hackathon)
 
-Read the [results notebook](Mangrove_Pulse_Review.ipynb), then [C001's evidence and decision request](docs/C001_INSPECTION_BRIEF.md). The implemented contribution is reproducible satellite-evidence review and traceable observation requests. The [platform assessment](docs/CONNECTED_CONCEPT_ASSESSMENT.md) explains when the proposed amphibious drone would merit testing against simpler methods.
+- **Working feature:** review satellite/reference disagreements and turn selected patches into inspection briefs.
+- **Main result:** F1 0.8864 against GMW on 5,653 quality-screened southern cells, not independent field accuracy.
+- **Coverage:** 468 cells are excluded on the primary date; treating exclusions as negative predictions gives F1 0.8194.
+- **Drone:** a proposed amphibious contact-sensing platform, with conditional tradeoffs rather than measured superiority.
+- **Next evidence:** independent dated cover labels, accepted observations and matched missions; ecological benefit needs a separate controlled study.
+- **Start here:** [results notebook](Mangrove_Pulse_Review.ipynb), [C001 inspection brief](docs/C001_INSPECTION_BRIEF.md) and [platform assessment](docs/CONNECTED_CONCEPT_ASSESSMENT.md).
 
 ## Table of contents
 
@@ -220,11 +225,24 @@ Calibrate in the north (northing ≥ 2,764,750 m), evaluate in the south (≤ 2,
 | Excluded cells | 468 | 811 |
 | Excluded GMW-positive cells | 87 | 86 |
 
+The scores above apply only to eligible cells. The southern population has 6,121 cells and 633 GMW positives on each date. A separate **coverage-penalized agreement** calculation treats every excluded cell as a negative prediction: excluded GMW positives become additional misses, while excluded background cells become true negatives. This is an explicit abstention policy, not the original classifier output or a general worst-case bound.
+
+| Coverage and exclusion-as-negative policy | Nov 20 | Nov 30 |
+|---|---:|---:|
+| Eligible share of all southern cells | 92.35% | 86.75% |
+| GMW-positive misses, including exclusions | 161 | 157 |
+| Recall over all 633 GMW-positive cells | 0.7457 | 0.7520 |
+| F1 with exclusions treated as negative | 0.8194 | 0.8228 |
+
+These values are recomputed from the [stored counts](examples/baseline/baseline_summary.json): recall is `TP / (eligible GMW positives + excluded GMW positives)` and F1 is `2*TP / (2*TP + FP + FN + excluded GMW positives)`. They expose the screening cost; neither metric establishes independent cover accuracy.
+
 Northern calibration F1 is 0.6652, compared with 0.8864 in the south on November 20. These are different spatial populations: the north has 5,618 eligible cells, 436 mapped positives and TP/FP/FN/TN of 312/190/124/4,992. The south has fewer false positives and false negatives at the frozen threshold. The [saved baseline summary](examples/baseline/baseline_summary.json) records both populations. Their different cover composition and image/reference characteristics may contribute to the gap, but its cause has not been isolated. The higher southern score does not establish regional generalization or independent field accuracy.
 
 On the matched-date subset of 5,211 cells, F1 is 0.8921 / 0.8906; full-date scores use different eligible populations. The always-negative control reaches 90.34% overall agreement on November 20 but has zero positive-class F1, which is why overall agreement alone is insufficient.
 
-The [saved November 20 audit](examples/audit/audit_summary.json) has 121 disagreements and 87 excluded GMW-positive cells in 36 clusters. Of 121 disagreements, 96 (79.3%) touch a GMW label transition; this is not an established cause or positional-error estimate. November 30 retains 111 disagreements, resolves 2 to agreement and excludes 8.
+The [saved November 20 audit](examples/audit/audit_summary.json) has 121 disagreements and 87 excluded GMW-positive cells in 36 clusters. Of 121 disagreements, 96 (79.3%) touch a GMW label transition: at least one of the eight neighbouring 20 m cells has a different GMW label, ignoring neighbours outside the AOI. This describes the disagreement cohort, not an established cause or positional-error estimate. The corresponding transition share among all eligible cells has not yet been computed, so the figure does not establish edge enrichment.
+
+Of the original 121 disagreements, November 30 retains 111, resolves two to agreement and excludes eight. Its complete eligible population has 119 disagreements (48 FP + 71 FN), including eight additional disagreements outside the original cohort. The [cell-level audit](examples/audit/all_audit_cells.csv) records the original cohort's outcomes; these counts do not establish ecological change.
 
 ![Recorded southern audit](examples/audit/audit_overview.png)
 
