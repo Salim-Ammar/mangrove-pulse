@@ -3,7 +3,7 @@
 *From satellite evidence to targeted mangrove inspection.*
 
 [![Arab Youth Space Hackathon: 813 Challenge](https://img.shields.io/badge/Arab%20Youth%20Space%20Hackathon-813%20Challenge-0B2F4F)](https://spaceacademy-hackathons.space.gov.ae/)
-[![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)](requirements.txt) [![Sentinel-2 analysis](https://img.shields.io/badge/EO-Sentinel--2%20analysis-2457A7)](Mangrove_Pulse_Review.ipynb) [![Khor Kalba data: Sentinel-2 and GMW](https://img.shields.io/badge/Data-Khor%20Kalba%20Sentinel--2%20%2B%20GMW-0086C9)](docs/PROVENANCE.md) [![Planet Tanager STAC qualification](https://img.shields.io/badge/Data-Planet%20Tanager%20STAC-0086C9)](docs/TARIF_SCENE_QUALIFICATION.md) [![Drone: concept stage](https://img.shields.io/badge/Drone-concept%20stage-777777)](docs/CONNECTED_CONCEPT_ASSESSMENT.md)
+[![Python 3.13](https://img.shields.io/badge/Python-3.13-996600?logo=python&logoColor=white)](requirements.txt) [![Sentinel-2 analysis](https://img.shields.io/badge/EO-Sentinel--2%20analysis-1F7A50)](Mangrove_Pulse_Review.ipynb) [![Khor Kalba data: Sentinel-2 and GMW](https://img.shields.io/badge/Data-Khor%20Kalba%20Sentinel--2%20%2B%20GMW-007C91)](docs/PROVENANCE.md) [![Planet Tanager STAC qualification](https://img.shields.io/badge/Data-Planet%20Tanager%20STAC-7542A6)](docs/TARIF_SCENE_QUALIFICATION.md) [![Drone: concept stage](https://img.shields.io/badge/Drone-concept%20stage-5B6470)](docs/CONNECTED_CONCEPT_ASSESSMENT.md)
 
 Arab Youth Space Hackathon: 813 Challenge
 
