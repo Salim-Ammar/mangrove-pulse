@@ -169,5 +169,5 @@
   "tests/test_reference_baseline.py": "dc231be745efe05b34c6e439a6508a0dc51ad8ba695b027a95d264058d5f133f",
   "tests/test_run_submission.py": "011ddd360409da5fce633202a544912718ef26fd77a6ec889f17940a0e4eb800",
   ".github/workflows/checks.yml": "fa658d7e12c7e19fff63895733232a7ba0b379aac0513d1bc880bac60a28036e",
-  "supplementary/Mangrove_Pulse_Engineering_Checks.ipynb": "8661ebf7976e31ec30e724b26b89d16ad9c83683fa682f152d2d107f7c9dd04a"
+  "supplementary/Mangrove_Pulse_Engineering_Checks.ipynb": "5ad640a765d525c9cb414aa22de6c3319f8cf237f55e323c58d4356367a05d7d"
 }
