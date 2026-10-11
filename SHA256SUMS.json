@@ -158,5 +158,7 @@
   "supplementary/Mangrove_Pulse_Tarif_Scene_Qualification_Executed.ipynb": "246f9bbfe9b831f2d11404b3255155a57635cd60de4e7d8d00b4bc9720799900",
   "tests/test_concept_screen.py": "54808d81cbf5eae857e61a817db00d979a0d5bae96c82e4abccc5dce438cc149",
   "tests/test_inspection_handoff.py": "f0ad8f4f346ba76f32a0df6227c55ec5146400597ec3e720c487d1e313149ad8",
-  "tests/test_supported_sensing_envelope.py": "1c1945def9cae6d820bedec3c8891b2eef8e5d04b99f5abb8009370f3d9dd7fd"
+  "tests/test_supported_sensing_envelope.py": "1c1945def9cae6d820bedec3c8891b2eef8e5d04b99f5abb8009370f3d9dd7fd",
+  "src/review_sensitivity.py": "f5898a3bb08175f974bff7ab859b8c8f99d1280ab91cc8ea145c711253282e3e",
+  "tests/test_review_sensitivity.py": "edf876b72a96be5e143b2e949212be56a2afdbb02bfe9953a903d0292a792f14"
 }
