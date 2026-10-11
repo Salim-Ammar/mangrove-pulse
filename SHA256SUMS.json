@@ -128,14 +128,14 @@
   "Mangrove_Pulse_End_to_End.ipynb": "9ec5554f806b7d00f4276dac44e7d647f704ab2b320f3c6507bb3361e7b5e230",
   "Mangrove_Pulse_Review.ipynb": "90332c52b279b6b2cbfef6dfd6529579d2694e4fc9500bbdb396756c2fa57561",
   "Mangrove_Pulse.ipynb": "3e9efee2a2cb89265343456ddd720b533ba60745631a107d4a7221ac954d4b61",
-  "README.md": "e8cf69a1f2fbf0b857b4fc134c9b9779a9899ff996a8b51b43b931b613d47cee",
+  "README.md": "6bdc09883d679a03e180a2e4ec9eb1860212bd3396eaf660c4c5e5d5b636ac51",
   "requirements.txt": "a8d8608455d9064f434e212ccaa134dc400aaa61146c90f4db642cb3ffb2681e",
   "src/concept_screen.py": "7520c532cc741fe27eda71044acb1cf8cf693875d41232f90cf6da320515429b",
   "src/disagreement_audit.py": "ad10d029445f4b2b1de450fc9ae245688ec494629e553743f98ae3a7d0e9149a",
   "src/inspection_handoff.py": "05e8ede57d6977ee2bbd8579973ff0b17e2ae2f3416bfbf2965a2552d121b5db",
   "src/offline_context_reader.py": "ca1c8f7f92fce2693188cbad59b445cb9d2ffb0942d8adf8569dd6f77418246a",
-  "src/reference_baseline.py": "2f935a9ae0da55ca10900b8243d7bba1e00b323272dde0bed557216182800bef",
-  "src/run_submission.py": "789ea41c37b3869b30a61b2db149aa8af2ecc614b45afa2f84a1a02a9e9ec34b",
+  "src/reference_baseline.py": "e9c67435bee70c468efb1481c77d37ea2d31185f88e24f89e25853a5bbecb04c",
+  "src/run_submission.py": "a9c46d6ae78aabedac52b7372a76537cf0d52af54aaf453fabe09c3b842149b6",
   "src/supported_sensing_envelope.py": "42a254892692e4ab34b2a0138555f45ce1af21affe320f712868259eb73977f7",
   "supplementary/Mangrove_Pulse_Claim_Validation_Executed.ipynb": "af67f695f3f33dc2ffb4a963e53df73ff3fd1aa625489ba00b8acc22df38701b",
   "supplementary/Mangrove_Pulse_Claim_Validation_Templates.zip": "c23d8c69c1e257d5a61dfa802dd9b78aff00d1c6023bcae416a0943a3106065f",
@@ -165,5 +165,8 @@
   "docs/REVIEW_CHECKS_20261012.md": "93ab2ffc15f71948a4375e4b4efcb72139273c9959e33534c2aec663667823f9",
   "examples/baseline/review_sensitivity_20261012.json": "3a51c3044baf326e6cfa533a44c8dbb44d21f7da38c8f622ac28c4f2933e162c",
   "supplementary/Mangrove_Pulse_Review_Checks_Executed.ipynb": "5c34300d00e2d6cf2a40df3e19e9d39d4a7a2206b89253e0ffc585eb905ec662",
-  "evidence/review_checks_a5131ce_results.zip": "2363e4e96c6e49483199fefb1deb5b5af4fe034d1d3cc463058c623b3ba715b9"
+  "evidence/review_checks_a5131ce_results.zip": "2363e4e96c6e49483199fefb1deb5b5af4fe034d1d3cc463058c623b3ba715b9",
+  "tests/test_reference_baseline.py": "dc231be745efe05b34c6e439a6508a0dc51ad8ba695b027a95d264058d5f133f",
+  "tests/test_run_submission.py": "011ddd360409da5fce633202a544912718ef26fd77a6ec889f17940a0e4eb800",
+  ".github/workflows/checks.yml": "fa658d7e12c7e19fff63895733232a7ba0b379aac0513d1bc880bac60a28036e"
 }

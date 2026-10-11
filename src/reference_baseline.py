@@ -1,9 +1,31 @@
 """Exploratory reference-agreement baseline. Execute in the team's Colab only."""
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 import json,zipfile,hashlib,csv,sys,traceback
 from datetime import datetime,timezone
 STAGE='input'
 def dump(p,x):p.write_text(json.dumps(x,indent=2))
+
+def extract_required_members(archive, destination, required):
+    destination = destination.resolve()
+    targets = []
+    total = 0
+    for name in required:
+        path = PurePosixPath(name)
+        target = (destination / name).resolve()
+        if (path.is_absolute() or '..' in path.parts or path.as_posix() != name
+                or '\\' in name or ':' in name or not target.is_relative_to(destination)):
+            raise ValueError('Unsafe required archive path: ' + name)
+        entries = [info for info in archive.infolist() if info.filename == name]
+        if len(entries) != 1 or entries[0].file_size > 50_000_000:
+            raise ValueError('Wrong/incomplete comparison ZIP: ' + name)
+        total += entries[0].file_size
+        if total > 100_000_000:
+            raise ValueError('Required archive payload exceeds 100 MB.')
+        targets.append((name, target))
+    for name, target in targets:
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(archive.read(name))
+
 def run(input_zip,out):
  global STAGE
  import numpy as np,rasterio
@@ -17,10 +39,7 @@ def run(input_zip,out):
  for prefix in ['previous/input_crops','nov30_crops']:
   required += [prefix+'/'+k+'_crop.tif' for k in ['SCL','B04','B08']]
  with zipfile.ZipFile(input_zip) as z:
-  for n in required:
-   entries=[x for x in z.infolist() if x.filename==n]
-   if len(entries)!=1 or entries[0].file_size>50_000_000:raise ValueError('Wrong/incomplete comparison ZIP: '+n)
-   p=data/n;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(z.read(n))
+  extract_required_members(z,data,required)
  if json.loads((data/'run_status.json').read_text()).get('status')!='succeeded':raise ValueError('Comparison input did not succeed.')
  prior=json.loads((data/'comparison_summary.json').read_text())
  previous_hashes=json.loads((data/'previous/input_manifest.json').read_text())['crop_sha256']

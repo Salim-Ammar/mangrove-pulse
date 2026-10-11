@@ -213,7 +213,9 @@ The software tests run from the repository root:
 python -m unittest discover -s tests -v
 ```
 
-The suite checks synthetic equations, reference-sensitivity helpers and inspection-template metadata. Each test file also runs independently. These tests do not collect observations or establish field accuracy, aircraft performance or ecological benefit.
+The suite checks synthetic equations, reference-sensitivity helpers, inspection-template metadata and runner/archive failure paths. Each test file also runs independently. [Repository checks](https://github.com/Salim-Ammar/mangrove-pulse/actions/workflows/checks.yml) run the suite and check payload hashes, Python syntax and notebook structure. This does not execute the satellite workflow or establish field accuracy, aircraft performance or ecological benefit.
+
+The runner verifies manifest path containment and hashes, and rejects unlisted Python source under `src/`. The baseline reader checks required ZIP names and their declared sizes before reading them: 50 MB per member and 100 MB in total. Benign runtime caches and logs are allowed. The manifest detects inconsistencies against the accompanying hash list; it is not a signed publisher identity or a dependency security audit.
 
 ## Data and method
 

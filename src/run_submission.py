@@ -2,14 +2,36 @@
 
 The inspection brief and drone roadmap are documentation outputs. This runner
 checks reference agreement, not field accuracy, ecological condition or drone
-capability. Its execution logic is unchanged from the verified cached run.
+capability. Archived runs identify the code revision they executed.
 """
-from pathlib import Path
-import argparse, csv, hashlib, json, math, subprocess, sys, traceback, zipfile
+from pathlib import Path, PurePosixPath
+import argparse, csv, hashlib, json, math, re, subprocess, sys, traceback, zipfile
 from datetime import datetime, timezone
 
 def read(p): return json.loads(p.read_text())
 def dump(p, obj): p.write_text(json.dumps(obj, indent=2) + '\n')
+
+def verify_manifest(root):
+    root = root.resolve()
+    manifest = read(root / 'SHA256SUMS.json')
+    if not isinstance(manifest, dict) or not manifest:
+        raise ValueError('Manifest must be a nonempty path/hash object.')
+    for name, expected in manifest.items():
+        path = PurePosixPath(name)
+        if (path.is_absolute() or '..' in path.parts or path.as_posix() != name
+                or '\\' in name or ':' in name):
+            raise ValueError('Unsafe manifest path: ' + name)
+        if not isinstance(expected, str) or not re.fullmatch('[0-9a-f]{64}', expected):
+            raise ValueError('Invalid SHA-256 for: ' + name)
+        payload = (root / name).resolve()
+        if not payload.is_relative_to(root) or not payload.is_file():
+            raise ValueError('Packaged file outside root or missing: ' + name)
+        if hashlib.sha256(payload.read_bytes()).hexdigest() != expected:
+            raise ValueError('Packaged file changed: ' + name)
+    for source in (root / 'src').rglob('*.py'):
+        if source.relative_to(root).as_posix() not in manifest:
+            raise ValueError('Unmanifested Python source: ' + str(source.relative_to(root)))
+    return manifest
 def compare(a, b, where='value'):
     if isinstance(a, dict):
         if not isinstance(b, dict) or set(a) != set(b): raise ValueError(where + ': keys differ')
@@ -44,11 +66,7 @@ def run(root,out):
     dump(out/'run_status.json',state)
     checks=[]
     try:
-        manifest=read(root/'SHA256SUMS.json')
-        for name,expected in manifest.items():
-            p=root/name
-            if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest()!=expected:
-                raise ValueError('Packaged file changed/missing: '+name)
+        verify_manifest(root)
         checks.append('All packaged-file hashes match.')
         import importlib.metadata
         dump(out/'environment.json',{'python':sys.version,'packages':{n:importlib.metadata.version(n) for n in ['numpy','rasterio','matplotlib']}})
