@@ -1,0 +1,57 @@
+# Three claims, three tests
+
+Prepared 7 October 2026 | Proposed validation protocols
+
+The satellite method, threshold 0.49, spatial split and saved scores are unchanged. Physical measurements, independent historical labels, intervention and ecological outcomes remain uncollected.
+
+| Claim | Present evidence | Evidence that could support it |
+|---|---|---|
+| Drone advantage | Conditional hypothetical energy estimates | Equal-quality accepted observations against the simplest feasible comparator, measured whole-mission resources and uncertainty |
+| Independent map accuracy | Agreement with GMW; related-reference sensitivity | Probability-sampled, independently interpreted dated reference observations and design-consistent uncertainty |
+| Ecological benefit | No outcome evidence | Authorized, suitable intervention with replicated controls, baseline and repeated ecological outcomes |
+
+## 1. Test a task-specific advantage, not general superiority
+
+The published UAE programme already includes mapping, growth monitoring, planting and 3D imaging. It is a precedent, not a complete current product specification or head-to-head benchmark. Absence of a published water-landing specification does not establish that the competitor lacks it. [EAD project announcement, January 2023](https://www.ead.gov.ae/en/Media-Centre/News/0-plants-one-million-mangrove).
+
+The hypothesis is that supported sensing may reduce energy per accepted observation for a justified current contact-water task. C001/C017 photographic questions may instead be answered by licensed imagery, shore/boat photography or an ordinary drone. C027's historical optical exclusion does not establish a need for a current-water investigation; they are different questions.
+
+Start with a shore/boat probe where feasible or a small waterborne platform where appropriate. Compare hovering and supported aircraft only where both can safely collect the same observation. Use the same calibrated probe, depth, required stabilization, locations, tide windows and reference checks. Define measurement-error, positioning, completeness and contamination tolerances before testing. The [USGS National Field Manual](https://www.usgs.gov/mission-areas/water-resources/science/national-field-manual-collection-water-quality-data-nfm) can guide protocol and calibration design; our payload has not demonstrated compliance.
+
+Alternate methods in matched sessions, with independent missions as replicates; repeated readings within a mission are not independent missions. Record accepted and rejected observations, measured energy including failed transitions/recovery, elapsed setup-to-recovery time, operator effort, access failures, safety and disturbance. Predeclare a useful improvement margin and uncertainty analysis. Lower energy alone is not a win if observation quality, safety or habitat safeguards fail. No comparator is prescribed without access and feasibility assessment.
+
+The prior illustrative case gives approximately 170.7 versus 128.0 Wh and 750 versus 840 seconds. For identical attempted tasks, let p_H and p_S be unknown accepted-observation fractions. Under fixed mission costs, energy per accepted observation improves only when p_S/p_H > E_S/E_H; elapsed time improves only when p_S/p_H > T_S/T_H. This is a ratio of expected resources to expected accepted records over repeated tasks, not the expectation of a per-mission ratio (a mission can accept zero records). Equal acceptance cannot establish improvement in both resources for this case. These are conditional mathematical relationships, not measured success rates or a Khor Kalba route. The [saved study](../examples/inspection/energy_scenario_excerpt.json) also includes counterexamples.
+
+## 2. Independently assess the historical map
+
+Use a known-probability sample, sufficiently detailed and dated reference evidence, explicit interpretation rules and analysis consistent with the sampling design. Report uncertainty and reference-label limitations. [Olofsson et al., 2014](https://doi.org/10.1016/j.rse.2014.02.015).
+
+The proposed primary evaluation targets the frozen 20 November southern eligible population (5,653 centres), stratified by predicted class. Once a usable reference source is established, build the exact sampling frame and select reproducibly in a separate Colab experiment. Base allocation on a stated precision target and available label budget; there is no universal sample size. A separate full-AOI audit must distinguish calibration, gap, held-out and quality-excluded regions. Excluded centres are not predicted negatives.
+
+Have two interpreters examine dated independent evidence without seeing predictions/GMW, then adjudicate. Keep prediction joins separate from the blind annotation sheet. Preserve source rights, acquisition date, resolution, alignment uncertainty, label rules, confidence and unknown labels. Retain all sampled units and inclusion probabilities; report missingness and sensitivity to unresolved labels rather than silently dropping them. Estimate design-weighted error matrices and suitable confidence intervals after qualified reference review. Do not tune the model on these labels.
+
+The three selected review cases are exploratory, not a representative accuracy sample. Related GMW releases and later WorldCover do not supply independent 2018 truth. Free, reusable, sufficiently detailed 2018 Khor Kalba evidence has not been established. Current observations could support a separately dated current study, not directly validate 2018. Even independent image interpretation establishes reference-based map accuracy, not necessarily field accuracy.
+
+A source check on 9 October located and visually checked the original screenshots for the [three qualitative cases](CASES.md). They cannot qualify the 5,653-cell sampling frame: they show only selected audit cases, expose the review context, have unverified full-frame dates/lineage and relative alignment, and provide no field labels. They are unsuitable for blind sampling or a general accuracy score. The check required neither a repeat imagery request nor a label experiment.
+
+A GBIF/original-provider metadata check on 9 October found an Avicennia marina human observation near Abu Dhabi dated 8 May 2018, with reported 5 m uncertainty, open location and two current species identifications. [Source and qualification](HISTORICAL_KALBA_FIELD_CONTEXT.md#a-dated-alternative-site-field-presence-lead). Visual inspection of the photograph shows ground/oblique vegetation and water, without a surveyed organism footprint or cell-level cover evidence. This third-party record provides species-presence evidence outside the frozen Kalba experiment, not a qualified whole-cell label or representative accuracy sample. It supplies neither an absence survey, date-matched EO test, team field measurement nor a new score. It remains an alternative-site lead requiring qualification.
+
+## 3. Establish benefit without converting valuable habitat
+
+National guidance prioritizes protection/natural regeneration and restricts planting to suitable impacted areas with inadequate regeneration. It warns against conversion of natural mudflat/saltmarsh, calls for baseline/control monitoring, and recommends long-term follow-up. These are ecological guidance, not Khor Kalba permissions. [UAE Mangrove Restoration Guidelines, 2024](https://www.admangroves.ae/media/birkfu4i/mangrove-restoration-guidelines.pdf).
+
+The proposed study first establishes current site history, ecological need, recruitment, hydrology and sediment suitability through qualified local review and permissions. A disagreement, bare pixel or salinity reading cannot prescribe intervention. If intervention is justified, predeclare an ecological endpoint and habitat safeguards. Randomize among eligible degraded units where possible; otherwise use matched comparisons with explicit limitations. Collect repeated before/after measures at multiple untreated controls and intervention units to avoid one-control pseudoreplication. [Underwood, 1994](https://doi.org/10.2307/1942110).
+
+Track establishment and natural recruitment alongside planted survival; tree counts alone are insufficient. Predeclare a mudflat/saltmarsh-condition safeguard and a relevant biodiversity measure, such as bird species/abundance, at intervention and control sites. Compare their changes, accounting for tide/season and baseline differences. The national guideline suggests quarterly site-management checks and comprehensive follow-ups at 2.5, 5 and 10 years; adapt timing to local authority requirements and study power. Set stopping rules before action. Lack of statistical evidence in an underpowered study is inconclusive, not proof of no effect. Carbon benefit requires a separate net-additionality and carbon-accounting study; no carbon number is claimed here.
+
+## Immediate next evidence
+
+The [connected concept assessment](CONNECTED_CONCEPT_ASSESSMENT.md) reviews parameters across disciplines and includes a no-upload Colab source for necessary physical/measurement screens. Its [executed copy](../supplementary/Mangrove_Pulse_Connected_Concept_Executed.ipynb) passed sixteen synthetic tests in the approved CPU run; the [returned ZIP](../supplementary/Mangrove_Pulse_Connected_Concept_Results.zip) passed source/hash/CRC checks. It considers task utility and simpler alternatives before aircraft capability, leaving unknown recovery and acceptance inputs unfilled. Neither Euler dynamics nor successful synthetic tests can replace the independent-label, measured platform-comparison or controlled ecological evidence required above.
+
+The [dated Khor Kalba source review](KHOR_KALBA_SITE_EVIDENCE.md) distinguishes local drone/field precedent from usable validation evidence. The search established no qualifying independent 2018 label dataset. A newer field report and older drone study supply local context only; one mapping paper has unresolved acquisition-date contradictions. This finding limits the available evidence without proving that no suitable dataset exists.
+
+The [actual executed notebook](../supplementary/Mangrove_Pulse_Claim_Validation_Executed.ipynb), [verified blank-template ZIP](../supplementary/Mangrove_Pulse_Claim_Validation_Templates.zip) and [execution review](../evidence/claim_validation_colab_review.json) are preserved. Three executed cells have no error outputs, and their code matches the source. This is computation and record-handling evidence, not field validation.
+
+The [claim-validation notebook](../supplementary/Mangrove_Pulse_Claim_Validation.ipynb) ran on free CPU on 7 October; its [executed copy](https://colab.research.google.com/drive/1bfNz1CL87MmbvdUs2_xa4gFJHI0HmBSI) retains eleven passing synthetic record-handling tests and conditional algebra. The downloaded blank-register ZIP passed integrity checks. The run supplied no new EO dataset, field truth or ecological outcome.
+
+The illustrative energy ratio threshold is approximately 0.749854; the elapsed-time ratio threshold is 1.12. At a hypothetical hover acceptance of 0.9, supported acceptance would need to exceed 1.008 to improve both resources, which is impossible under these fixed inputs. This conditional constraint neither estimates a measured success rate nor rejects the concept generally. The next priority is a viable independent dated reference source. All three claims still need actual observations; software tests validate record handling only.

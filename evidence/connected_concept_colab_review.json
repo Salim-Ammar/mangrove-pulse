@@ -1,0 +1,226 @@
+{
+  "experiment_id": "MP-CONNECTED-CONCEPT-01",
+  "status": "verified_actual_colab_execution",
+  "date": "2026-10-07",
+  "colab_url": "https://colab.research.google.com/drive/1FPFrMs4c6N9ym-HqtwOqKeU5CxiQ0Y4W",
+  "runtime": "CPU selected in authenticated runtime-type dialog; no paid upgrade or sharing action",
+  "execution_counts": [
+    1,
+    2,
+    3
+  ],
+  "error_outputs": 0,
+  "synthetic_tests": 16,
+  "saved_in_drive": "Browser console reported Saved successfully; actual downloaded notebook contains outputs",
+  "sharing_or_anonymous_access_verified": false,
+  "source_input_sha256": "a2ebcfc570dce16e4b8f6ff172251f94ad7257436f5166ca31ee05dee9027485",
+  "executed_notebook_sha256": "8141732b1f411c82caec5c56670fcf488dcbb85d8a3696222fa167ab9570be61",
+  "executed_notebook_bytes": 71953,
+  "results_zip_sha256": "321e7457c9adf142289b168923108b247059fe311237e8aa0ca3f8f9c7b2455b",
+  "results_zip_bytes": 15166,
+  "all_passed": true,
+  "check_count": 50,
+  "checks": [
+    {
+      "check": "Exact downloaded notebook copies",
+      "passed": true
+    },
+    {
+      "check": "Exact downloaded results copies",
+      "passed": true
+    },
+    {
+      "check": "Seven actual cells",
+      "passed": true
+    },
+    {
+      "check": "All source bodies match approved uploaded input",
+      "passed": true
+    },
+    {
+      "check": "Three actual execution counts 1-3",
+      "passed": true
+    },
+    {
+      "check": "No notebook error outputs",
+      "passed": true
+    },
+    {
+      "check": "Sixteen synthetic tests actually passed",
+      "passed": true
+    },
+    {
+      "check": "All original case counts printed",
+      "passed": true
+    },
+    {
+      "check": "No authorization or empirical proof in actual outputs",
+      "passed": true
+    },
+    {
+      "check": "Six physical screens remain unknown",
+      "passed": true
+    },
+    {
+      "check": "Acceptance remains unknown",
+      "passed": true
+    },
+    {
+      "check": "Conditional thresholds match actual recorded values",
+      "passed": true
+    },
+    {
+      "check": "No missions labels or ecology in actual status",
+      "passed": true
+    },
+    {
+      "check": "Actual synthetic test status",
+      "passed": true
+    },
+    {
+      "check": "ZIP matches browser output hash",
+      "passed": true
+    },
+    {
+      "check": "ZIP matches actual notebook output",
+      "passed": true
+    },
+    {
+      "check": "Exact eight ZIP members with no duplicate names",
+      "passed": true
+    },
+    {
+      "check": "ZIP CRC verified",
+      "passed": true
+    },
+    {
+      "check": "Seven hashed payloads",
+      "passed": true
+    },
+    {
+      "check": "Manifest bytes/hash concept_screen.py",
+      "passed": true
+    },
+    {
+      "check": "Manifest bytes/hash conditional_assessment.json",
+      "passed": true
+    },
+    {
+      "check": "Manifest bytes/hash connected_concept_assessment.md",
+      "passed": true
+    },
+    {
+      "check": "Manifest bytes/hash inspection_requests.json",
+      "passed": true
+    },
+    {
+      "check": "Manifest bytes/hash parameter_records.json",
+      "passed": true
+    },
+    {
+      "check": "Manifest bytes/hash status.json",
+      "passed": true
+    },
+    {
+      "check": "Manifest bytes/hash test_concept_screen.py",
+      "passed": true
+    },
+    {
+      "check": "Returned exact embedded source inspection_requests.json",
+      "passed": true
+    },
+    {
+      "check": "Returned exact embedded source connected_concept_assessment.md",
+      "passed": true
+    },
+    {
+      "check": "Returned exact embedded source concept_screen.py",
+      "passed": true
+    },
+    {
+      "check": "Returned exact embedded source test_concept_screen.py",
+      "passed": true
+    },
+    {
+      "check": "Returned exact repository source inspection_requests.json",
+      "passed": true
+    },
+    {
+      "check": "Returned exact repository source concept_screen.py",
+      "passed": true
+    },
+    {
+      "check": "Returned exact repository source test_concept_screen.py",
+      "passed": true
+    },
+    {
+      "check": "Returned status matches real output",
+      "passed": true
+    },
+    {
+      "check": "Returned assessment matches real output",
+      "passed": true
+    },
+    {
+      "check": "25 parameter records; only saved hypothetical costs populated",
+      "passed": true
+    },
+    {
+      "check": "Unknown records stay null",
+      "passed": true
+    },
+    {
+      "check": "Costs explicitly hypothetical",
+      "passed": true
+    },
+    {
+      "check": "Acceptance and recovery not fabricated",
+      "passed": true
+    },
+    {
+      "check": "No connection credential or private browser/account markers in notebook",
+      "passed": true
+    },
+    {
+      "check": "Frozen/previous evidence unchanged Mangrove_Pulse.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Frozen/previous evidence unchanged src/reference_baseline.py",
+      "passed": true
+    },
+    {
+      "check": "Frozen/previous evidence unchanged src/disagreement_audit.py",
+      "passed": true
+    },
+    {
+      "check": "Frozen/previous evidence unchanged src/run_submission.py",
+      "passed": true
+    },
+    {
+      "check": "Frozen/previous evidence unchanged data/Khor_Kalba_Date_Comparison_Results.zip",
+      "passed": true
+    },
+    {
+      "check": "Frozen/previous evidence unchanged examples/audit/all_audit_cells.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen/previous evidence unchanged examples/audit/all_clusters.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen/previous evidence unchanged examples/reference_context/case_comparison.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen/previous evidence unchanged Mangrove_Pulse_End_to_End_Executed.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Frozen/previous evidence unchanged supplementary/Mangrove_Pulse_Claim_Validation_Executed.ipynb",
+      "passed": true
+    }
+  ],
+  "scientific_limits": "Synthetic tests and conditional algebra, not a prototype, field validation, superiority or ecological outcome"
+}

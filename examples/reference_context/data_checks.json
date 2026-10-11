@@ -1,0 +1,98 @@
+[
+  {
+    "check": "Uploaded checksum: gmw_v4112_2018_mng_ext_cntry_info_vec.gpkg.gz",
+    "passed": true
+  },
+  {
+    "check": "Uploaded checksum: ESA_WorldCover_10m_2020_v100_N24E054_Map.tif",
+    "passed": true
+  },
+  {
+    "check": "Frozen north-up 20 m EPSG:32640 grid",
+    "passed": true
+  },
+  {
+    "check": "Frozen reference codes and counts",
+    "passed": true
+  },
+  {
+    "check": "AOI bbox unchanged",
+    "passed": true
+  },
+  {
+    "check": "Full gzip CRC/length",
+    "passed": true
+  },
+  {
+    "check": "One unambiguous polygon layer",
+    "passed": true
+  },
+  {
+    "check": "GMW CRS exists",
+    "passed": true
+  },
+  {
+    "check": "Local GMW polygons present",
+    "passed": true
+  },
+  {
+    "check": "All source local geometries present and valid",
+    "passed": true
+  },
+  {
+    "check": "Projected local geometries valid",
+    "passed": true
+  },
+  {
+    "check": "New GMW grid retains exactly frozen AOI",
+    "passed": true
+  },
+  {
+    "check": "WorldCover exact native grid metadata",
+    "passed": true
+  },
+  {
+    "check": "Small native read only",
+    "passed": true
+  },
+  {
+    "check": "WorldCover class codes valid in crop",
+    "passed": true
+  },
+  {
+    "check": "WorldCover spatial coverage of AOI",
+    "passed": true
+  },
+  {
+    "check": "WorldCover sampled grid retains frozen AOI",
+    "passed": true
+  },
+  {
+    "check": "Original audit population",
+    "passed": true
+  },
+  {
+    "check": "Original audit cells unique",
+    "passed": true
+  },
+  {
+    "check": "Audit labels and coordinates match frozen grid",
+    "passed": true
+  },
+  {
+    "check": "Exactly three expected review cases",
+    "passed": true
+  },
+  {
+    "check": "C001 original population",
+    "passed": true
+  },
+  {
+    "check": "C017 original population",
+    "passed": true
+  },
+  {
+    "check": "C027 original population",
+    "passed": true
+  }
+]

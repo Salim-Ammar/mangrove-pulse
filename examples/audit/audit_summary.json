@@ -1,0 +1,135 @@
+{
+  "threshold_unchanged": 0.49,
+  "split_unchanged": true,
+  "category_counts": {
+    "2018-11-20": {
+      "predicted_positive_reference_negative": {
+        "centres": 47,
+        "adjacent_to_reference_transition": 42,
+        "not_adjacent": 5,
+        "scl_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 35,
+          "5": 0,
+          "6": 12,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0
+        }
+      },
+      "predicted_negative_reference_positive": {
+        "centres": 74,
+        "adjacent_to_reference_transition": 54,
+        "not_adjacent": 20,
+        "scl_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 24,
+          "6": 50,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0
+        }
+      },
+      "excluded_reference_positive": {
+        "centres": 87,
+        "adjacent_to_reference_transition": 49,
+        "not_adjacent": 38,
+        "scl_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 14,
+          "3": 34,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 39,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0
+        }
+      }
+    },
+    "2018-11-30": {
+      "predicted_positive_reference_negative": {
+        "centres": 48,
+        "adjacent_to_reference_transition": 44,
+        "not_adjacent": 4,
+        "scl_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 37,
+          "5": 0,
+          "6": 11,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0
+        }
+      },
+      "predicted_negative_reference_positive": {
+        "centres": 71,
+        "adjacent_to_reference_transition": 49,
+        "not_adjacent": 22,
+        "scl_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 3,
+          "6": 68,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0
+        }
+      },
+      "excluded_reference_positive": {
+        "centres": 86,
+        "adjacent_to_reference_transition": 49,
+        "not_adjacent": 37,
+        "scl_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 24,
+          "3": 18,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 38,
+          "8": 6,
+          "9": 0,
+          "10": 0,
+          "11": 0
+        }
+      }
+    }
+  },
+  "nov20_cluster_count": 36,
+  "contact_sheet_rule": "Two largest 8-connected clusters per category; ties sorted by row/column. All clusters/cells remain in CSV.",
+  "boundary_definition": "Any of 8 neighbouring 20 m cells has a different 0/1 GMW value. Outside-AOI cells ignored. Not a physical-distance accuracy estimate.",
+  "limitations": [
+    "No model refit, new scores, shifted map, changed mask or new imagery.",
+    "Reference disagreements are not established classification errors.",
+    "An edge-adjacent disagreement does not identify its cause or prove the reference/model wrong.",
+    "Two dates from the same sensor and the same reference are not independent validation.",
+    "Blank review fields are intentional: visual review and independent evidence are still needed.",
+    "Held-out results are now inspected; any later model revision needs fresh evaluation or an explicit post-hoc label."
+  ]
+}

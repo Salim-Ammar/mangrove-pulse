@@ -1,0 +1,47 @@
+{
+  "points": [
+    {
+      "case": "C001",
+      "row": 88,
+      "column": 83,
+      "longitude": 56.36652203304431,
+      "latitude": 24.99018269207781,
+      "category": "predicted_positive_reference_negative"
+    },
+    {
+      "case": "C017",
+      "row": 64,
+      "column": 87,
+      "longitude": 56.367292518777276,
+      "latitude": 24.994520727810993,
+      "category": "predicted_negative_reference_positive"
+    },
+    {
+      "case": "C027",
+      "row": 61,
+      "column": 96,
+      "longitude": 56.369073337260474,
+      "latitude": 24.99507013483367,
+      "category": "excluded_reference_positive"
+    }
+  ],
+  "zoom": 17,
+  "archive_targets": [
+    "2020-10-14"
+  ],
+  "selection": "Latest archive release on or before each target, within 60 days; duplicate releases removed.",
+  "point_selection": "First row/column-ordered cell in each preselected cluster, from all_audit_cells.csv in Khor_Kalba_Audit_Results.zip.",
+  "query_timeout_seconds": 25,
+  "overall_query_budget_seconds": 240,
+  "automatic_retries": 0,
+  "stop_after_consecutive_query_failures": 3,
+  "maximum_point_queries": 9,
+  "purpose": "Metadata availability only; later archive versions can contain older acquisitions.",
+  "limitations": [
+    "Not an exhaustive archive search.",
+    "Point metadata does not prove full-cluster or full-AOI coverage.",
+    "Acquisition date is distinct from archive release date.",
+    "No imagery downloaded or visually validated.",
+    "No field accuracy or ecological conclusions."
+  ]
+}

@@ -1,0 +1,2811 @@
+{
+  "type": "FeatureCollection",
+  "name": "Historical Khor Kalba inspection evidence targets - NOT flight waypoints",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "C001_r88_c83",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36652203304431,
+          24.99018269207781
+        ]
+      },
+      "properties": {
+        "cluster_id": "C001",
+        "category_nov20": "predicted_positive_reference_negative",
+        "row": "88",
+        "column": "83",
+        "longitude": "56.36652203304431",
+        "latitude": "24.99018269207781",
+        "gmw": "0",
+        "prediction_nov20": "1",
+        "prediction_nov30": "1",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C001_r89_c83",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.366522958699484,
+          24.990002081080895
+        ]
+      },
+      "properties": {
+        "cluster_id": "C001",
+        "category_nov20": "predicted_positive_reference_negative",
+        "row": "89",
+        "column": "83",
+        "longitude": "56.366522958699484",
+        "latitude": "24.990002081080895",
+        "gmw": "0",
+        "prediction_nov20": "1",
+        "prediction_nov30": "1",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C001_r90_c82",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36632571585984,
+          24.98982062631664
+        ]
+      },
+      "properties": {
+        "cluster_id": "C001",
+        "category_nov20": "predicted_positive_reference_negative",
+        "row": "90",
+        "column": "82",
+        "longitude": "56.36632571585984",
+        "latitude": "24.98982062631664",
+        "gmw": "0",
+        "prediction_nov20": "1",
+        "prediction_nov30": "1",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C001_r91_c81",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.366128473599225,
+          24.989639171297934
+        ]
+      },
+      "properties": {
+        "cluster_id": "C001",
+        "category_nov20": "predicted_positive_reference_negative",
+        "row": "91",
+        "column": "81",
+        "longitude": "56.366128473599225",
+        "latitude": "24.989639171297934",
+        "gmw": "0",
+        "prediction_nov20": "1",
+        "prediction_nov30": "1",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C001_r92_c80",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.365931231917656,
+          24.989457716024788
+        ]
+      },
+      "properties": {
+        "cluster_id": "C001",
+        "category_nov20": "predicted_positive_reference_negative",
+        "row": "92",
+        "column": "80",
+        "longitude": "56.365931231917656",
+        "latitude": "24.989457716024788",
+        "gmw": "0",
+        "prediction_nov20": "1",
+        "prediction_nov30": "1",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C001_r92_c81",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36612939980653,
+          24.989458560301614
+        ]
+      },
+      "properties": {
+        "cluster_id": "C001",
+        "category_nov20": "predicted_positive_reference_negative",
+        "row": "92",
+        "column": "81",
+        "longitude": "56.36612939980653",
+        "latitude": "24.989458560301614",
+        "gmw": "0",
+        "prediction_nov20": "1",
+        "prediction_nov30": "1",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "4",
+        "scl_nov30": "4",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C001_r93_c80",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.3659321584055,
+          24.989277105030975
+        ]
+      },
+      "properties": {
+        "cluster_id": "C001",
+        "category_nov20": "predicted_positive_reference_negative",
+        "row": "93",
+        "column": "80",
+        "longitude": "56.3659321584055",
+        "latitude": "24.989277105030975",
+        "gmw": "0",
+        "prediction_nov20": "1",
+        "prediction_nov30": "0",
+        "status_nov30": "agrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C001_r93_c81",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.366130326004864,
+          24.98927794930088
+        ]
+      },
+      "properties": {
+        "cluster_id": "C001",
+        "category_nov20": "predicted_positive_reference_negative",
+        "row": "93",
+        "column": "81",
+        "longitude": "56.366130326004864",
+        "latitude": "24.98927794930088",
+        "gmw": "0",
+        "prediction_nov20": "1",
+        "prediction_nov30": "1",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "4",
+        "scl_nov30": "4",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C001_r94_c81",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36613125219422,
+          24.98909733829573
+        ]
+      },
+      "properties": {
+        "cluster_id": "C001",
+        "category_nov20": "predicted_positive_reference_negative",
+        "row": "94",
+        "column": "81",
+        "longitude": "56.36613125219422",
+        "latitude": "24.98909733829573",
+        "gmw": "0",
+        "prediction_nov20": "1",
+        "prediction_nov30": "1",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "4",
+        "scl_nov30": "4",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C001_r95_c81",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36613217837461,
+          24.988916727286167
+        ]
+      },
+      "properties": {
+        "cluster_id": "C001",
+        "category_nov20": "predicted_positive_reference_negative",
+        "row": "95",
+        "column": "81",
+        "longitude": "56.36613217837461",
+        "latitude": "24.988916727286167",
+        "gmw": "0",
+        "prediction_nov20": "1",
+        "prediction_nov30": "1",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "4",
+        "scl_nov30": "4",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C001_r96_c82",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.366331271285844,
+          24.98873696025746
+        ]
+      },
+      "properties": {
+        "cluster_id": "C001",
+        "category_nov20": "predicted_positive_reference_negative",
+        "row": "96",
+        "column": "82",
+        "longitude": "56.366331271285844",
+        "latitude": "24.98873696025746",
+        "gmw": "0",
+        "prediction_nov20": "1",
+        "prediction_nov30": "1",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "4",
+        "scl_nov30": "4",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r64_c87",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.367292518777276,
+          24.994520727810993
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "64",
+        "column": "87",
+        "longitude": "56.367292518777276",
+        "latitude": "24.994520727810993",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 90,
+        "worldcover_class_2020": "Herbaceous wetland",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r64_c88",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.367490694836356,
+          24.994521570434173
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "64",
+        "column": "88",
+        "longitude": "56.367490694836356",
+        "latitude": "24.994521570434173",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "5",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 90,
+        "worldcover_class_2020": "Herbaceous wetland",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r64_c89",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.367688870904395,
+          24.994522412793426
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "64",
+        "column": "89",
+        "longitude": "56.367688870904395",
+        "latitude": "24.994522412793426",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r65_c86",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36709526772873,
+          24.99433927401221
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "65",
+        "column": "86",
+        "longitude": "56.36709526772873",
+        "latitude": "24.99433927401221",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r65_c87",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36729344348927,
+          24.99434011689241
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "65",
+        "column": "87",
+        "longitude": "56.36729344348927",
+        "latitude": "24.99434011689241",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 60,
+        "worldcover_class_2020": "Bare / sparse vegetation",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r65_c88",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.367491619258765,
+          24.994340959508673
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "65",
+        "column": "88",
+        "longitude": "56.367491619258765",
+        "latitude": "24.994340959508673",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "5",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 60,
+        "worldcover_class_2020": "Bare / sparse vegetation",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r65_c89",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36768979503721,
+          24.99434180186102
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "65",
+        "column": "89",
+        "longitude": "56.36768979503721",
+        "latitude": "24.99434180186102",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 90,
+        "worldcover_class_2020": "Herbaceous wetland",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r65_c90",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.3678879708246,
+          24.994342643949434
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "65",
+        "column": "90",
+        "longitude": "56.3678879708246",
+        "latitude": "24.994342643949434",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r66_c84",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36669984180633,
+          24.99415697655777
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "66",
+        "column": "84",
+        "longitude": "56.36669984180633",
+        "latitude": "24.99415697655777",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r66_c86",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.367096192721355,
+          24.994158663096115
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "66",
+        "column": "86",
+        "longitude": "56.367096192721355",
+        "latitude": "24.994158663096115",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 90,
+        "worldcover_class_2020": "Herbaceous wetland",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r66_c87",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.367294368192304,
+          24.9941595059694
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "66",
+        "column": "87",
+        "longitude": "56.367294368192304",
+        "latitude": "24.9941595059694",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "5",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 60,
+        "worldcover_class_2020": "Bare / sparse vegetation",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r66_c88",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36749254367221,
+          24.99416034857876
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "66",
+        "column": "88",
+        "longitude": "56.36749254367221",
+        "latitude": "24.99416034857876",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "5",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 60,
+        "worldcover_class_2020": "Bare / sparse vegetation",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r67_c84",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36670076736917,
+          24.993976365651086
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "67",
+        "column": "84",
+        "longitude": "56.36670076736917",
+        "latitude": "24.993976365651086",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r67_c85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.366898942532615,
+          24.99397720904531
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "67",
+        "column": "85",
+        "longitude": "56.366898942532615",
+        "latitude": "24.99397720904531",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r67_c86",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36709711770502,
+          24.99397805217561
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "67",
+        "column": "86",
+        "longitude": "56.36709711770502",
+        "latitude": "24.99397805217561",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 60,
+        "worldcover_class_2020": "Bare / sparse vegetation",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r67_c87",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36729529288639,
+          24.993978895041977
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "67",
+        "column": "87",
+        "longitude": "56.36729529288639",
+        "latitude": "24.993978895041977",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "5",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 60,
+        "worldcover_class_2020": "Bare / sparse vegetation",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r68_c84",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.366701692923044,
+          24.993795754739992
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "68",
+        "column": "84",
+        "longitude": "56.366701692923044",
+        "latitude": "24.993795754739992",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r68_c85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.3668998677969,
+          24.9937965981273
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "68",
+        "column": "85",
+        "longitude": "56.3668998677969",
+        "latitude": "24.9937965981273",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r68_c86",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36709804267973,
+          24.993797441250685
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "68",
+        "column": "86",
+        "longitude": "56.36709804267973",
+        "latitude": "24.993797441250685",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r68_c87",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.367296217571514,
+          24.993798284110152
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "68",
+        "column": "87",
+        "longitude": "56.367296217571514",
+        "latitude": "24.993798284110152",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "5",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 60,
+        "worldcover_class_2020": "Bare / sparse vegetation",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r69_c84",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.366702618467954,
+          24.993615143824478
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "69",
+        "column": "84",
+        "longitude": "56.366702618467954",
+        "latitude": "24.993615143824478",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r69_c85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36690079305223,
+          24.993615987204866
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "69",
+        "column": "85",
+        "longitude": "56.36690079305223",
+        "latitude": "24.993615987204866",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r69_c86",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36709896764548,
+          24.99361683032134
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "69",
+        "column": "86",
+        "longitude": "56.36709896764548",
+        "latitude": "24.99361683032134",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r69_c87",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.367297142247686,
+          24.99361767317389
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "69",
+        "column": "87",
+        "longitude": "56.367297142247686",
+        "latitude": "24.99361767317389",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r70_c84",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.3667035440039,
+          24.993434532904548
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "70",
+        "column": "84",
+        "longitude": "56.3667035440039",
+        "latitude": "24.993434532904548",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r70_c85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36690171829861,
+          24.993435376278022
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "70",
+        "column": "85",
+        "longitude": "56.36690171829861",
+        "latitude": "24.993435376278022",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r71_c85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.366902643536015,
+          24.99325476534676
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "71",
+        "column": "85",
+        "longitude": "56.366902643536015",
+        "latitude": "24.99325476534676",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r72_c85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36690356876446,
+          24.99307415441108
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "72",
+        "column": "85",
+        "longitude": "56.36690356876446",
+        "latitude": "24.99307415441108",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r73_c85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36690449398394,
+          24.99289354347099
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "73",
+        "column": "85",
+        "longitude": "56.36690449398394",
+        "latitude": "24.99289354347099",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r74_c83",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36650907293057,
+          24.992711245570945
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "74",
+        "column": "83",
+        "longitude": "56.36650907293057",
+        "latitude": "24.992711245570945",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r74_c84",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.366707246058034,
+          24.992712089180667
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "74",
+        "column": "84",
+        "longitude": "56.366707246058034",
+        "latitude": "24.992712089180667",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C017_r75_c84",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36670817154916,
+          24.992531478238657
+        ]
+      },
+      "properties": {
+        "cluster_id": "C017",
+        "category_nov20": "predicted_negative_reference_positive",
+        "row": "75",
+        "column": "84",
+        "longitude": "56.36670817154916",
+        "latitude": "24.992531478238657",
+        "gmw": "1",
+        "prediction_nov20": "0",
+        "prediction_nov30": "0",
+        "status_nov30": "disagrees_with_reference",
+        "scl_nov20": "6",
+        "scl_nov30": "6",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r61_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369073337260474,
+          24.99507013483367
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "61",
+        "column": "96",
+        "longitude": "56.369073337260474",
+        "latitude": "24.99507013483367",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 20,
+        "worldcover_class_2020": "Shrubland",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r62_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369074259392946,
+          24.994889523866235
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "62",
+        "column": "96",
+        "longitude": "56.369074259392946",
+        "latitude": "24.994889523866235",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 80,
+        "worldcover_class_2020": "Permanent water",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r63_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36907518151648,
+          24.994708912894378
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "63",
+        "column": "96",
+        "longitude": "56.36907518151648",
+        "latitude": "24.994708912894378",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "7",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 80,
+        "worldcover_class_2020": "Permanent water",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r64_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36907610363109,
+          24.994528301918113
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "64",
+        "column": "96",
+        "longitude": "56.36907610363109",
+        "latitude": "24.994528301918113",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "7",
+        "scl_nov30": "7",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 80,
+        "worldcover_class_2020": "Permanent water",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r64_c97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36927427977064,
+          24.994529142165916
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "64",
+        "column": "97",
+        "longitude": "56.36927427977064",
+        "latitude": "24.994529142165916",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 80,
+        "worldcover_class_2020": "Permanent water",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r65_c95",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36887884989573,
+          24.994346850432574
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "65",
+        "column": "95",
+        "longitude": "56.36887884989573",
+        "latitude": "24.994346850432574",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "1",
+        "status_nov30": "agrees_with_reference",
+        "scl_nov20": "7",
+        "scl_nov30": "4",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r65_c97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36927520158673,
+          24.994348531178336
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "65",
+        "column": "97",
+        "longitude": "56.36927520158673",
+        "latitude": "24.994348531178336",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 80,
+        "worldcover_class_2020": "Permanent water",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r66_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36907794783351,
+          24.994167079952316
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "66",
+        "column": "96",
+        "longitude": "56.36907794783351",
+        "latitude": "24.994167079952316",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "2",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 80,
+        "worldcover_class_2020": "Permanent water",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r66_c97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369276123393895,
+          24.994167920186342
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "66",
+        "column": "97",
+        "longitude": "56.369276123393895",
+        "latitude": "24.994167920186342",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 80,
+        "worldcover_class_2020": "Permanent water",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r67_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369078869921324,
+          24.99398646896279
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "67",
+        "column": "96",
+        "longitude": "56.369078869921324",
+        "latitude": "24.99398646896279",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r67_c97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36927704519212,
+          24.99398730918994
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "67",
+        "column": "97",
+        "longitude": "56.36927704519212",
+        "latitude": "24.99398730918994",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 80,
+        "worldcover_class_2020": "Permanent water",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r68_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369079792000214,
+          24.993805857968866
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "68",
+        "column": "96",
+        "longitude": "56.369079792000214",
+        "latitude": "24.993805857968866",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "7",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r68_c97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36927796698143,
+          24.993806698189115
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "68",
+        "column": "97",
+        "longitude": "56.36927796698143",
+        "latitude": "24.993806698189115",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r69_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36908071407017,
+          24.993625246970506
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "69",
+        "column": "96",
+        "longitude": "56.36908071407017",
+        "latitude": "24.993625246970506",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r69_c97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369278888761805,
+          24.993626087183873
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "69",
+        "column": "97",
+        "longitude": "56.369278888761805",
+        "latitude": "24.993626087183873",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r70_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.3690816361312,
+          24.99344463596774
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "70",
+        "column": "96",
+        "longitude": "56.3690816361312",
+        "latitude": "24.99344463596774",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r70_c97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36927981053325,
+          24.993445476174216
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "70",
+        "column": "97",
+        "longitude": "56.36927981053325",
+        "latitude": "24.993445476174216",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r71_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369082558183294,
+          24.993264024960563
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "71",
+        "column": "96",
+        "longitude": "56.369082558183294",
+        "latitude": "24.993264024960563",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 10,
+        "worldcover_class_2020": "Tree cover",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r72_c95",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36888530641248,
+          24.99308257349235
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "72",
+        "column": "95",
+        "longitude": "56.36888530641248",
+        "latitude": "24.99308257349235",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "7",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r72_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36908348022646,
+          24.99308341394896
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "72",
+        "column": "96",
+        "longitude": "56.36908348022646",
+        "latitude": "24.99308341394896",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r73_c95",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.368886228736294,
+          24.992901962483234
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "73",
+        "column": "95",
+        "longitude": "56.368886228736294",
+        "latitude": "24.992901962483234",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r73_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369084402260704,
+          24.992902802932946
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "73",
+        "column": "96",
+        "longitude": "56.369084402260704",
+        "latitude": "24.992902802932946",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 10,
+        "worldcover_class_2020": "Tree cover",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r74_c95",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.368887151051155,
+          24.992721351469697
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "74",
+        "column": "95",
+        "longitude": "56.368887151051155",
+        "latitude": "24.992721351469697",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r74_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369085324286004,
+          24.99272219191252
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "74",
+        "column": "96",
+        "longitude": "56.369085324286004",
+        "latitude": "24.99272219191252",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r75_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36908624630238,
+          24.99254158088767
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "75",
+        "column": "96",
+        "longitude": "56.36908624630238",
+        "latitude": "24.99254158088767",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r76_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369087168309825,
+          24.99236096985841
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "76",
+        "column": "96",
+        "longitude": "56.369087168309825",
+        "latitude": "24.99236096985841",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r76_c97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36928534097448,
+          24.99236181002355
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "76",
+        "column": "97",
+        "longitude": "56.36928534097448",
+        "latitude": "24.99236181002355",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r77_c96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369088090308345,
+          24.992180358824736
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "77",
+        "column": "96",
+        "longitude": "56.369088090308345",
+        "latitude": "24.992180358824736",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r77_c97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369286262683445,
+          24.99218119898299
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "77",
+        "column": "97",
+        "longitude": "56.369286262683445",
+        "latitude": "24.99218119898299",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r78_c97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369287184383474,
+          24.99200058793801
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "78",
+        "column": "97",
+        "longitude": "56.369287184383474",
+        "latitude": "24.99200058793801",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "3",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r78_c98",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36948535647794,
+          24.992001427825464
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "78",
+        "column": "98",
+        "longitude": "56.36948535647794",
+        "latitude": "24.992001427825464",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r79_c97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36928810607458,
+          24.991819976888614
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "79",
+        "column": "97",
+        "longitude": "56.36928810607458",
+        "latitude": "24.991819976888614",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "7",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r79_c98",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369486277879496,
+          24.991820816769184
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "79",
+        "column": "98",
+        "longitude": "56.369486277879496",
+        "latitude": "24.991820816769184",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 0,
+        "worldcover_v100_2020": 20,
+        "worldcover_class_2020": "Shrubland",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r80_c97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369289027756764,
+          24.99163936583479
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "80",
+        "column": "97",
+        "longitude": "56.369289027756764",
+        "latitude": "24.99163936583479",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "1",
+        "status_nov30": "agrees_with_reference",
+        "scl_nov20": "7",
+        "scl_nov30": "4",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r80_c98",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36948719927212,
+          24.991640205708485
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "80",
+        "column": "98",
+        "longitude": "56.36948719927212",
+        "latitude": "24.991640205708485",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 20,
+        "worldcover_class_2020": "Shrubland",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r80_c99",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36968537079642,
+          24.99164104531827
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "80",
+        "column": "99",
+        "longitude": "56.36968537079642",
+        "latitude": "24.99164104531827",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 80,
+        "worldcover_class_2020": "Permanent water",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r81_c98",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36948812065583,
+          24.991459594643363
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "81",
+        "column": "98",
+        "longitude": "56.36948812065583",
+        "latitude": "24.991459594643363",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "7",
+        "adjacent_to_reference_transition": "False",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r81_c99",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36968629189058,
+          24.991460434246275
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "81",
+        "column": "99",
+        "longitude": "56.36968629189058",
+        "latitude": "24.991460434246275",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "3",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r82_c99",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36968721297582,
+          24.991279823169865
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "82",
+        "column": "99",
+        "longitude": "56.36968721297582",
+        "latitude": "24.991279823169865",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "2",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r82_c100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36988538392994,
+          24.991280662501993
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "82",
+        "column": "100",
+        "longitude": "56.36988538392994",
+        "latitude": "24.991280662501993",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "2",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r83_c100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.369886304716715,
+          24.99110005141428
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "83",
+        "column": "100",
+        "longitude": "56.369886304716715",
+        "latitude": "24.99110005141428",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "2",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "C027_r84_c100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.36988722549458,
+          24.99091944032215
+        ]
+      },
+      "properties": {
+        "cluster_id": "C027",
+        "category_nov20": "excluded_reference_positive",
+        "row": "84",
+        "column": "100",
+        "longitude": "56.36988722549458",
+        "latitude": "24.99091944032215",
+        "gmw": "1",
+        "prediction_nov20": "255",
+        "prediction_nov30": "255",
+        "status_nov30": "excluded",
+        "scl_nov20": "2",
+        "scl_nov30": "2",
+        "adjacent_to_reference_transition": "True",
+        "review_note": "",
+        "cause": "unverified",
+        "gmw_v4112_2018": 1,
+        "worldcover_v100_2020": 95,
+        "worldcover_class_2020": "Mangroves",
+        "target_semantics": "original_historical_cell_centre_not_flight_waypoint",
+        "field_observation_status": "not_collected"
+      }
+    }
+  ]
+}

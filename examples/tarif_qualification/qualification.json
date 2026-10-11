@@ -1,0 +1,528 @@
+{
+  "experiment": "Tarif-2025-source-and-pixel-qualification-v1",
+  "started_utc": "2026-10-09T14:18:03.065899+00:00",
+  "scene": "20250511_074311_00_4001",
+  "date": "2025-05-11T07:43:11Z",
+  "scene_cloud_percent": 51,
+  "source": "Planet Tanager open STAC; CC BY 4.0",
+  "metadata_sha256": "b0ad2085835feb03cd60f768e41c6d1e9377f3aa59a34e6908e9f2e84a898eda",
+  "spectral_transfer_limit_bytes": 12582912,
+  "heads": {
+    "ortho_sr_hdf5": {
+      "status": 200,
+      "length": "1110606839",
+      "ranges": "bytes",
+      "etag": "\"e9b3ec690ceb78a08a483d87a18c3809\"",
+      "modified": "Sun, 07 Dec 2025 23:07:03 GMT"
+    },
+    "ortho_beta_udm": {
+      "status": 200,
+      "length": "30622",
+      "ranges": "bytes",
+      "etag": "\"2ecae74ae1c75aceed40b01bbf3c1bdf\"",
+      "modified": "Sun, 07 Dec 2025 22:55:31 GMT"
+    },
+    "ortho_visual": {
+      "status": 200,
+      "length": "875286",
+      "ranges": "bytes",
+      "etag": "\"370724f35a43ea859f594cd5d4a0ed8a\"",
+      "modified": "Sun, 07 Dec 2025 22:55:11 GMT"
+    }
+  },
+  "interpretation": "Source/pixel qualification only. Not mangrove truth, independent accuracy, health, drone performance, ecological benefit or hyperspectral incremental value.",
+  "frozen_kalba_changed": false,
+  "asset_gets": [
+    {
+      "key": "ortho_visual",
+      "bytes": 875286,
+      "sha256": "f131b50d0fa494b4839b6a43f2e395821d39414a176252c47a0e0c928d80049a"
+    },
+    {
+      "key": "ortho_beta_udm",
+      "bytes": 30622,
+      "sha256": "6c65053a3932a3fb16b37dbb2925b45eb0d0d1c5417d223589e1de189781c378"
+    }
+  ],
+  "range_gets": [
+    {
+      "start": 0,
+      "end": 32767,
+      "bytes": 32768
+    },
+    {
+      "start": 541392896,
+      "end": 541425663,
+      "bytes": 32768
+    },
+    {
+      "start": 541425664,
+      "end": 541458431,
+      "bytes": 32768
+    },
+    {
+      "start": 536412160,
+      "end": 536444927,
+      "bytes": 32768
+    },
+    {
+      "start": 536281088,
+      "end": 536313855,
+      "bytes": 32768
+    },
+    {
+      "start": 541622272,
+      "end": 541655039,
+      "bytes": 32768
+    },
+    {
+      "start": 542507008,
+      "end": 542539775,
+      "bytes": 32768
+    },
+    {
+      "start": 537133056,
+      "end": 537165823,
+      "bytes": 32768
+    },
+    {
+      "start": 282001408,
+      "end": 282034175,
+      "bytes": 32768
+    },
+    {
+      "start": 82935808,
+      "end": 82968575,
+      "bytes": 32768
+    },
+    {
+      "start": 86409216,
+      "end": 86441983,
+      "bytes": 32768
+    },
+    {
+      "start": 86441984,
+      "end": 86474751,
+      "bytes": 32768
+    },
+    {
+      "start": 86474752,
+      "end": 86507519,
+      "bytes": 32768
+    },
+    {
+      "start": 86507520,
+      "end": 86540287,
+      "bytes": 32768
+    },
+    {
+      "start": 86540288,
+      "end": 86573055,
+      "bytes": 32768
+    },
+    {
+      "start": 86573056,
+      "end": 86605823,
+      "bytes": 32768
+    },
+    {
+      "start": 86605824,
+      "end": 86638591,
+      "bytes": 32768
+    },
+    {
+      "start": 88145920,
+      "end": 88178687,
+      "bytes": 32768
+    },
+    {
+      "start": 87851008,
+      "end": 87883775,
+      "bytes": 32768
+    },
+    {
+      "start": 87883776,
+      "end": 87916543,
+      "bytes": 32768
+    },
+    {
+      "start": 87916544,
+      "end": 87949311,
+      "bytes": 32768
+    },
+    {
+      "start": 87949312,
+      "end": 87982079,
+      "bytes": 32768
+    },
+    {
+      "start": 87982080,
+      "end": 88014847,
+      "bytes": 32768
+    },
+    {
+      "start": 88014848,
+      "end": 88047615,
+      "bytes": 32768
+    },
+    {
+      "start": 88047616,
+      "end": 88080383,
+      "bytes": 32768
+    },
+    {
+      "start": 142966784,
+      "end": 142999551,
+      "bytes": 32768
+    },
+    {
+      "start": 144998400,
+      "end": 145031167,
+      "bytes": 32768
+    },
+    {
+      "start": 145031168,
+      "end": 145063935,
+      "bytes": 32768
+    },
+    {
+      "start": 145063936,
+      "end": 145096703,
+      "bytes": 32768
+    },
+    {
+      "start": 145096704,
+      "end": 145129471,
+      "bytes": 32768
+    },
+    {
+      "start": 145129472,
+      "end": 145162239,
+      "bytes": 32768
+    },
+    {
+      "start": 145162240,
+      "end": 145195007,
+      "bytes": 32768
+    },
+    {
+      "start": 145195008,
+      "end": 145227775,
+      "bytes": 32768
+    },
+    {
+      "start": 146407424,
+      "end": 146440191,
+      "bytes": 32768
+    },
+    {
+      "start": 146440192,
+      "end": 146472959,
+      "bytes": 32768
+    },
+    {
+      "start": 146472960,
+      "end": 146505727,
+      "bytes": 32768
+    },
+    {
+      "start": 146505728,
+      "end": 146538495,
+      "bytes": 32768
+    },
+    {
+      "start": 146538496,
+      "end": 146571263,
+      "bytes": 32768
+    },
+    {
+      "start": 146571264,
+      "end": 146604031,
+      "bytes": 32768
+    },
+    {
+      "start": 146604032,
+      "end": 146636799,
+      "bytes": 32768
+    }
+  ],
+  "mask_descriptors": [
+    {
+      "data_type": "uint8",
+      "name": "Beta Cloud Mask",
+      "nodata": 255,
+      "raster:spatial_resolution": 30
+    },
+    {
+      "data_type": "uint8",
+      "name": "Beta Cirrus Mask",
+      "nodata": 255,
+      "raster:spatial_resolution": 30
+    },
+    {
+      "data_type": "uint8",
+      "name": "NODATA Pixels",
+      "nodata": 255,
+      "raster:spatial_resolution": 30
+    }
+  ],
+  "native_mask_values": {
+    "Beta Cloud Mask": [
+      0,
+      1
+    ],
+    "Beta Cirrus Mask": [
+      0,
+      1
+    ],
+    "NODATA Pixels": [
+      0,
+      1
+    ]
+  },
+  "clear_native_centres": 248612,
+  "all_native_centres": 643574,
+  "clear_fraction_of_rectangular_grid": 0.38629901145788986,
+  "visual_geotiff_tags": {
+    "33550": [
+      30.0,
+      30.0,
+      0.0
+    ],
+    "33922": [
+      0.0,
+      0.0,
+      0.0,
+      767730.0,
+      2678070.0,
+      0.0
+    ],
+    "34735": [
+      1,
+      1,
+      0,
+      7,
+      1024,
+      0,
+      1,
+      1,
+      1025,
+      0,
+      1,
+      1,
+      1026,
+      34737,
+      22,
+      0,
+      2049,
+      34737,
+      7,
+      22,
+      2054,
+      0,
+      1,
+      9102,
+      3072,
+      0,
+      1,
+      32639,
+      3076,
+      0,
+      1,
+      9001
+    ]
+  },
+  "window": {
+    "row": 334,
+    "column": 407,
+    "height": 64,
+    "width": 64,
+    "selection": "Fixed scene-centre; not tuned to mask/index or labelled as mangrove"
+  },
+  "window_clear_centres": 4096,
+  "hdf_datasets": {
+    "aerosol_optical_depth": {
+      "shape": [
+        733,
+        878
+      ],
+      "dtype": "float32",
+      "chunks": [
+        46,
+        110
+      ],
+      "compression": "gzip"
+    },
+    "beta_cirrus_mask": {
+      "shape": [
+        733,
+        878
+      ],
+      "dtype": "uint8",
+      "chunks": [
+        92,
+        220
+      ],
+      "compression": "gzip"
+    },
+    "beta_cloud_mask": {
+      "shape": [
+        733,
+        878
+      ],
+      "dtype": "uint8",
+      "chunks": [
+        92,
+        220
+      ],
+      "compression": "gzip"
+    },
+    "column_water_vapour": {
+      "shape": [
+        733,
+        878
+      ],
+      "dtype": "float32",
+      "chunks": [
+        46,
+        110
+      ],
+      "compression": "gzip"
+    },
+    "nodata_pixels": {
+      "shape": [
+        733,
+        878
+      ],
+      "dtype": "uint8",
+      "chunks": [
+        92,
+        220
+      ],
+      "compression": "gzip"
+    },
+    "sensor_azimuth": {
+      "shape": [
+        733,
+        878
+      ],
+      "dtype": "float32",
+      "chunks": [
+        46,
+        110
+      ],
+      "compression": "gzip"
+    },
+    "sensor_to_ground_path_length": {
+      "shape": [
+        733,
+        878
+      ],
+      "dtype": "float32",
+      "chunks": [
+        46,
+        110
+      ],
+      "compression": "gzip"
+    },
+    "sensor_zenith": {
+      "shape": [
+        733,
+        878
+      ],
+      "dtype": "float32",
+      "chunks": [
+        46,
+        110
+      ],
+      "compression": "gzip"
+    },
+    "sun_azimuth": {
+      "shape": [
+        733,
+        878
+      ],
+      "dtype": "float32",
+      "chunks": [
+        46,
+        110
+      ],
+      "compression": "gzip"
+    },
+    "sun_zenith": {
+      "shape": [
+        733,
+        878
+      ],
+      "dtype": "float32",
+      "chunks": [
+        46,
+        110
+      ],
+      "compression": "gzip"
+    },
+    "surface_reflectance": {
+      "shape": [
+        426,
+        733,
+        878
+      ],
+      "dtype": "float32",
+      "chunks": [
+        14,
+        46,
+        55
+      ],
+      "compression": "gzip"
+    },
+    "surface_reflectance_uncertainty": {
+      "shape": [
+        426,
+        733,
+        878
+      ],
+      "dtype": "float32",
+      "chunks": [
+        14,
+        46,
+        55
+      ],
+      "compression": "gzip"
+    },
+    "time": {
+      "shape": [
+        733,
+        878
+      ],
+      "dtype": "float64",
+      "chunks": [
+        46,
+        55
+      ],
+      "compression": "gzip"
+    }
+  },
+  "sampled_channels": [
+    {
+      "index": 58,
+      "wavelength_um": 0.66587
+    },
+    {
+      "index": 66,
+      "wavelength_um": 0.70592
+    },
+    {
+      "index": 98,
+      "wavelength_um": 0.86628
+    }
+  ],
+  "usable_spectral_centres": 4096,
+  "contrast_range": [
+    -0.49247780442237854,
+    -0.18555626273155212
+  ],
+  "spectral_bytes_in_cache": 1310720,
+  "status": "qualified_source_and_crop",
+  "site_switch_gate": "NOT PASSED: actual species/cover reference and matched independent labels remain absent",
+  "finished_utc": "2026-10-09T14:18:12.366427+00:00"
+}

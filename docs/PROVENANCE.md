@@ -1,0 +1,51 @@
+# Provenance and scope of reproduction
+
+## Notebook presentation revision (10 October 2026)
+
+`Mangrove_Pulse_Review.ipynb` is the main output-bearing reading copy. Its Markdown explains the recorded 7 October run; code, embedded inputs, execution counts and outputs remain from that run. The executed notebook also has presentation-only Markdown revisions. Neither copy is a new execution or incorporates later code repairs into the historical run.
+
+The reproduction source, `Mangrove_Pulse.ipynb`, has Markdown-only presentation edits. Its executable cells, metadata and empty output records are unchanged. The original source remains in the team's local archive; the revised notebook is not a new execution.
+
+The SymPy source notebook has revised explanatory Markdown and omits one setup print. Its mathematical and export code are unchanged. The original prepared source remains in the team's local archive; the included executed notebook and returned results remain intact. The source revision has no saved outputs and is not presented as a new execution.
+
+The connected-concept and supported-sensing source notebooks also have revised explanatory Markdown. Their code, embedded preparation notes, metadata and empty output records are unchanged. Those dated notes are labelled as archival and linked to current interpretation guides; the original executed companions retain their recorded wording and outputs.
+
+Claim-validation, inspection-handoff and cache-replay source notebooks have Markdown-only presentation edits. Claim-validation wording explicitly distinguishes ratios of expected totals from expected per-mission ratios; its calculations are unchanged. The handoff points to the executed main demonstration, and replay documentation describes retained inputs without narrating an earlier upload. Original sources remain preserved; no execution outputs were added or rewritten.
+
+The energy-study, reference-context and end-to-end source notebooks also have Markdown-only edits. The reference companion retains its existing-session recovery instructions and distinguishes the repaired source from the completed earlier experiment. The end-to-end source corrects the old wording that treated choosing a code licence as mandatory. All calculation code, embedded inputs and original executed records remain unchanged.
+
+The C001 reading notebook has revised prose and standard anchor links. Its embedded figures, data blocks and source-fingerprint table retain the original preparation snapshot. It links to the current Markdown decision contract and separate Tarif results without merging their evidence. The original remains in the team's local archive.
+
+The earlier HTML viewers are retained in the team's local archive. They are not part of this repository; the review briefs cite the recorded metadata and qualitative notes.
+
+The input is the exact successful team-returned comparison ZIP, identified in evidence/source_archives.json. It contains the small November 20 and November 30 crops, source item metadata, fixed GMW mask, previous input hashes, grid/quality comparison and attribution. The input was not regenerated during repository assembly.
+
+The two src analysis engines were recovered byte-for-byte from the successful returned result ZIPs. The baseline module docstring uses team-facing wording; both engines retain their original execution logic. The run_submission.py runner and main notebook orchestrate those engines and check their outputs against saved examples. Initial static checks were followed by a successful 2026-09-28 cached reproduction. See `evidence/verified_run/` for the recorded status, checks and original package manifest.
+
+Original acquisition sequence: pixel inspection → GMW overlay → November 20/30 comparison → northern threshold calibration/southern evaluation → disagreement audit → three-point Wayback metadata query → visual review. Computational reproduction begins with the cached comparison ZIP. It does not retest remote satellite acquisition, regenerate source preprocessing or requery Wayback.
+
+The baseline reproduction repeats the original deterministic northern-only selection rule and must return 0.49. This is reproduction of the frozen experiment, not permission to retune it. It checks all saved baseline summary values, the experiment plan and the audit summary, the audit cell/cluster tables, and decoded prediction/split rasters. Plot bytes may differ by environment and are not an accuracy test.
+
+The assembled runner uses fresh output directories. The original case checks predate visual review; [CASES.md](CASES.md) and the case-review records retain the qualified observations.
+
+Observed Python for baseline/audit: 3.13.15; NumPy 2.1.3, Rasterio 1.5.1, Matplotlib 3.10.0. These versions are pinned for reproduction. The original assembled cached run passed; this does not guarantee installation in every future runtime. Provider changes can affect browser basemap loading. No new screenshots, field labels or ecological validation were produced during this documentation revision.
+
+The source archive hashes identify the original inputs. `SHA256SUMS.json` covers the repository files. Verification uses file hashes, JSON/CSV values and syntax checks, not a new satellite analysis.
+
+<a id="recovery-and-documentation-revision--2026-09-29"></a>
+
+## Recovery and documentation revision (2026-09-29)
+
+The original repository was recovered from a locally saved archive and extracted copies. All 59 files in the successful run's package manifest matched before editing. The original archive SHA-256 is `fa52ed26680d2a6e543e2e4ad7e15deb86540c8461c2ac389cdd0e54628432d7`; an unchanged backup is preserved outside this submission folder.
+
+That revision updated the README, notebook Markdown, scope documentation and runner module description, and added an inspection brief. Every executable notebook cell retained its original contents. Analysis-engine execution logic, data, thresholds, split, reference labels and saved predictions were unchanged. The current `SHA256SUMS.json` describes this repository, while the manifest under `evidence/verified_run/` identifies the earlier tested bytes.
+
+<a id="separate-reference-supplement--2026-10-02"></a>
+
+## Separate reference supplement (2026-10-02)
+
+Experiment MP-REFERENCE-SENSITIVITY-01 completed in the team's Colab session on 2026-10-01. Eighteen exact returned files are included under `examples/reference_context/`, including tables, per-centre context, maps, source, tests, methods, attribution, environment and run checks. `INCLUDED_PAYLOADS.json` identifies their source archive and byte hashes. The original archive is preserved outside the submission; its duplicate/self-hashed manifest and stale failure note are excluded from the curated supplement. The completed status supersedes the returned method plan's pre-run wording. See [the supplement review](REFERENCE_SENSITIVITY.md).
+
+The supplementary notebook under `supplementary/` is the saved self-contained revision with permanent Agg/packaging repairs. It is unexecuted and is not the exact notebook/source revision used in the successful run, which used an environment workaround. The exact returned calculation source is preserved in the evidence folder; scientific sampling is unchanged by the later repairs. Optional reproduction has independent inputs/dependencies and is separate from the core baseline runner.
+
+The 13,401-centre full-AOI reference comparison does not update the original southern baseline metrics or establish field truth. WorldCover represents 2020 and uses GMW auxiliary input. Existing data, original model examples, main notebook and baseline/audit/runner source remain unchanged by this integration. Local checks cover byte preservation, JSON consistency, notebook syntax, links and manifests only. No local geospatial analysis or new field evidence was produced.

@@ -1,0 +1,44 @@
+[
+  {
+    "filename": "Khor_Kalba_Pixel_Results(1).zip",
+    "sha256": "4f3a961089c238cf7917b2d1fa6593dcdc9944f8de179877c8e4bf79d1c62b80",
+    "bytes": 1573080,
+    "included_complete": false
+  },
+  {
+    "filename": "Khor_Kalba_GMW_Results.zip",
+    "sha256": "815b0b22c641c792b40f6c77e05f8b7a88f7fb4583e236f5515ec4d446c150dc",
+    "bytes": 924084,
+    "included_complete": false
+  },
+  {
+    "filename": "Khor_Kalba_Date_Comparison_Results.zip",
+    "sha256": "7586a2e74f177747e6939a914249f927850f892705c6d057b3a6a881b8d97028",
+    "bytes": 1793759,
+    "included_complete": true
+  },
+  {
+    "filename": "Khor_Kalba_Baseline_Results.zip",
+    "sha256": "9c1f30509e33051fca91d710438d7d915db7b155ca31151090b713f76199de5e",
+    "bytes": 464083,
+    "included_complete": false
+  },
+  {
+    "filename": "Khor_Kalba_Audit_Results.zip",
+    "sha256": "b1293d786c1a1f517521f262be2c575b185f8bb9c4a5bc89a3b02dc1bf7eef5e",
+    "bytes": 786473,
+    "included_complete": false
+  },
+  {
+    "filename": "Khor_Kalba_Wayback_Metadata_Results (1).zip",
+    "sha256": "b1c8c75a6808778f100df71f0e8f3f56bd0d082f3d32f3d4688ea25da4b91afa",
+    "bytes": 37272,
+    "included_complete": false
+  },
+  {
+    "filename": "Khor_Kalba_Visual_Review_Results (1).zip",
+    "sha256": "67cf8ea9c6ac75fe946399a6fd54e08dc4d15092ff6af075313b103211fe03a5",
+    "bytes": 32825,
+    "included_complete": false
+  }
+]

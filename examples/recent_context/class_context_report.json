@@ -1,0 +1,136 @@
+{
+  "experiment_id": "MP-KALBA-RECENT-CONTEXT-02",
+  "status": "context_generated",
+  "item_id": "S2C_MSIL2A_20260924T064621_R020_T40RDN_20260924T114716",
+  "collection": "sentinel-2-l2a",
+  "processing_baseline": "05.13",
+  "acquisition_date": "2026-09-24",
+  "aoi_wgs84": [
+    56.35,
+    24.986,
+    56.374,
+    25.006
+  ],
+  "assets": {
+    "SCL": {
+      "key": "SCL",
+      "host": "sentinel2l2a01.blob.core.windows.net",
+      "path": "/sentinel2-l2/40/R/DN/2026/09/24/S2C_MSIL2A_20260924T064621_N0513_R020_T40RDN_20260924T114716.SAFE/GRANULE/L2A_T40RDN_A010715_20260924T065959/IMG_DATA/R20m/T40RDN_20260924T064621_SCL_20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ],
+      "file:size": null,
+      "checksum:multihash": null
+    },
+    "visual": {
+      "key": "visual",
+      "host": "sentinel2l2a01.blob.core.windows.net",
+      "path": "/sentinel2-l2/40/R/DN/2026/09/24/S2C_MSIL2A_20260924T064621_N0513_R020_T40RDN_20260924T114716.SAFE/GRANULE/L2A_T40RDN_A010715_20260924T065959/IMG_DATA/R10m/T40RDN_20260924T064621_TCI_10m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "roles": [
+        "data"
+      ],
+      "file:size": null,
+      "checksum:multihash": null
+    }
+  },
+  "scl": {
+    "crs": "EPSG:32640",
+    "native_resolution_m": [
+      20.0,
+      20.0
+    ],
+    "source_affine": [
+      20.0,
+      0.0,
+      399960.0,
+      0.0,
+      -20.0,
+      2800020.0
+    ],
+    "nodata_value": null,
+    "window_shape_rows_cols": [
+      112,
+      122
+    ],
+    "aoi_cell_centres": 13401,
+    "valid_class_counts": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 12,
+      "4": 387,
+      "5": 9316,
+      "6": 3525,
+      "7": 117,
+      "8": 44,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "masked_or_nodata_count": 0,
+    "unexpected_values": [],
+    "counts_unit": "native 20 m cells",
+    "labels_are_ground_truth": false
+  },
+  "tci": {
+    "crs": "EPSG:32640",
+    "native_resolution_m": [
+      10.0,
+      10.0
+    ],
+    "source_affine": [
+      10.0,
+      0.0,
+      399960.0,
+      0.0,
+      -10.0,
+      2800020.0
+    ],
+    "nodata_value": null,
+    "window_shape_rows_cols": [
+      223,
+      244
+    ],
+    "rgb_band_order": [
+      1,
+      2,
+      3
+    ],
+    "dtype": "uint8",
+    "masked_or_outside_aoi_pixel_count": 756,
+    "display_only": true,
+    "stretch": "none; provider values displayed as uint8"
+  },
+  "outputs": [
+    "dated_tci_display.png",
+    "native_scl_context.png",
+    "class_context_report.json",
+    "native_context_cache.npz"
+  ],
+  "reflectance_bands_used": [],
+  "spectral_indices_computed": [],
+  "sampling_stations": [],
+  "field_observations": 0,
+  "independent_2018_labels": 0,
+  "historical_overlay": "Not produced in this implementation.",
+  "unresolved_context": [
+    "SCL classes are not field-validated here.",
+    "TCI is a provider visualization and supports no calibrated colour or quantitative inference.",
+    "No current water chemistry, ecological change, condition, depth, tide, navigability, access, or mission feasibility is established."
+  ],
+  "not_inferred": [
+    "water_chemistry",
+    "current_mangrove_extent",
+    "ecological_change",
+    "health_or_stress_cause",
+    "water_depth_or_tide",
+    "navigability",
+    "flight_or_landing_permission",
+    "planting_need",
+    "drone_feasibility_or_superiority",
+    "ecological_benefit"
+  ],
+  "deployment_authorized": false
+}

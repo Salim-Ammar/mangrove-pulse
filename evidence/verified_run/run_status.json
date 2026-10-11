@@ -1,0 +1,7 @@
+{
+  "status": "succeeded",
+  "started_utc": "2026-09-28T21:42:34.050437+00:00",
+  "scope": "cached comparison -> baseline -> audit; no new acquisition or ecological validation",
+  "remote_imagery_load_status": "not_checked_by_runner",
+  "finished_utc": "2026-09-28T21:42:46.027605+00:00"
+}

@@ -1,0 +1,21 @@
+test_checksum_gate (test_reference_context.ContextTests.test_checksum_gate) ... ok
+test_coordinate_order (test_reference_context.ContextTests.test_coordinate_order) ... ok
+test_cross_tab (test_reference_context.ContextTests.test_cross_tab) ... ok
+test_empty_geometry_not_absence (test_reference_context.ContextTests.test_empty_geometry_not_absence) ... ok
+test_empty_population (test_reference_context.ContextTests.test_empty_population) ... ok
+test_geopackage_bbox (test_reference_context.ContextTests.test_geopackage_bbox) ... ok
+test_grid_round_trip (test_reference_context.ContextTests.test_grid_round_trip) ... ok
+test_invalid_geometry_rejected (test_reference_context.ContextTests.test_invalid_geometry_rejected) ... ok
+test_masked_values_not_compared (test_reference_context.ContextTests.test_masked_values_not_compared) ... ok
+test_native_categories_not_interpolated (test_reference_context.ContextTests.test_native_categories_not_interpolated) ... ok
+test_no_union_is_undefined (test_reference_context.ContextTests.test_no_union_is_undefined) ... ok
+test_nonbinary_rejected (test_reference_context.ContextTests.test_nonbinary_rejected) ... ok
+test_polygon_boundary_included (test_reference_context.ContextTests.test_polygon_boundary_included) ... ok
+test_unknown_worldcover_code_rejected (test_reference_context.ContextTests.test_unknown_worldcover_code_rejected) ... ok
+test_worldcover_missing_separate (test_reference_context.ContextTests.test_worldcover_missing_separate) ... ok
+test_wrong_shape_rejected (test_reference_context.ContextTests.test_wrong_shape_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.063s
+
+OK

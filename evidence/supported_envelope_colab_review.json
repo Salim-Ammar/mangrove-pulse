@@ -1,0 +1,283 @@
+{
+  "status": "verified_returned_colab_analytical_run",
+  "hosted_execution_verified": true,
+  "hosted_url": "https://colab.research.google.com/drive/1gWoS75th_UGlxWJqhnMHzfdSOJGi1Idp",
+  "run_date_local": "2026-10-08",
+  "runtime": "CPU",
+  "python_version": "3.13.16",
+  "synthetic_tests_run": 26,
+  "test_log_duration_seconds": 0.003,
+  "scientific_or_synthetic_execution_locally": false,
+  "empirical_validation_established": false,
+  "claims": {
+    "aircraft_feasibility": "unproven",
+    "drone_superiority": "unproven",
+    "independent_2018_accuracy": "unproven",
+    "ecological_benefit": "unproven"
+  },
+  "all_passed": true,
+  "check_count": 61,
+  "artifacts": [
+    {
+      "path": "supplementary/Mangrove_Pulse_Supported_Sensing_Envelope.ipynb",
+      "bytes": 62969,
+      "sha256": "f742afdd48bc3675ca5678e2ca20c6c5120b4697d853ae35da61e233f2cb15e7"
+    },
+    {
+      "path": "supplementary/Mangrove_Pulse_Supported_Sensing_Envelope_Executed.ipynb",
+      "bytes": 78512,
+      "sha256": "71b998be25417cf6a277dbffe6a39bc908542367e9ab73ce1583631745c3ac22"
+    },
+    {
+      "path": "supplementary/Mangrove_Pulse_Supported_Sensing_Envelope_Results.zip",
+      "bytes": 16035,
+      "sha256": "c2dc08ca32faf23627a01bdc3871f3d0979526ae9438cebd4f69d0ae9c493b15"
+    }
+  ],
+  "checks": [
+    {
+      "check": "Actual downloaded v4 notebook",
+      "passed": true
+    },
+    {
+      "check": "Original seven cells retained",
+      "passed": true
+    },
+    {
+      "check": "Three actual execution counts",
+      "passed": true
+    },
+    {
+      "check": "Cell 0 type retained",
+      "passed": true
+    },
+    {
+      "check": "Cell 0 exact source body",
+      "passed": true
+    },
+    {
+      "check": "Cell 1 type retained",
+      "passed": true
+    },
+    {
+      "check": "Cell 1 exact source body",
+      "passed": true
+    },
+    {
+      "check": "Cell 2 type retained",
+      "passed": true
+    },
+    {
+      "check": "Cell 2 exact source body",
+      "passed": true
+    },
+    {
+      "check": "Cell 3 type retained",
+      "passed": true
+    },
+    {
+      "check": "Cell 3 exact source body",
+      "passed": true
+    },
+    {
+      "check": "Cell 4 type retained",
+      "passed": true
+    },
+    {
+      "check": "Cell 4 exact source body",
+      "passed": true
+    },
+    {
+      "check": "Cell 5 type retained",
+      "passed": true
+    },
+    {
+      "check": "Cell 5 exact source body",
+      "passed": true
+    },
+    {
+      "check": "Cell 6 type retained",
+      "passed": true
+    },
+    {
+      "check": "Cell 6 exact source body",
+      "passed": true
+    },
+    {
+      "check": "No error outputs",
+      "passed": true
+    },
+    {
+      "check": "Actual test log 26 checks and OK",
+      "passed": true
+    },
+    {
+      "check": "Actual succeeded status visible",
+      "passed": true
+    },
+    {
+      "check": "CPU not accelerator in saved metadata",
+      "passed": true
+    },
+    {
+      "check": "ZIP matches exact Colab-reported hash",
+      "passed": true
+    },
+    {
+      "check": "ZIP matches exact Colab-reported size",
+      "passed": true
+    },
+    {
+      "check": "ZIP CRC integrity",
+      "passed": true
+    },
+    {
+      "check": "SHA-256 manifest",
+      "passed": true
+    },
+    {
+      "check": "Exactly ten payloads and manifest, no duplicates",
+      "passed": true
+    },
+    {
+      "check": "Length README.md",
+      "passed": true
+    },
+    {
+      "check": "Digest README.md",
+      "passed": true
+    },
+    {
+      "check": "Length diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "Digest diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "Length status.json",
+      "passed": true
+    },
+    {
+      "check": "Digest status.json",
+      "passed": true
+    },
+    {
+      "check": "Length supported_sensing_envelope.py",
+      "passed": true
+    },
+    {
+      "check": "Digest supported_sensing_envelope.py",
+      "passed": true
+    },
+    {
+      "check": "Length synthetic_examples_NOT_MEASUREMENTS.json",
+      "passed": true
+    },
+    {
+      "check": "Digest synthetic_examples_NOT_MEASUREMENTS.json",
+      "passed": true
+    },
+    {
+      "check": "Length synthetic_tests.log",
+      "passed": true
+    },
+    {
+      "check": "Digest synthetic_tests.log",
+      "passed": true
+    },
+    {
+      "check": "Length test_supported_sensing_envelope.py",
+      "passed": true
+    },
+    {
+      "check": "Digest test_supported_sensing_envelope.py",
+      "passed": true
+    },
+    {
+      "check": "Length unknown_assessment.json",
+      "passed": true
+    },
+    {
+      "check": "Digest unknown_assessment.json",
+      "passed": true
+    },
+    {
+      "check": "Length water_contact_rationale.md",
+      "passed": true
+    },
+    {
+      "check": "Digest water_contact_rationale.md",
+      "passed": true
+    },
+    {
+      "check": "Length water_context_question.json",
+      "passed": true
+    },
+    {
+      "check": "Digest water_context_question.json",
+      "passed": true
+    },
+    {
+      "check": "Exact returned embedded supported_sensing_envelope.py",
+      "passed": true
+    },
+    {
+      "check": "Exact returned embedded test_supported_sensing_envelope.py",
+      "passed": true
+    },
+    {
+      "check": "Exact returned embedded water_context_question.json",
+      "passed": true
+    },
+    {
+      "check": "Exact returned embedded water_contact_rationale.md",
+      "passed": true
+    },
+    {
+      "check": "Completed run with 26 passing synthetic tests",
+      "passed": true
+    },
+    {
+      "check": "Zero actual missions, labels, water or ecological observations",
+      "passed": true
+    },
+    {
+      "check": "All four empirical claims still unproven",
+      "passed": true
+    },
+    {
+      "check": "No deployment authorization",
+      "passed": true
+    },
+    {
+      "check": "Four unknown engineering screens",
+      "passed": true
+    },
+    {
+      "check": "Counterexamples explicitly artificial",
+      "passed": true
+    },
+    {
+      "check": "Energy advantage does not imply time/overall advantage",
+      "passed": true
+    },
+    {
+      "check": "Inconsistent artificial support mass rejected",
+      "passed": true
+    },
+    {
+      "check": "No run diagnostics",
+      "passed": true
+    },
+    {
+      "check": "Returned test log successful",
+      "passed": true
+    },
+    {
+      "check": "No private account/token metadata in returned notebook",
+      "passed": true
+    }
+  ]
+}

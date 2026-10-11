@@ -1,0 +1,17 @@
+{
+  "experiment": "MP-REFERENCE-SENSITIVITY-01",
+  "status": "completed_reference_context_comparison",
+  "started_utc": "2026-10-01T07:04:42.818113+00:00",
+  "execution_location": "Team-run Google Colab",
+  "notebook_revision": "bootstrap-fix-1",
+  "scientific_results_verified_locally": false,
+  "embedded_hashes_passed": true,
+  "installation_stage": "completed",
+  "host_python_version": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "installation_returncode": 0,
+  "target_python_version": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "dependency_check_returncode": 0,
+  "synthetic_tests_returncode": 0,
+  "analysis_returncode": 0,
+  "finished_utc": "2026-10-01T07:29:23.514288+00:00"
+}

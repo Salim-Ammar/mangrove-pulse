@@ -1,0 +1,80 @@
+{
+  "experiment": "MP-REFERENCE-SENSITIVITY-01",
+  "source_archive_sha256": "6c55816485e9b3a27e8cd12338f919e88e189e73f06ba97bb8d0a80ce31cbd37",
+  "integrated_date": "2026-10-02",
+  "note": "Exact returned payloads; source archive duplicate/self-hashed manifest and stale failure note intentionally excluded. Core baseline unchanged.",
+  "payloads": {
+    "reference_context_overview.png": {
+      "size": 120908,
+      "sha256": "581f784ac96943b6c901fca0d5744ca914d4b90276536ada4c783ac38ff9cae1"
+    },
+    "C001_reference_context.png": {
+      "size": 96745,
+      "sha256": "85b5d2d4cb48e5450be2af188b125a9cbc89db55c5b3b466cb4adfc98cc41f4c"
+    },
+    "C017_reference_context.png": {
+      "size": 100147,
+      "sha256": "67d4e9f9942be24afb809a77e92f5f31ec78667ed084bc7a95d00ab8259fe805"
+    },
+    "C027_reference_context.png": {
+      "size": 103125,
+      "sha256": "39fdadbdab42cba5bbe58e9e20cbc15e0cca5ace626e764d014c17b2b91420a8"
+    },
+    "comparison_summary.json": {
+      "size": 7430,
+      "sha256": "034410fda610041d7527097f33e542ce38c6ddcaabb82f92372d9cbc07ba8081"
+    },
+    "case_comparison.json": {
+      "size": 4484,
+      "sha256": "895116d01d0c79ce8191a63de503051304f58c32fe32238061ab962b92492f35"
+    },
+    "audit_cells_with_context.json": {
+      "size": 116884,
+      "sha256": "05af0ef83f44dc5467504908333a1a84b3fb9075ceee6e026a034d40376d8e84"
+    },
+    "grid.json": {
+      "size": 316,
+      "sha256": "749f34ecdc70c43467631b663b5b51cb97f58c43a66a94057f176d2b273e5dbe"
+    },
+    "run_status.json": {
+      "size": 712,
+      "sha256": "baf38c7d03eeb2b1c621ccb5ac8811f3c76e84a867ab2242dbfd574698d26033"
+    },
+    "data_checks.json": {
+      "size": 1878,
+      "sha256": "06e7ac6e98a514fb25f4dd078516948944808111b1b40588de79216b9ed79dd5"
+    },
+    "uploaded_source_manifest.json": {
+      "size": 369,
+      "sha256": "afea4ef4f16eb6c8f6fb5bc256d99b51b9666075a4182b28b2e8b10a26395e64"
+    },
+    "synthetic_tests.log": {
+      "size": 1687,
+      "sha256": "c262c5131a5b3c0ede4d16092b39d0ab7fda5391b432f4ae485247925f0b7d44"
+    },
+    "environment.json": {
+      "size": 216,
+      "sha256": "841c80f0fdb047a9367c7a8e24b10384c485a2fec0aaab82782266353fa5d2d0"
+    },
+    "requirements.txt": {
+      "size": 110,
+      "sha256": "ac17bf263b8b3e76bca203fa0b30931c00b59b04b46c9060200caa3ad83c2f0b"
+    },
+    "ATTRIBUTION.md": {
+      "size": 1793,
+      "sha256": "a4af8703a4b55e6e81742090b8cc027e589a1c47afb626f96b1a3cf190b6982a"
+    },
+    "METHOD.md": {
+      "size": 2795,
+      "sha256": "f877a13a4c02a95d4c7f82d0a698ef639b3a029f5e4f3670833e43551380366d"
+    },
+    "reference_context.py": {
+      "size": 25802,
+      "sha256": "17102e811ea3e8240551a40b82a9322ef1a6941bae11821ca7a2ad578d79d0c7"
+    },
+    "test_reference_context.py": {
+      "size": 4827,
+      "sha256": "546f8035be99a95fd1562d1ed9425fa130a3298ce75d1c807fb77c1afa229ba8"
+    }
+  }
+}

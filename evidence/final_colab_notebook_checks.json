@@ -1,0 +1,130 @@
+{
+  "review_date": "2026-10-07",
+  "all_passed": true,
+  "check_count": 30,
+  "scope": "Downloaded real notebook outputs/input snapshot/code/PNG identity; no local scientific calculation",
+  "local_geospatial_processing": false,
+  "local_drone_model_run": false,
+  "checks": [
+    {
+      "check": "Downloaded byte identity matches recorded evidence",
+      "passed": true
+    },
+    {
+      "check": "Seven consecutive executed code cells",
+      "passed": true
+    },
+    {
+      "check": "No error outputs",
+      "passed": true
+    },
+    {
+      "check": "Cell 0: common code body exact",
+      "passed": true
+    },
+    {
+      "check": "Cell 1: common code body exact",
+      "passed": true
+    },
+    {
+      "check": "Cell 2: common code body exact",
+      "passed": true
+    },
+    {
+      "check": "Cell 3: common code body exact",
+      "passed": true
+    },
+    {
+      "check": "Cell 4: common code body exact",
+      "passed": true
+    },
+    {
+      "check": "Cell 5: common code body exact",
+      "passed": true
+    },
+    {
+      "check": "Cell 6: common code body exact",
+      "passed": true
+    },
+    {
+      "check": "Executed input snapshot fingerprint",
+      "passed": true
+    },
+    {
+      "check": "Embedded input CRC",
+      "passed": true
+    },
+    {
+      "check": "109 embedded payloads exact",
+      "passed": true
+    },
+    {
+      "check": "Executed core source equals preserved current Mangrove_Pulse.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Executed core source equals preserved current src/reference_baseline.py",
+      "passed": true
+    },
+    {
+      "check": "Executed core source equals preserved current src/disagreement_audit.py",
+      "passed": true
+    },
+    {
+      "check": "Executed core source equals preserved current src/run_submission.py",
+      "passed": true
+    },
+    {
+      "check": "Executed core source equals preserved current data/Khor_Kalba_Date_Comparison_Results.zip",
+      "passed": true
+    },
+    {
+      "check": "Executed core source equals preserved current examples/audit/all_audit_cells.csv",
+      "passed": true
+    },
+    {
+      "check": "Executed core source equals preserved current examples/audit/all_clusters.csv",
+      "passed": true
+    },
+    {
+      "check": "Executed core source equals preserved current examples/reference_context/case_comparison.json",
+      "passed": true
+    },
+    {
+      "check": "Six real saved PNG outputs",
+      "passed": true
+    },
+    {
+      "check": "Saved context PNG exact: reference_context_overview.png",
+      "passed": true
+    },
+    {
+      "check": "Saved context PNG exact: C001_reference_context.png",
+      "passed": true
+    },
+    {
+      "check": "Saved context PNG exact: C017_reference_context.png",
+      "passed": true
+    },
+    {
+      "check": "Saved context PNG exact: C027_reference_context.png",
+      "passed": true
+    },
+    {
+      "check": "Reproduction matched output present",
+      "passed": true
+    },
+    {
+      "check": "14 actual Colab metadata tests passed",
+      "passed": true
+    },
+    {
+      "check": "Actual final success and reported ZIP fingerprint",
+      "passed": true
+    },
+    {
+      "check": "No account/token provenance metadata",
+      "passed": true
+    }
+  ]
+}

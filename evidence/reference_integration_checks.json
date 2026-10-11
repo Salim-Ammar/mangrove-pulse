@@ -1,0 +1,250 @@
+{
+  "review_date": "2026-10-02",
+  "scope": "Documentation integration and preserved returned evidence; static/hash/JSON/link checks only",
+  "local_geospatial_processing": false,
+  "new_colab_run": false,
+  "field_or_stakeholder_reviews_completed": 0,
+  "baseline_threshold": 0.49,
+  "original_baseline_changed": false,
+  "source_archive_sha256": "6c55816485e9b3a27e8cd12338f919e88e189e73f06ba97bb8d0a80ce31cbd37",
+  "all_passed": true,
+  "check_count": 51,
+  "checks": [
+    {
+      "check": "Exact returned payload: reference_context_overview.png",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: C001_reference_context.png",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: C017_reference_context.png",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: C027_reference_context.png",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: comparison_summary.json",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: case_comparison.json",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: audit_cells_with_context.json",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: grid.json",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: run_status.json",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: data_checks.json",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: uploaded_source_manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: synthetic_tests.log",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: environment.json",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: ATTRIBUTION.md",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: METHOD.md",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: reference_context.py",
+      "passed": true
+    },
+    {
+      "check": "Exact returned payload: test_reference_context.py",
+      "passed": true
+    },
+    {
+      "check": "Full AOI reference cross-tab total",
+      "passed": true
+    },
+    {
+      "check": "614 differences and fractions",
+      "passed": true
+    },
+    {
+      "check": "Original v3 positive population",
+      "passed": true
+    },
+    {
+      "check": "WorldCover full AOI population",
+      "passed": true
+    },
+    {
+      "check": "Completed returned Colab run",
+      "passed": true
+    },
+    {
+      "check": "24 passing returned data checks",
+      "passed": true
+    },
+    {
+      "check": "16 tests recorded as passed in Colab",
+      "passed": true
+    },
+    {
+      "check": "208 original audit rows preserved",
+      "passed": true
+    },
+    {
+      "check": "C001 counts agree with returned per-centre register",
+      "passed": true,
+      "details": [
+        11,
+        0,
+        7,
+        11
+      ]
+    },
+    {
+      "check": "C001 locator matches original cell",
+      "passed": true
+    },
+    {
+      "check": "C001 unresolved and proposed wording",
+      "passed": true
+    },
+    {
+      "check": "C017 counts agree with returned per-centre register",
+      "passed": true,
+      "details": [
+        32,
+        32,
+        6,
+        21
+      ]
+    },
+    {
+      "check": "C017 locator matches original cell",
+      "passed": true
+    },
+    {
+      "check": "C017 unresolved and proposed wording",
+      "passed": true
+    },
+    {
+      "check": "C027 counts agree with returned per-centre register",
+      "passed": true,
+      "details": [
+        42,
+        42,
+        36,
+        28
+      ]
+    },
+    {
+      "check": "C027 locator matches original cell",
+      "passed": true
+    },
+    {
+      "check": "C027 unresolved and proposed wording",
+      "passed": true
+    },
+    {
+      "check": "Returned case summary identical to main summary",
+      "passed": true
+    },
+    {
+      "check": "Static Python AST: src/disagreement_audit.py",
+      "passed": true
+    },
+    {
+      "check": "Static Python AST: src/reference_baseline.py",
+      "passed": true
+    },
+    {
+      "check": "Static Python AST: src/run_submission.py",
+      "passed": true
+    },
+    {
+      "check": "Static Python AST: examples/reference_context/reference_context.py",
+      "passed": true
+    },
+    {
+      "check": "Static Python AST: examples/reference_context/test_reference_context.py",
+      "passed": true
+    },
+    {
+      "check": "Static notebook AST: Mangrove_Pulse.ipynb",
+      "passed": true,
+      "details": {
+        "code_cells": 5
+      }
+    },
+    {
+      "check": "Static notebook AST: Mangrove_Pulse_Reference_Context.ipynb",
+      "passed": true,
+      "details": {
+        "code_cells": 5
+      }
+    },
+    {
+      "check": "Supplement notebook unexecuted",
+      "passed": true
+    },
+    {
+      "check": "Supplement notebook exact saved snapshot",
+      "passed": true
+    },
+    {
+      "check": "Submission Markdown local links",
+      "passed": true,
+      "details": {
+        "checked": 98,
+        "broken": []
+      }
+    },
+    {
+      "check": "No duplicate README sections",
+      "passed": true
+    },
+    {
+      "check": "Three-person feedback explicitly pending",
+      "passed": true
+    },
+    {
+      "check": "Integrated text has no account emails/private host paths/key blocks",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "All pre-integration protected core/data/example/evidence files unchanged",
+      "passed": true,
+      "details": {
+        "files": 57
+      }
+    },
+    {
+      "check": "Main notebook executable cells unchanged",
+      "passed": true
+    }
+  ]
+}

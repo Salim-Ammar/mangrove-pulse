@@ -1,0 +1,8 @@
+{
+  "started_utc": "2026-09-28T15:21:50.055537+00:00",
+  "status": "metadata_queries_completed",
+  "executed_in": "user Colab",
+  "finished_utc": "2026-09-28T15:22:02.792630+00:00",
+  "row_count": 3,
+  "validation_status": "Independent 2018 validation not obtained by this metadata-only check."
+}

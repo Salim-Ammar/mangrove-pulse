@@ -1,0 +1,386 @@
+{
+  "status": "static_source_checks_only",
+  "all_passed": true,
+  "synthetic_tests_executed_locally": false,
+  "scientific_model_executed_locally": false,
+  "hosted_execution_verified_by_this_source_checker": false,
+  "execution_check_scope": "Source only; actual run is checked separately in supported_envelope_colab_review.json",
+  "synthetic_test_definitions": 26,
+  "check_count": 93,
+  "notebook_bytes": 62969,
+  "notebook_sha256": "f742afdd48bc3675ca5678e2ca20c6c5120b4697d853ae35da61e233f2cb15e7",
+  "checks": [
+    {
+      "check": "Notebook format 4.5",
+      "passed": true
+    },
+    {
+      "check": "Seven unique cells",
+      "passed": true
+    },
+    {
+      "check": "Three unexecuted code cells",
+      "passed": true
+    },
+    {
+      "check": "Code cell 0 syntax",
+      "passed": true
+    },
+    {
+      "check": "Code cell 1 syntax",
+      "passed": true
+    },
+    {
+      "check": "Code cell 2 syntax",
+      "passed": true
+    },
+    {
+      "check": "Exact embedded src/supported_sensing_envelope.py",
+      "passed": true
+    },
+    {
+      "check": "Embedded hash module",
+      "passed": true
+    },
+    {
+      "check": "Exact embedded tests/test_supported_sensing_envelope.py",
+      "passed": true
+    },
+    {
+      "check": "Embedded hash tests",
+      "passed": true
+    },
+    {
+      "check": "Exact embedded examples/inspection/water_context_question.json",
+      "passed": true
+    },
+    {
+      "check": "Embedded hash question",
+      "passed": true
+    },
+    {
+      "check": "Exact embedded preparation rationale preserved in returned ZIP",
+      "passed": true
+    },
+    {
+      "check": "Embedded hash rationale",
+      "passed": true
+    },
+    {
+      "check": "26 synthetic tests defined, not executed",
+      "passed": true
+    },
+    {
+      "check": "Numeric range regression declarations",
+      "passed": true
+    },
+    {
+      "check": "Empty stations and observations",
+      "passed": true
+    },
+    {
+      "check": "No accepted records or authorization",
+      "passed": true
+    },
+    {
+      "check": "No aircraft numeric defaults",
+      "passed": true
+    },
+    {
+      "check": "Four explicit unproven claims",
+      "passed": true
+    },
+    {
+      "check": "No analysis of new EO pixels",
+      "passed": true
+    },
+    {
+      "check": "No install, network or credential calls",
+      "passed": true
+    },
+    {
+      "check": "No install, network or credential calls",
+      "passed": true
+    },
+    {
+      "check": "No install, network or credential calls",
+      "passed": true
+    },
+    {
+      "check": "No private login diagnostic or participant source",
+      "passed": true
+    },
+    {
+      "check": "Diagnostics and download paths declared",
+      "passed": true
+    },
+    {
+      "check": "Protected unchanged Mangrove_Pulse.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Protected unchanged src/reference_baseline.py",
+      "passed": true
+    },
+    {
+      "check": "Protected unchanged src/disagreement_audit.py",
+      "passed": true
+    },
+    {
+      "check": "Protected unchanged src/run_submission.py",
+      "passed": true
+    },
+    {
+      "check": "Protected unchanged data/Khor_Kalba_Date_Comparison_Results.zip",
+      "passed": true
+    },
+    {
+      "check": "Protected unchanged examples/audit/all_audit_cells.csv",
+      "passed": true
+    },
+    {
+      "check": "Protected unchanged examples/audit/all_clusters.csv",
+      "passed": true
+    },
+    {
+      "check": "Protected unchanged examples/reference_context/case_comparison.json",
+      "passed": true
+    },
+    {
+      "check": "Protected unchanged Mangrove_Pulse_End_to_End_Executed.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Protected unchanged supplementary/Mangrove_Pulse_Claim_Validation_Executed.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Protected unchanged examples/inspection/inspection_requests.json",
+      "passed": true
+    },
+    {
+      "check": "Protected unchanged supplementary/Mangrove_Pulse_Connected_Concept.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Protected unchanged supplementary/Mangrove_Pulse_Connected_Concept_Executed.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/DRONE_KHOR_KALBA_HANDOFF.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/KHOR_KALBA_SITE_EVIDENCE.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/WATER_CONTACT_RATIONALE.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> examples/inspection/water_context_question.json",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> supplementary/Mangrove_Pulse_Supported_Sensing_Envelope.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> supplementary/Mangrove_Pulse_Supported_Sensing_Envelope_Executed.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> supplementary/Mangrove_Pulse_Supported_Sensing_Envelope_Results.zip",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> evidence/supported_envelope_source_review.json",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> evidence/supported_envelope_colab_review.json",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> Mangrove_Pulse_End_to_End_Executed.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> evidence/final_colab_review.json",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> Mangrove_Pulse_End_to_End.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> Mangrove_Pulse.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/CASES.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/PROVENANCE.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> ATTRIBUTION.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> LICENSE_NOTICE.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/DRAFT_STATUS.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/C001_INSPECTION_BRIEF.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/C017_INSPECTION_BRIEF.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/C027_INSPECTION_BRIEF.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> examples/inspection/inspection_requests.json",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> examples/inspection/inspection_targets.geojson",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> examples/inspection/observation_return_template.json",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> supplementary/Mangrove_Pulse_Inspection_Handoff.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/POC_LOGIC_AND_NEXT_STEP.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/C001_INSPECTION_BRIEF.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/REFERENCE_SENSITIVITY.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/STAKEHOLDER_FEEDBACK.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/PITCH_SCOPE.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/PITCH_OUTLINE.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> Mangrove_Pulse_End_to_End_Executed.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> Mangrove_Pulse_End_to_End.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> evidence/verified_run/checks.json",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> evidence/verified_run/run_status.json",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> evidence/inspection_handoff_unit_tests.json",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> examples/audit/audit_overview.png",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/REFERENCE_SENSITIVITY.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/CASES.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/CASES.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> Mangrove_Pulse_End_to_End_Executed.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/VALIDATION_AND_BENEFIT_TESTS.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/CONNECTED_CONCEPT_ASSESSMENT.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> supplementary/Mangrove_Pulse_Connected_Concept.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> supplementary/Mangrove_Pulse_Connected_Concept_Executed.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> supplementary/Mangrove_Pulse_Connected_Concept_Results.zip",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/DRAFT_STATUS.md",
+      "passed": true
+    },
+    {
+      "check": "Local link README.md -> docs/COLAB_LINKS.md",
+      "passed": true
+    },
+    {
+      "check": "Local link WATER_CONTACT_RATIONALE.md -> ../supplementary/Mangrove_Pulse_Supported_Sensing_Envelope.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Local link WATER_CONTACT_RATIONALE.md -> ../supplementary/Mangrove_Pulse_Supported_Sensing_Envelope_Executed.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Local link WATER_CONTACT_RATIONALE.md -> ../supplementary/Mangrove_Pulse_Supported_Sensing_Envelope_Results.zip",
+      "passed": true
+    },
+    {
+      "check": "Local link WATER_CONTACT_RATIONALE.md -> ../evidence/supported_envelope_colab_review.json",
+      "passed": true
+    },
+    {
+      "check": "Local link WATER_CONTACT_RATIONALE.md -> ../examples/inspection/water_context_question.json",
+      "passed": true
+    },
+    {
+      "check": "Local link WATER_CONTACT_RATIONALE.md -> VALIDATION_AND_BENEFIT_TESTS.md",
+      "passed": true
+    }
+  ]
+}

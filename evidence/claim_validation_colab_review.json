@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-07",
+  "colab_url": "https://colab.research.google.com/drive/1_VJxEnw3NoAgQJjClOr5FeR_1pp9k3b9",
+  "runtime": "Python 3 / CPU observed",
+  "explicit_upload_run_approval": true,
+  "actual_download_sha256": "af67f695f3f33dc2ffb4a963e53df73ff3fd1aa625489ba00b8acc22df38701b",
+  "bytes": 35321,
+  "executed_cells": [
+    1,
+    2,
+    3
+  ],
+  "error_outputs": 0,
+  "code_matches_source": true,
+  "synthetic_tests_passed": 11,
+  "conditional_algebra_visible": true,
+  "actual_field_observations": 0,
+  "all_three_scientific_claims": "unproven",
+  "local_scientific_execution": false,
+  "scope": "Synthetic software tests, conditional algebra on rounded saved hypothetical inputs, and blank evidence templates. No physics model rerun or independent ecological observations.",
+  "returned_zip": {
+    "bytes": 6770,
+    "sha256": "c23d8c69c1e257d5a61dfa802dd9b78aff00d1c6023bcae416a0943a3106065f",
+    "crc_and_8_payload_hashes": "passed",
+    "header_only_csv_files": 4
+  },
+  "sharing_changed": false,
+  "anonymous_access_verified": false
+}

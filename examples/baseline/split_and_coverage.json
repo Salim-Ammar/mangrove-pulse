@@ -1,0 +1,38 @@
+{
+  "north_calibration": {
+    "total": 5618,
+    "mapped_mangrove": 436,
+    "not_mapped": 5182
+  },
+  "south_evaluation": {
+    "total": 5653,
+    "mapped_mangrove": 546,
+    "not_mapped": 5107
+  },
+  "full_aoi_coverage": {
+    "2018-11-20": {
+      "eligible": {
+        "total": 12244,
+        "mapped_mangrove": 1035,
+        "not_mapped": 11209
+      },
+      "excluded": {
+        "total": 1157,
+        "mapped_mangrove": 123,
+        "not_mapped": 1034
+      }
+    },
+    "2018-11-30": {
+      "eligible": {
+        "total": 11487,
+        "mapped_mangrove": 1036,
+        "not_mapped": 10451
+      },
+      "excluded": {
+        "total": 1914,
+        "mapped_mangrove": 122,
+        "not_mapped": 1792
+      }
+    }
+  }
+}

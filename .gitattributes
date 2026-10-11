@@ -1,0 +1,2 @@
+# Preserve exact artifact bytes: SHA256SUMS.json hashes stored payloads.
+* -text

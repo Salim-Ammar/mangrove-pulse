@@ -1,0 +1,17 @@
+{
+  "method": "One spatial holdout; northern calibration and southern evaluation",
+  "cut_northing_m": 2764650.0,
+  "excluded_half_gap_m": 100,
+  "gap_total_m": 200,
+  "calibration_centres_before_quality": 6191,
+  "evaluation_centres_before_quality": 6121,
+  "feature": "(mean raw B08 - mean raw B04)/(mean raw B08 + mean raw B04), 2x2 native pixels",
+  "feature_caveat": "Normalized red/NIR digital-value contrast, not asserted calibrated NDVI or a health measurement.",
+  "threshold_candidates": "-1.00 through 1.00, step 0.01; predict mangrove if contrast >= threshold",
+  "selection": "Maximum calibration F1 against GMW; ties choose highest threshold",
+  "quality": "SCL 4,5,6 and four valid nonzero subpixels in each band; water retained",
+  "minimum_each_class_per_split": 50,
+  "minimum_note": "Practical stop rule, not a statistical adequacy guarantee.",
+  "primary_date": "2018-11-20, retained before fitting; November 30 is a fixed-threshold sensitivity check",
+  "evaluation_rules": "No threshold retuning or split changes based on southern results."
+}

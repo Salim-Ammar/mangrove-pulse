@@ -1,0 +1,199 @@
+{
+  "status": "completed_exploratory_reference_agreement",
+  "threshold": 0.49,
+  "calibration": {
+    "tp": 312,
+    "fp": 190,
+    "fn": 124,
+    "tn": 4992,
+    "precision": 0.6215139442231076,
+    "recall": 0.7155963302752294,
+    "f1": 0.6652452025586354,
+    "iou": 0.4984025559105431,
+    "specificity": 0.9633346198379005,
+    "accuracy": 0.9441082235671058,
+    "note": "Agreement with GMW labels, not field accuracy"
+  },
+  "held_out": {
+    "2018-11-20": {
+      "evaluation_coverage": {
+        "total": 5653,
+        "mapped_mangrove": 546,
+        "not_mapped": 5107
+      },
+      "evaluation_excluded": {
+        "total": 468,
+        "mapped_mangrove": 87,
+        "not_mapped": 381
+      },
+      "all_eligible_southern_cells": {
+        "tp": 472,
+        "fp": 47,
+        "fn": 74,
+        "tn": 5060,
+        "precision": 0.9094412331406551,
+        "recall": 0.8644688644688645,
+        "f1": 0.8863849765258216,
+        "iou": 0.7959527824620574,
+        "specificity": 0.9907969453691012,
+        "accuracy": 0.978595436051654,
+        "note": "Agreement with GMW labels, not field accuracy"
+      },
+      "same_cells_both_dates": {
+        "tp": 467,
+        "fp": 45,
+        "fn": 68,
+        "tn": 4631,
+        "precision": 0.912109375,
+        "recall": 0.8728971962616823,
+        "f1": 0.89207258834766,
+        "iou": 0.8051724137931034,
+        "specificity": 0.9903763900769889,
+        "accuracy": 0.9783151026674343,
+        "note": "Agreement with GMW labels, not field accuracy"
+      },
+      "always_not_mapped_control": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 546,
+        "tn": 5107,
+        "precision": null,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "specificity": 1.0,
+        "accuracy": 0.9034141163983725,
+        "note": "Agreement with GMW labels, not field accuracy"
+      },
+      "always_mapped_control": {
+        "tp": 546,
+        "fp": 5107,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.09658588360162745,
+        "recall": 1.0,
+        "f1": 0.1761574447491531,
+        "iou": 0.09658588360162745,
+        "specificity": 0.0,
+        "accuracy": 0.09658588360162745,
+        "note": "Agreement with GMW labels, not field accuracy"
+      }
+    },
+    "2018-11-30": {
+      "evaluation_coverage": {
+        "total": 5310,
+        "mapped_mangrove": 547,
+        "not_mapped": 4763
+      },
+      "evaluation_excluded": {
+        "total": 811,
+        "mapped_mangrove": 86,
+        "not_mapped": 725
+      },
+      "all_eligible_southern_cells": {
+        "tp": 476,
+        "fp": 48,
+        "fn": 71,
+        "tn": 4715,
+        "precision": 0.9083969465648855,
+        "recall": 0.870201096892139,
+        "f1": 0.8888888888888888,
+        "iou": 0.8,
+        "specificity": 0.9899223178668907,
+        "accuracy": 0.9775894538606403,
+        "note": "Agreement with GMW labels, not field accuracy"
+      },
+      "same_cells_both_dates": {
+        "tp": 464,
+        "fp": 43,
+        "fn": 71,
+        "tn": 4633,
+        "precision": 0.9151873767258383,
+        "recall": 0.8672897196261682,
+        "f1": 0.8905950095969289,
+        "iou": 0.8027681660899654,
+        "specificity": 0.9908041060735672,
+        "accuracy": 0.9781232009211284,
+        "note": "Agreement with GMW labels, not field accuracy"
+      },
+      "always_not_mapped_control": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 547,
+        "tn": 4763,
+        "precision": null,
+        "recall": 0.0,
+        "f1": 0.0,
+        "iou": 0.0,
+        "specificity": 1.0,
+        "accuracy": 0.8969868173258003,
+        "note": "Agreement with GMW labels, not field accuracy"
+      },
+      "always_mapped_control": {
+        "tp": 547,
+        "fp": 4763,
+        "fn": 0,
+        "tn": 0,
+        "precision": 0.10301318267419962,
+        "recall": 1.0,
+        "f1": 0.18678504353764727,
+        "iou": 0.10301318267419962,
+        "specificity": 0.0,
+        "accuracy": 0.10301318267419962,
+        "note": "Agreement with GMW labels, not field accuracy"
+      }
+    }
+  },
+  "matched_evaluation_cells": {
+    "total": 5211,
+    "mapped_mangrove": 535,
+    "not_mapped": 4676
+  },
+  "split_and_coverage": {
+    "north_calibration": {
+      "total": 5618,
+      "mapped_mangrove": 436,
+      "not_mapped": 5182
+    },
+    "south_evaluation": {
+      "total": 5653,
+      "mapped_mangrove": 546,
+      "not_mapped": 5107
+    },
+    "full_aoi_coverage": {
+      "2018-11-20": {
+        "eligible": {
+          "total": 12244,
+          "mapped_mangrove": 1035,
+          "not_mapped": 11209
+        },
+        "excluded": {
+          "total": 1157,
+          "mapped_mangrove": 123,
+          "not_mapped": 1034
+        }
+      },
+      "2018-11-30": {
+        "eligible": {
+          "total": 11487,
+          "mapped_mangrove": 1036,
+          "not_mapped": 10451
+        },
+        "excluded": {
+          "total": 1914,
+          "mapped_mangrove": 122,
+          "not_mapped": 1792
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Single small AOI and one spatial split; no robust regional generalization estimate.",
+    "200 m gap reduces direct adjacency; it does not prove absence of spatial dependence.",
+    "GMW background is not verified negative ground truth; map errors remain.",
+    "Threshold fitted to GMW, so report reference agreement, not independent ecological accuracy.",
+    "SCL screening can exclude relevant canopy; exclusion counts are part of the result.",
+    "Feature is a raw-DN red/NIR contrast; do not interpret it as calibrated NDVI or health.",
+    "Cross-date results are sensitivity checks; no second-date retuning and no stress/change claim."
+  ]
+}

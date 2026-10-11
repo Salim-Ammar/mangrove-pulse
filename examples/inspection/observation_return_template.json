@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "package_id": "MP-KHOR-KALBA-HANDOFF-01",
+  "status": "unfilled",
+  "observation_record_template": {
+    "case_id": null,
+    "cell_id": null,
+    "acquisition_datetime_with_timezone": null,
+    "actual_observer_longitude": null,
+    "actual_observer_latitude": null,
+    "position_uncertainty_m": null,
+    "method": null,
+    "sensor_and_calibration": null,
+    "visibility_and_occlusion": null,
+    "evidence_file": null,
+    "evidence_redistribution_permission": null,
+    "qualified_cover_identification": null,
+    "cover_fraction_if_supported": null,
+    "alignment_evidence": null,
+    "temporal_relevance": null,
+    "quality_decision": null,
+    "quality_reason": null,
+    "reviewer": null,
+    "interpretation": null,
+    "remaining_uncertainty": null
+  },
+  "cases": [
+    {
+      "case_id": "C001",
+      "status": "not_collected",
+      "observations": [],
+      "conclusion": null,
+      "independent_2018_truth": "unresolved"
+    },
+    {
+      "case_id": "C017",
+      "status": "not_collected",
+      "observations": [],
+      "conclusion": null,
+      "independent_2018_truth": "unresolved"
+    },
+    {
+      "case_id": "C027",
+      "status": "not_collected",
+      "observations": [],
+      "conclusion": null,
+      "independent_2018_truth": "unresolved"
+    }
+  ]
+}

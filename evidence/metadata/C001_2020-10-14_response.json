@@ -1,0 +1,68 @@
+{
+  "ok": true,
+  "data": {
+    "date": 1538697600000,
+    "provider": "Maxar",
+    "source": "GE01",
+    "resolution": 1.2,
+    "accuracy": 8.47
+  },
+  "trace": [
+    {
+      "url": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r14/MapServer/6/query?f=json&where=1%3D1&outFields=SRC_DATE2%2CNICE_DESC%2CSRC_DESC%2CSAMP_RES%2CSRC_ACC&geometry=%7B%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%2C%22x%22%3A56.36652203304431%2C%22y%22%3A24.99018269207781%7D&returnGeometry=false&geometryType=esriGeometryPoint&spatialRel=esriSpatialRelIntersects",
+      "started_utc": "2026-09-28T15:21:55.118Z",
+      "http_status": 200,
+      "body": {
+        "displayFieldName": "NICE_NAME",
+        "fieldAliases": {
+          "SRC_DATE2": "SRC_DATE2",
+          "NICE_DESC": "NICE_DESC",
+          "SRC_DESC": "SRC_DESC",
+          "SAMP_RES": "SAMP_RES",
+          "SRC_ACC": "SRC_ACC"
+        },
+        "fields": [
+          {
+            "name": "SRC_DATE2",
+            "type": "esriFieldTypeDate",
+            "alias": "SRC_DATE2",
+            "length": 8
+          },
+          {
+            "name": "NICE_DESC",
+            "type": "esriFieldTypeString",
+            "alias": "NICE_DESC",
+            "length": 25
+          },
+          {
+            "name": "SRC_DESC",
+            "type": "esriFieldTypeString",
+            "alias": "SRC_DESC",
+            "length": 25
+          },
+          {
+            "name": "SAMP_RES",
+            "type": "esriFieldTypeDouble",
+            "alias": "SAMP_RES"
+          },
+          {
+            "name": "SRC_ACC",
+            "type": "esriFieldTypeDouble",
+            "alias": "SRC_ACC"
+          }
+        ],
+        "features": [
+          {
+            "attributes": {
+              "SRC_DATE2": 1538697600000,
+              "NICE_DESC": "Maxar",
+              "SRC_DESC": "GE01",
+              "SAMP_RES": 1.2,
+              "SRC_ACC": 8.47
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

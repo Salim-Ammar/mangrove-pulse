@@ -1,0 +1,12 @@
+{
+  "gmw_v4112_2018_mng_ext_cntry_info_vec.gpkg.gz": {
+    "size": 165428975,
+    "sha256": "53eda1adad353cc349ae840cfba7e934dc7e2651769491bc2b367dcf2b597f96",
+    "verified": true
+  },
+  "ESA_WorldCover_10m_2020_v100_N24E054_Map.tif": {
+    "size": 21292309,
+    "sha256": "8ae908a79184d0bdf7a9a2335b5c7a0366e9e52a1c7197c4c926c38b880d1536",
+    "verified": true
+  }
+}

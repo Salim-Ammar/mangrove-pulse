@@ -1,0 +1,44 @@
+[
+  {
+    "case": "C001",
+    "cells": 11,
+    "category": "Prediction positive / GMW not mapped",
+    "observation": "Cells follow a vegetation edge and overlap canopy-like texture.",
+    "interpretation": "Possible vegetation beyond mapped extent; mangrove identity and individual-cell truth unverified.",
+    "next_evidence": "Dated cover labels and measured layer alignment.",
+    "screenshot": "Screenshot (27).png",
+    "review_status": "Qualitative review completed; label truth unresolved",
+    "capture_date": "2018-10-05",
+    "archive_date": "2020-10-14",
+    "native_zoom": 17,
+    "field_access": "unconfirmed"
+  },
+  {
+    "case": "C017",
+    "cells": 32,
+    "category": "Prediction negative / GMW mapped",
+    "observation": "Cells cross patchy vegetation and lighter open cover.",
+    "interpretation": "Sparse or mixed cover is plausible; not 32 confirmed missed mangrove cells.",
+    "next_evidence": "Independent dated canopy labels; account for mixed cells.",
+    "screenshot": "Screenshot (28).png",
+    "review_status": "Qualitative review completed; label truth unresolved",
+    "capture_date": "2018-10-05",
+    "archive_date": "2020-10-14",
+    "native_zoom": 17,
+    "field_access": "unconfirmed"
+  },
+  {
+    "case": "C027",
+    "cells": 42,
+    "category": "Quality-excluded / GMW mapped",
+    "observation": "Long strip follows a dark channel and vegetation margin.",
+    "interpretation": "Quality and coverage gap; screening cause and cell cover remain unresolved.",
+    "next_evidence": "Review SCL, independent cover labels and alignment; do not assign a tidal cause.",
+    "screenshot": "Screenshot (29).png",
+    "review_status": "Qualitative review completed; label truth unresolved",
+    "capture_date": "2018-10-05",
+    "archive_date": "2020-10-14",
+    "native_zoom": 17,
+    "field_access": "unconfirmed"
+  }
+]

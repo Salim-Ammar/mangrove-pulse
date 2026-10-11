@@ -1,0 +1,29 @@
+[
+  {
+    "case": "C001",
+    "audit_cells": 11,
+    "checks": "grid, CSV labels, coordinates and metadata-point membership passed",
+    "visual_review": "pending",
+    "relative_alignment": "unverified",
+    "imagery_load_status": "browser observation required",
+    "metadata_coverage": "one confirmed point; whole patch not verified"
+  },
+  {
+    "case": "C017",
+    "audit_cells": 32,
+    "checks": "grid, CSV labels, coordinates and metadata-point membership passed",
+    "visual_review": "pending",
+    "relative_alignment": "unverified",
+    "imagery_load_status": "browser observation required",
+    "metadata_coverage": "one confirmed point; whole patch not verified"
+  },
+  {
+    "case": "C027",
+    "audit_cells": 42,
+    "checks": "grid, CSV labels, coordinates and metadata-point membership passed",
+    "visual_review": "pending",
+    "relative_alignment": "unverified",
+    "imagery_load_status": "browser observation required",
+    "metadata_coverage": "one confirmed point; whole patch not verified"
+  }
+]

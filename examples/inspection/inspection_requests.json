@@ -1,0 +1,241 @@
+{
+  "schema_version": "1.0",
+  "package_id": "MP-KHOR-KALBA-HANDOFF-01",
+  "prepared_date": "2026-10-07",
+  "evidence_status": "Cached historical evidence and proposed observation requirements; no inspection performed",
+  "coordinate_semantics": "WGS84 original diagnostic cell centres, not route, waypoint, access, landing or contact sampling positions",
+  "historical_satellite_dates": [
+    "2018-11-20",
+    "2018-11-30"
+  ],
+  "current_field_access": "unconfirmed",
+  "sources": {
+    "../audit/all_audit_cells.csv": "80a92cf778a92f8bdcc4a99e39dfe906f193a3eaad1dacbbd166f13481806e73",
+    "../reference_context/case_comparison.json": "895116d01d0c79ce8191a63de503051304f58c32fe32238061ab962b92492f35"
+  },
+  "temporal_gate": "Current observations cannot directly validate 2018 cover; record actual dates and preserve unresolved historical truth",
+  "cases": [
+    {
+      "case_id": "C001",
+      "target_count": 11,
+      "original_category": "Prediction positive / GMW not mapped",
+      "cell_ids": [
+        "C001_r88_c83",
+        "C001_r89_c83",
+        "C001_r90_c82",
+        "C001_r91_c81",
+        "C001_r92_c80",
+        "C001_r92_c81",
+        "C001_r93_c80",
+        "C001_r93_c81",
+        "C001_r94_c81",
+        "C001_r95_c81",
+        "C001_r96_c82"
+      ],
+      "reference_comparison_2018": {
+        "both_not_mapped": 4,
+        "v3_only_mapped": 0,
+        "v4_only_mapped": 7,
+        "both_mapped": 0,
+        "centres": 11,
+        "differently_mapped_centres": 7,
+        "differently_mapped_fraction": 0.6363636363636364,
+        "mapped_jaccard": 0,
+        "interpretation": "Reference-map agreement, not field accuracy or ecological change"
+      },
+      "worldcover_2020_later_context": [
+        {
+          "code": 95,
+          "class": "Mangroves",
+          "centres": 11
+        }
+      ],
+      "cell_truth": "unresolved",
+      "question": "Which target cells and surroundings contain identifiable canopy at the observation date, and how certain is the edge alignment?",
+      "request": [
+        "Dated aligned cover evidence across cells and surrounding edge",
+        "Qualified vegetation identification",
+        "Visibility, occlusion and positioning uncertainty"
+      ],
+      "candidate_method": "Existing licensed imagery or safe shore/boat photography; ordinary RGB drone only if access and observation quality justify it",
+      "amphibious_need": "Not established for photographic canopy-edge review",
+      "deployment_status": "not_authorized_or_planned",
+      "field_observations_collected": 0,
+      "planting_recommendation": "none"
+    },
+    {
+      "case_id": "C017",
+      "target_count": 32,
+      "original_category": "Prediction negative / GMW mapped",
+      "cell_ids": [
+        "C017_r64_c87",
+        "C017_r64_c88",
+        "C017_r64_c89",
+        "C017_r65_c86",
+        "C017_r65_c87",
+        "C017_r65_c88",
+        "C017_r65_c89",
+        "C017_r65_c90",
+        "C017_r66_c84",
+        "C017_r66_c86",
+        "C017_r66_c87",
+        "C017_r66_c88",
+        "C017_r67_c84",
+        "C017_r67_c85",
+        "C017_r67_c86",
+        "C017_r67_c87",
+        "C017_r68_c84",
+        "C017_r68_c85",
+        "C017_r68_c86",
+        "C017_r68_c87",
+        "C017_r69_c84",
+        "C017_r69_c85",
+        "C017_r69_c86",
+        "C017_r69_c87",
+        "C017_r70_c84",
+        "C017_r70_c85",
+        "C017_r71_c85",
+        "C017_r72_c85",
+        "C017_r73_c85",
+        "C017_r74_c83",
+        "C017_r74_c84",
+        "C017_r75_c84"
+      ],
+      "reference_comparison_2018": {
+        "both_not_mapped": 0,
+        "v3_only_mapped": 26,
+        "v4_only_mapped": 0,
+        "both_mapped": 6,
+        "centres": 32,
+        "differently_mapped_centres": 26,
+        "differently_mapped_fraction": 0.8125,
+        "mapped_jaccard": 0.1875,
+        "interpretation": "Reference-map agreement, not field accuracy or ecological change"
+      },
+      "worldcover_2020_later_context": [
+        {
+          "code": 60,
+          "class": "Bare / sparse vegetation",
+          "centres": 7
+        },
+        {
+          "code": 90,
+          "class": "Herbaceous wetland",
+          "centres": 4
+        },
+        {
+          "code": 95,
+          "class": "Mangroves",
+          "centres": 21
+        }
+      ],
+      "cell_truth": "unresolved",
+      "question": "What cover composition can be supported for each cell, including mixed vegetation, water and open ground?",
+      "request": [
+        "Cover categories with uncertainty",
+        "Canopy/open-cover fractions only with adequate aligned coverage and documented labelling method",
+        "Qualified vegetation identification"
+      ],
+      "candidate_method": "Detailed licensed imagery, shore/boat photography or ordinary RGB drone where justified",
+      "amphibious_need": "Not established for photographic mixed-cover review",
+      "deployment_status": "not_authorized_or_planned",
+      "field_observations_collected": 0,
+      "planting_recommendation": "none"
+    },
+    {
+      "case_id": "C027",
+      "target_count": 42,
+      "original_category": "Quality-excluded / GMW mapped",
+      "cell_ids": [
+        "C027_r61_c96",
+        "C027_r62_c96",
+        "C027_r63_c96",
+        "C027_r64_c96",
+        "C027_r64_c97",
+        "C027_r65_c95",
+        "C027_r65_c97",
+        "C027_r66_c96",
+        "C027_r66_c97",
+        "C027_r67_c96",
+        "C027_r67_c97",
+        "C027_r68_c96",
+        "C027_r68_c97",
+        "C027_r69_c96",
+        "C027_r69_c97",
+        "C027_r70_c96",
+        "C027_r70_c97",
+        "C027_r71_c96",
+        "C027_r72_c95",
+        "C027_r72_c96",
+        "C027_r73_c95",
+        "C027_r73_c96",
+        "C027_r74_c95",
+        "C027_r74_c96",
+        "C027_r75_c96",
+        "C027_r76_c96",
+        "C027_r76_c97",
+        "C027_r77_c96",
+        "C027_r77_c97",
+        "C027_r78_c97",
+        "C027_r78_c98",
+        "C027_r79_c97",
+        "C027_r79_c98",
+        "C027_r80_c97",
+        "C027_r80_c98",
+        "C027_r80_c99",
+        "C027_r81_c98",
+        "C027_r81_c99",
+        "C027_r82_c99",
+        "C027_r82_c100",
+        "C027_r83_c100",
+        "C027_r84_c100"
+      ],
+      "reference_comparison_2018": {
+        "both_not_mapped": 0,
+        "v3_only_mapped": 6,
+        "v4_only_mapped": 0,
+        "both_mapped": 36,
+        "centres": 42,
+        "differently_mapped_centres": 6,
+        "differently_mapped_fraction": 0.14285714285714285,
+        "mapped_jaccard": 0.8571428571428571,
+        "interpretation": "Reference-map agreement, not field accuracy or ecological change"
+      },
+      "worldcover_2020_later_context": [
+        {
+          "code": 10,
+          "class": "Tree cover",
+          "centres": 2
+        },
+        {
+          "code": 20,
+          "class": "Shrubland",
+          "centres": 3
+        },
+        {
+          "code": 80,
+          "class": "Permanent water",
+          "centres": 9
+        },
+        {
+          "code": 95,
+          "class": "Mangroves",
+          "centres": 28
+        }
+      ],
+      "cell_truth": "unresolved",
+      "question": "What dated cover evidence is available at the channel margin, and what limits the original usable satellite coverage?",
+      "request": [
+        "Historical per-cell quality/input review kept separate from physical causes",
+        "Dated aligned vegetation/water/open-cover observations",
+        "Visibility and safe-access assessment"
+      ],
+      "candidate_method": "Historical source review first; current channel-edge photography only as a separate workflow trial",
+      "amphibious_need": "Conditional separate current contact-sensing hypothesis, not inferred from exclusions",
+      "conditional_contact_task": "If a qualified practitioner establishes a water-contact question: conductivity/salinity, temperature, depth and calibration information at separately justified safe sampling sites; no measurements or instrument validation exist",
+      "deployment_status": "not_authorized_or_planned",
+      "field_observations_collected": 0,
+      "planting_recommendation": "none"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "selection_log": [
+    {
+      "target": "2020-10-14",
+      "selected": "2020-10-14"
+    }
+  ],
+  "items": [
+    {
+      "itemID": "829656a742924e189e63bfc9fde75225",
+      "itemTitle": "World Imagery (Wayback 2020-10-14)",
+      "itemURL": "https://wayback.maptiles.arcgis.com/arcgis/rest/services/World_Imagery/WMTS/1.0.0/default028mm/MapServer/tile/119/{level}/{row}/{col}",
+      "metadataLayerUrl": "https://metadata.maptiles.arcgis.com/arcgis/rest/services/World_Imagery_Metadata_2020_r14/MapServer",
+      "metadataLayerItemID": "73b47bbc112b498daf85d40fb972738a",
+      "layerIdentifier": "WB_2020_R14",
+      "releaseNum": 119,
+      "releaseDateLabel": "2020-10-14",
+      "releaseDatetime": 1602633600000
+    }
+  ]
+}

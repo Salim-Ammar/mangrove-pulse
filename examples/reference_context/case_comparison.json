@@ -1,0 +1,138 @@
+[
+  {
+    "case": "C001",
+    "original_review": {
+      "case": "C001",
+      "cells": 11,
+      "category": "Prediction positive / GMW not mapped",
+      "observation": "Cells follow a vegetation edge and overlap canopy-like texture.",
+      "interpretation": "Possible vegetation beyond mapped extent; mangrove identity and individual-cell truth unverified.",
+      "next_evidence": "Dated cover labels and measured layer alignment.",
+      "screenshot": "Screenshot (27).png",
+      "review_status": "Qualitative review completed; label truth unresolved",
+      "capture_date": "2018-10-05",
+      "archive_date": "2020-10-14",
+      "native_zoom": 17,
+      "field_access": "unconfirmed"
+    },
+    "gmw_2018_reference_comparison": {
+      "both_not_mapped": 4,
+      "v3_only_mapped": 0,
+      "v4_only_mapped": 7,
+      "both_mapped": 0,
+      "centres": 11,
+      "differently_mapped_centres": 7,
+      "differently_mapped_fraction": 0.6363636363636364,
+      "mapped_jaccard": 0.0,
+      "interpretation": "Reference-map agreement, not field accuracy or ecological change"
+    },
+    "worldcover_2020_later_context": [
+      {
+        "code": 95,
+        "class": "Mangroves",
+        "centres": 11
+      }
+    ],
+    "cell_truth": "unresolved",
+    "next_evidence": "Dated cover labels and measured layer alignment."
+  },
+  {
+    "case": "C017",
+    "original_review": {
+      "case": "C017",
+      "cells": 32,
+      "category": "Prediction negative / GMW mapped",
+      "observation": "Cells cross patchy vegetation and lighter open cover.",
+      "interpretation": "Sparse or mixed cover is plausible; not 32 confirmed missed mangrove cells.",
+      "next_evidence": "Independent dated canopy labels; account for mixed cells.",
+      "screenshot": "Screenshot (28).png",
+      "review_status": "Qualitative review completed; label truth unresolved",
+      "capture_date": "2018-10-05",
+      "archive_date": "2020-10-14",
+      "native_zoom": 17,
+      "field_access": "unconfirmed"
+    },
+    "gmw_2018_reference_comparison": {
+      "both_not_mapped": 0,
+      "v3_only_mapped": 26,
+      "v4_only_mapped": 0,
+      "both_mapped": 6,
+      "centres": 32,
+      "differently_mapped_centres": 26,
+      "differently_mapped_fraction": 0.8125,
+      "mapped_jaccard": 0.1875,
+      "interpretation": "Reference-map agreement, not field accuracy or ecological change"
+    },
+    "worldcover_2020_later_context": [
+      {
+        "code": 60,
+        "class": "Bare / sparse vegetation",
+        "centres": 7
+      },
+      {
+        "code": 90,
+        "class": "Herbaceous wetland",
+        "centres": 4
+      },
+      {
+        "code": 95,
+        "class": "Mangroves",
+        "centres": 21
+      }
+    ],
+    "cell_truth": "unresolved",
+    "next_evidence": "Independent dated canopy labels; account for mixed cells."
+  },
+  {
+    "case": "C027",
+    "original_review": {
+      "case": "C027",
+      "cells": 42,
+      "category": "Quality-excluded / GMW mapped",
+      "observation": "Long strip follows a dark channel and vegetation margin.",
+      "interpretation": "Quality and coverage gap; screening cause and cell cover remain unresolved.",
+      "next_evidence": "Review SCL, independent cover labels and alignment; do not assign a tidal cause.",
+      "screenshot": "Screenshot (29).png",
+      "review_status": "Qualitative review completed; label truth unresolved",
+      "capture_date": "2018-10-05",
+      "archive_date": "2020-10-14",
+      "native_zoom": 17,
+      "field_access": "unconfirmed"
+    },
+    "gmw_2018_reference_comparison": {
+      "both_not_mapped": 0,
+      "v3_only_mapped": 6,
+      "v4_only_mapped": 0,
+      "both_mapped": 36,
+      "centres": 42,
+      "differently_mapped_centres": 6,
+      "differently_mapped_fraction": 0.14285714285714285,
+      "mapped_jaccard": 0.8571428571428571,
+      "interpretation": "Reference-map agreement, not field accuracy or ecological change"
+    },
+    "worldcover_2020_later_context": [
+      {
+        "code": 10,
+        "class": "Tree cover",
+        "centres": 2
+      },
+      {
+        "code": 20,
+        "class": "Shrubland",
+        "centres": 3
+      },
+      {
+        "code": 80,
+        "class": "Permanent water",
+        "centres": 9
+      },
+      {
+        "code": 95,
+        "class": "Mangroves",
+        "centres": 28
+      }
+    ],
+    "cell_truth": "unresolved",
+    "next_evidence": "Review SCL, independent cover labels and alignment; do not assign a tidal cause."
+  }
+]

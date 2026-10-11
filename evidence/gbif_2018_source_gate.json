@@ -1,0 +1,86 @@
+{
+  "review_date": "2026-10-09",
+  "artifact_type": "selected public provider metadata and source-qualification decision",
+  "not_a_raw_provider_archive": true,
+  "screen": {
+    "taxon_match_url": "https://api.gbif.org/v1/species/match?name=Avicennia%20marina&strict=true",
+    "taxon_key": 2925403,
+    "scientific_name": "Avicennia marina (Forssk.) Vierh.",
+    "match_type": "EXACT",
+    "match_confidence": 99,
+    "search_url": "https://api.gbif.org/v1/occurrence/search?country=AE&year=2018&limit=5&taxonKey=2925403",
+    "remaining_record_url": "https://api.gbif.org/v1/occurrence/search?country=AE&year=2018&limit=1&offset=5&taxonKey=2925403",
+    "provider_count_at_review": 6,
+    "screen_result": "One candidate reports 5 m coordinate uncertainty; two report roughly 30 km or 49 km uncertainty; two have unspecified uncertainty and potentially related specimen/sample lineage; one has no coordinates and only a year. This is the specified GBIF query, not all UAE evidence."
+  },
+  "candidate": {
+    "gbif_id": 2542871866,
+    "gbif_record_url": "https://www.gbif.org/occurrence/2542871866",
+    "gbif_api_url": "https://api.gbif.org/v1/occurrence/2542871866",
+    "observation_url": "https://www.inaturalist.org/observations/12260092",
+    "original_provider_api_url": "https://api.inaturalist.org/v1/observations/12260092",
+    "dataset": "iNaturalist research-grade observations",
+    "dataset_key": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+    "scientific_name": "Avicennia marina",
+    "basis_of_record": "HUMAN_OBSERVATION",
+    "occurrence_status": "PRESENT",
+    "observed_on": "2018-05-08",
+    "verbatim_event_time": "07:39:36+04:00",
+    "inaturalist_time_observed_at": "2018-05-08T06:39:36+03:00",
+    "latitude_as_returned_by_original_provider": 24.4517416667,
+    "longitude_as_returned_by_original_provider": 54.4364916667,
+    "gbif_geodetic_datum": "WGS84",
+    "reported_coordinate_uncertainty_metres": 5,
+    "coordinate_uncertainty_independently_measured_by_team": false,
+    "quality_grade": "research",
+    "community_taxon_id": 75723,
+    "current_identifications": [
+      {"id": 26803261, "taxon": "Avicennia marina", "category": "improving", "created_at": "2018-05-08T10:58:51+03:00"},
+      {"id": 81772793, "taxon": "Avicennia marina", "category": "supporting", "created_at": "2019-12-28T05:25:43+02:00"}
+    ],
+    "captive": false,
+    "obscured": false,
+    "geoprivacy": null,
+    "taxon_geoprivacy": "open",
+    "gbif_issues": ["COORDINATE_ROUNDED", "CONTINENT_DERIVED_FROM_COORDINATES", "TAXON_ID_NOT_FOUND"],
+    "record_credit": "James Hardcastle / iNaturalist, via GBIF",
+    "record_license": "https://creativecommons.org/licenses/by/4.0/",
+    "photo": {
+      "id": 17629267,
+      "reference_url": "https://www.inaturalist.org/photos/17629267",
+      "creator": "James Hardcastle",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "original_dimensions": {"width": 2048, "height": 1536},
+      "visually_inspected_by_team_in_this_review": true,
+      "visual_review_date": "2026-10-09",
+      "visual_review_method": "Original provider JPEG loaded once in a read-only browser tab; rendered photograph inspected. No image processing or botanical expert verification.",
+      "source_image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17629267/original.jpg",
+      "visible_content": "Ground/oblique view of trees, foliage, trunks/roots and shallow standing water; no surveyed scale, mapped footprint, full-cell cover fraction or spatially referenced absence evidence.",
+      "species_identification_remains_provider_reported": true,
+      "date_independently_verified_from_image_file_metadata": false,
+      "transferred_to_browser_once": true,
+      "bundled_or_saved_as_file": false
+    }
+  },
+  "decision": {
+    "accepted_use": "Dated third-party species-presence and alternative UAE site lead; provider-reported identification and position, not a team field measurement.",
+    "outside_khor_kalba_frozen_experiment": true,
+    "qualified_as_whole_cell_cover_label": false,
+    "qualified_for_independent_khor_kalba_accuracy": false,
+    "qualified_for_drone_or_ecological_outcome": false,
+    "limitations": [
+      "Research grade is a provider status, not guaranteed taxonomic or positional correctness.",
+      "No confirmed camera-to-organism offset, observation footprint, full-cell canopy fraction or complete absence survey.",
+      "May field presence does not directly validate the November frozen map at another site.",
+      "Presence-only opportunistic sampling cannot estimate overall map accuracy, false positives or ecological change.",
+      "Visual inspection does not provide botanical expert verification, a surveyed organism position or a whole-cell cover label. The two identifications (one improving and one supporting) are not two independent field replicates.",
+      "No causal intervention, baseline/follow-up outcome or aircraft measurement is supplied."
+    ],
+    "next_gate": "Photographic content is now checked, but organism position/footprint, a matched-date EO test and an evaluable sampling design remain unqualified. Do not acquire new EO assets or compute an accuracy score merely to turn this opportunistic presence record into a pixel label. A separately justified point-specific study must retain these limits and preserve the frozen Kalba core."
+  },
+  "definition_sources": {
+    "observation_location": "https://help.inaturalist.org/en/support/solutions/articles/151000192921",
+    "research_grade": "https://help.inaturalist.org/en/support/solutions/articles/151000169936",
+    "root_verified_scope": "iNaturalist describes an organism encounter and an observer-location/accuracy-circle entry workflow. Research grade reflects community identification and data-quality status; it does not measure EO registration or certify complete-cell cover."
+  }
+}

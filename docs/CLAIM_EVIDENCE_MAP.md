@@ -1,0 +1,76 @@
+# Claim-to-evidence map
+
+Updated 11 October 2026
+
+Mangrove Pulse reproduces historical satellite/reference disagreements and coverage gaps at Khor Kalba, then records questions for further evidence collection. The amphibious drone is a concept for a separate contact-sensing task. Satellite flags do not select it as a remedy.
+
+[What the PoC establishes](WHAT_THE_POC_ESTABLISHES.md) summarizes these results and the evidence still needed.
+
+[Evidence gaps and decisions](GAP_CLOSING_REVIEW.md) records the bounded follow-up, rejected substitutes and decisive next observations for H1-H4. Their empirical status remains unresolved.
+
+The [results summary](WHAT_THE_POC_ESTABLISHES.md) separates demonstrated working features from unestablished field, aircraft and ecological outcomes. It does not change the scientific status of H1-H4.
+
+## Results that can be demonstrated now
+
+| ID / retained claim | Direct evidence to inspect | Scope and strongest limitation |
+|---|---|---|
+| R1: Frozen computation was reproduced | [11 October executed notebook](../supplementary/Mangrove_Pulse_Release_cb4b400_Executed.ipynb), [verification record](RELEASE_VERIFICATION_20261011.md), [results and logs](../evidence/release_cb4b400_results.zip), [original execution](../Mangrove_Pulse_End_to_End_Executed.ipynb) | Fresh Colab execution of release cb4b400 matched the baseline and audit, verified 178 input hashes, displayed six figures and passed 17 handoff-format tests. All 91 result payload hashes match. This establishes computational reproducibility, not independent truth. Saved reference and energy context were displayed, not recomputed. |
+| R2: Primary-date reference agreement and audit are quantified | [Baseline summary](../examples/baseline/baseline_summary.json), [audit summary](../examples/audit/audit_summary.json) | The November 20 evaluation covers 5,653 eligible southern cells: F1 0.8864 and IoU 0.7960 against GMW, with 121 disagreements and 87 excluded GMW-positive cells. Northern calibration F1 is 0.6652. GMW also informed calibration; neither the spatial gap nor the second date establishes independent field accuracy or regional generalization. |
+| R3: Reference representation changes case interpretation | [Reference sensitivity](REFERENCE_SENSITIVITY.md), [case comparison](../examples/reference_context/case_comparison.json) | The two GMW 2018 representations differ at 614 of 13,401 full-AOI centres, with mapped Jaccard 0.6150. This comparison does not select a preferred reference, correct classifier scores or measure ecological change. WorldCover 2020 describes a later year and shares auxiliary lineage. |
+| R4: Historical requests preserve evidence lineage | [Three briefs](CASES.md), [requests](../examples/inspection/inspection_requests.json), [targets](../examples/inspection/inspection_targets.geojson), [blank returns](../examples/inspection/observation_return_template.json) | Checks preserve the 11/32/42-centre memberships, coordinates and reference context. The validator enforces blank demonstration records; it does not accept real measurements. The 85 centres are neither waypoints nor an accuracy sample. Format tests do not demonstrate practitioner usefulness. |
+| R5: Separately dated context was obtained and reused | [Dated figures/report/cache](DATED_EO_CONTEXT.md), [status](../examples/recent_context/status.json), [cache replay report](../supplementary/Mangrove_Pulse_Offline_Context_Replay_Report.zip) | A cache-only Colab replay of September 24, 2026 SCL labels and TCI display passed 28 checks. It reuses saved AOI membership rather than independently validating it. These products do not provide calibrated indices, field labels, gain/loss, chemistry, water depth or route feasibility. |
+| R6: Conditional engineering constraints expose failure cases | [Connected assessment](CONNECTED_CONCEPT_ASSESSMENT.md), [envelope run](../supplementary/Mangrove_Pulse_Supported_Sensing_Envelope_Executed.ipynb), [symbolic resource gates](SYMBOLIC_RESOURCE_GATES.md), [saved energy examples](../examples/inspection/energy_scenario_excerpt.json) | Static buoyancy and lift, small-angle restoring sign, instantaneous Euler dynamics and resource inequalities depend on declared assumptions. SymPy checked seven identities and two rational relations for energy, battery and acceptance windows. These symbolic and synthetic checks do not measure mass, thrust, stability, takeoff, sensing or recovery. Craft inputs remain unknown. |
+
+These results use different populations and dates. The primary score covers eligible southern cells, reference sensitivity covers the full AOI, and recent SCL counts describe a different acquisition and label system. The historical cases demonstrate the handoff method, not a current water problem.
+
+The [Tarif hyperspectral qualification](TARIF_SCENE_QUALIFICATION.md), executed on 9 October, read channels from a quality-screened fixed window. The inspected crop shows open water. It establishes source access, but does not resolve H2-H4, demonstrate hyperspectral improvement or justify a site switch.
+
+<a id="external-physical-precedents--not-team-results"></a>
+
+## External physical precedents (not team results)
+
+| Precedent | Supported component-level conclusion | Transfer boundary |
+|---|---|---|
+| [SkyPlanter research](https://portal.findresearcher.sdu.dk/en/publications/skyplanter-aerial-reforestation-with-an-ultralight-seedling-plant/) and [NIBIO prototype account](https://nibio.no/en/news/can-drone-mounted-tree-planting-replace-manual-tree-planting) | A drone-mounted pneumatic mechanism has physically placed forestry seedlings under tested terrestrial conditions. | Not our bio-seed-pods, mangrove substrate, amphibious aircraft, autonomy, survival or carbon outcome. Prototype constraints remain relevant; no invention or superiority claim. |
+| Amphibious pond-sensing study, cited in the [connected assessment](CONNECTED_CONCEPT_ASSESSMENT.md#measured-third-party-tradeoffs) | Published physical sensing/relay tests and a loaded hover-stability comparison establish component precedent and measured tradeoffs. | The reported table/prose conflict is retained. Hover stability and communications are not matched whole-mission energy or sensing accuracy. Not our design or UAE conditions. |
+| [Optical mangrove study](https://doi.org/10.3390/rs16163093), appraised in the [connected assessment](CONNECTED_CONCEPT_ASSESSMENT.md#demonstrated-components-and-the-proposed-integration) | Empirical UAV optical sensing precedent. | Changed hardware and a reporting conflict limit comparison; not our payload, Kalba accuracy or hyperspectral improvement. |
+| [ADNOC UAE comparator](CONNECTED_CONCEPT_ASSESSMENT.md#uae-comparison-monitoring-already-exists) | A primary institutional report describes drone dispersal plus monitoring; the 2023 pilot's bibliographic identity is verified. | Not a matched platform or survival trial. Do not claim the existing UAE approach lacks monitoring or derive survival from aggregate totals. |
+
+The precedents support investigating a defined observation task, but do not resolve H1-H4. Separate component demonstrations cannot validate the combined craft. Water-column readings also cannot replace historical soil, porewater or carbon measurements.
+
+## Hypotheses requiring their own evidence
+
+| ID / proposed claim | Current support and attack | Smallest decisive next evidence |
+|---|---|---|
+| H1: A brief improves a monitoring decision | The briefs organize evidence and unresolved questions, but have no practitioner review or measured workflow advantage. | Ask a relevant practitioner to use the brief without coaching. Record the decision, misunderstandings and criticism; compare with manual review before claiming time or cost savings. [Review protocol](STAKEHOLDER_FEEDBACK.md). |
+| H2: Independent historical accuracy | Dated-source research and near-date GE01 metadata identify possible evidence sources; cell truth and relative alignment remain unresolved. | Qualify independent near-date evidence, then interpret a probability sample of the frozen held-out population under blind conditions, recording uncertainty and unresolved labels. Current fieldwork cannot directly label 2018. [Accuracy protocol](VALIDATION_AND_BENEFIT_TESTS.md). |
+| H3: Contact sensing is useful and amphibious delivery is advantageous | Official historical water-property descriptions motivate a separate dated question. Drone/boat and amphibious studies provide component precedents; simpler methods may suffice. No accepted local observations, sensor specification or matched missions exist. | Define the decision, authorized stations and [measurement chain](OBSERVABLES_AND_MEASUREMENT_CHAIN.md). Validate observations before comparing complete mission energy, time, failures, recovery and habitat disturbance with shore, boat, logger, USV and hover methods. [Blank contract](../examples/inspection/water_context_question.json), [platform protocol](VALIDATION_AND_BENEFIT_TESTS.md). |
+| H4: Inspection or intervention improves ecology/carbon | Ecological outcomes are unmeasured. Measurement and planting counts do not establish benefit, and natural mudflat or saltmarsh is not a planting deficit. | Establish present need, suitability and permissions. If intervention is justified, collect replicated baseline, control and follow-up outcomes with habitat safeguards. Carbon requires separate net-additionality and accounting evidence. [Ecological protocol](VALIDATION_AND_BENEFIT_TESTS.md). |
+
+## Claims to omit, not soften into apparent results
+
+### Decisive-test prerequisites
+
+The following records qualify the next evidence route; none records a completed empirical test. The team is responsible for preparing each design. Independent interpreters, calibrated reference measurements and authorized ecological work require the relevant people and access; no partner or field permission is assumed.
+
+- **H2 — frozen historical cover:** the target is the 5,653 eligible southern centres on 20 November 2018. Sample cells with known inclusion probabilities; account for the spatial sampling design rather than assuming neighbouring cells are independent. Compare frozen predictions with blind independent dated labels and report design-weighted accuracy and uncertainty. The precision target, label budget and alignment/class tolerances are not fixed. Qualify a source's date, lineage, licence, footprint and relative alignment before drawing or interpreting the sample. Available map outputs and selected screenshots do not supply those labels. The next executable gate is source qualification, not another score against GMW. Result artifact: a separate dated-label qualification and evaluation record; none exists yet.
+- **H3 — contact observation and delivery:** first define one current decision, authorized stations and a reference-measured observation endpoint. Use independent complete missions, not individual readings, for an operational comparison. Compare the simplest feasible collection method, and hover versus supported delivery only if both safely produce observations meeting the same quality criteria. Match the calibrated probe, depth, stabilization, locations, tide windows and reference checks across methods; account for weather and operator conditions in the blocked comparison. Sensor-error, positioning, completeness and contamination tolerances and a useful improvement margin remain unknown. The blank contract and hypothetical scenarios are available; accepted measurements, matched whole missions and recovery records are not. The next executable gate is sensor/task qualification using the simplest feasible delivery method. Result artifact: an accepted-observation register followed, if justified, by a matched-mission comparison; neither exists yet.
+- **H4 — ecological outcome:** first establish present need, suitability, permissions and the intervention being tested. Independent units are replicated eligible plots or sites, with untreated controls, baseline and follow-up—not repeat readings or planted individuals treated as independent sites. Establishment, natural recruitment, habitat safeguards and biodiversity are candidate endpoints; their definitions, meaningful effect, stopping thresholds and follow-up design remain unfixed. Carbon requires its own net-additionality/accounting endpoint. Guidance and historical context are available, but no current controlled outcomes. The next executable gate is current need/suitability qualification, before an intervention experiment. Result artifact: an authorized design and replicated outcome record; neither exists yet.
+
+See [the three protocols](VALIDATION_AND_BENEFIT_TESTS.md) for methods and source limitations. Thresholds must be fixed before inspecting evaluation outcomes; these prerequisite records do not retroactively supply acceptance criteria or satisfy H2–H4.
+
+The [historical Kalba workbook](HISTORICAL_KALBA_FIELD_CONTEXT.md) supplies external context for H3/H4. Its 2014 and undated records, spatial-support gaps and measurement-definition limits leave H2-H4 unresolved. Historical soil and porewater records and calculated carbon stocks are neither current channel observations nor the team's ecological outcomes.
+
+- Universal drone superiority is unsupported. Under the illustrative inputs, supported delivery uses less energy but takes longer at equal acceptance. Short dwell or extra overhead reverses the energy advantage. These are counterexamples within the assumed model, not a verdict on every physical design or competitor.
+- Flagged cells have no confirmed damage, stress cause or planting need. Disagreement and exclusion are reasons to review evidence, not diagnoses.
+- Hyperspectral improvement, planting, solar, mud mobility, fleet operation and autonomous communications have not been implemented. Catalogue records and training examples do not establish those capabilities.
+
+Retain R1-R6 at their stated strength and test H1-H4 independently. Unsupported claims are excluded from the conclusions; another proxy cannot replace missing observations.
+
+## Inspection decision contract
+
+The [C001 contract](C001_INSPECTION_BRIEF.md#acceptance-and-decision-contract--proposed-not-executed) links EO evidence to an observation request, collection method, proposed acceptance checks and follow-up decisions. It specifies a process; it does not supply historical truth, an implemented measurement validator or an updated hosted notebook. H1-H4 remain unresolved, and the photographic question establishes no amphibious requirement.
+
+## Delivery is a separate audit
+
+The computational notebook and saved outputs are included. The team's original code has no selected licence; source-specific rights and attribution are recorded in [LICENSE_NOTICE.md](../LICENSE_NOTICE.md) and [ATTRIBUTION.md](../ATTRIBUTION.md). The unrecovered earlier integrated ZIP remains a separate artifact limitation; the verified 11 October release ZIP is included. Neither limitation changes the checked cached workflow. Local archive checks do not establish field accuracy or an aircraft result.

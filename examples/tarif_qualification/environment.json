@@ -1,0 +1,6 @@
+{
+  "python": "3.13.16 (main, Oct 1 2026, 15:40:24) [GCC 13.3.0]",
+  "packages": {"requests": "2.32.4", "h5py": "3.14.0", "numpy": "2.1.3", "Pillow": "11.3.0", "matplotlib": "3.10.0"},
+  "provenance": "Observed Colab Cell 2 output, execution count 2, environment-only query after successful Cell 1. No imagery request or scientific rerun.",
+  "snapshot_note": "Preserved executed notebook and result ZIP were downloaded before this extra environment-only cell; they are unchanged."
+}

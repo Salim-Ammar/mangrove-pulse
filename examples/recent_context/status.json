@@ -1,0 +1,12 @@
+{
+  "experiment_id": "MP-KALBA-RECENT-CONTEXT-02",
+  "status": "succeeded_context_only",
+  "python_version": "3.13.16",
+  "free_CPU_requested": true,
+  "field_observations": 0,
+  "independent_2018_labels": 0,
+  "sampling_stations": [],
+  "deployment_authorized": false,
+  "calibrated_indices_computed": false,
+  "reflectance_gate_cleared": false
+}

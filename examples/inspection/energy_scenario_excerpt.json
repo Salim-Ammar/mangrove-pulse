@@ -1,0 +1,269 @@
+{
+  "selection": "Verbatim illustrative_cases and input_provenance; full sensitivity rows intentionally not included",
+  "original_archive_sha256": "02f81a56f34b7c8d9f92e5e830567207a748c6e483d97773158f6663806393b5",
+  "source_results_sha256": "35cff3dd6543e984806d3f6a186a626f0ce4f8bf0d61d16c306f1fa4927df2f4",
+  "model_source_sha256": "674e4cf872f7b977eb4fc0c5a0605b7d2481302f15d4372e093b5b9cbe22863e",
+  "evidence_status": "Analytical scenario estimates, not measured drone performance",
+  "input_provenance": {
+    "mission_and_design_values": "Hypothetical sensitivity inputs; no component specifications",
+    "air_density_and_gravity": "Chosen reference constants, not measured Khor Kalba conditions",
+    "power_equation": "Ideal actuator-disk momentum theory; Johnson (2004), pp. 2–3",
+    "power_source_url": "https://rotorcraft.arc.nasa.gov/Publications/files/Johnson_AHS-SF2004.pdf",
+    "loss_multiplier": "Uncalibrated lumped scenario factor, not a published motor efficiency",
+    "observation_equivalence": "Assumed; no sensor quality, depth or stability measurements",
+    "published_18_percent_MEDUSA_result": "Context only; NOT a model calibration or input"
+  },
+  "illustrative_cases": {
+    "short_dwell": {
+      "inputs": {
+        "baseline_mass_kg": 8,
+        "added_support_mass_kg": 2,
+        "disk_area_m2": 0.8,
+        "loss_multiplier": 1.6,
+        "common_air_load_w": 25,
+        "supported_total_power_w": 40,
+        "travel_time_s": 300,
+        "sites": 3,
+        "dwell_per_site_s": 30,
+        "transition_per_site_s": 30,
+        "additional_support_overhead_wh": 0,
+        "battery_nominal_wh": 240,
+        "battery_usable_fraction": 0.8,
+        "air_density_kg_m3": 1.225,
+        "gravity_m_s2": 9.81
+      },
+      "result": {
+        "baseline_ideal_induced_power_w": 496.60427732876457,
+        "supported_ideal_induced_power_w": 694.025576265172,
+        "baseline_air_power_w": 819.5668437260233,
+        "supported_air_power_w": 1135.4409220242753,
+        "hover_segments_wh": {
+          "round_trip_travel": 68.29723697716861,
+          "sampling_hover": 20.489171093150585
+        },
+        "supported_segments_wh": {
+          "round_trip_travel": 94.62007683535627,
+          "land_takeoff": 28.386023050606884,
+          "supported_sampling": 1,
+          "additional_overhead": 0
+        },
+        "hover_energy_wh": 88.7864080703192,
+        "supported_energy_wh": 124.00609988596315,
+        "saving_wh": -35.219691815643955,
+        "saving_percent_of_hover": -39.66788676454826,
+        "break_even_dwell_per_site_s": 84.21424797490002,
+        "supported_energy_lower": false,
+        "usable_battery_wh": 192,
+        "hover_within_energy_budget": true,
+        "supported_within_energy_budget": true,
+        "hover_accounted_duration_s": 390,
+        "supported_accounted_duration_s": 480,
+        "duration_note": "Subtotal; additional-overhead duration is unspecified if nonzero",
+        "operational_feasibility_established": false,
+        "observation_equivalence_verified": false
+      }
+    },
+    "illustrative_main": {
+      "inputs": {
+        "baseline_mass_kg": 8,
+        "added_support_mass_kg": 2,
+        "disk_area_m2": 0.8,
+        "loss_multiplier": 1.6,
+        "common_air_load_w": 25,
+        "supported_total_power_w": 40,
+        "travel_time_s": 300,
+        "sites": 3,
+        "dwell_per_site_s": 150,
+        "transition_per_site_s": 30,
+        "additional_support_overhead_wh": 0,
+        "battery_nominal_wh": 240,
+        "battery_usable_fraction": 0.8,
+        "air_density_kg_m3": 1.225,
+        "gravity_m_s2": 9.81
+      },
+      "result": {
+        "baseline_ideal_induced_power_w": 496.60427732876457,
+        "supported_ideal_induced_power_w": 694.025576265172,
+        "baseline_air_power_w": 819.5668437260233,
+        "supported_air_power_w": 1135.4409220242753,
+        "hover_segments_wh": {
+          "round_trip_travel": 68.29723697716861,
+          "sampling_hover": 102.44585546575291
+        },
+        "supported_segments_wh": {
+          "round_trip_travel": 94.62007683535627,
+          "land_takeoff": 28.386023050606884,
+          "supported_sampling": 5,
+          "additional_overhead": 0
+        },
+        "hover_energy_wh": 170.74309244292152,
+        "supported_energy_wh": 128.00609988596315,
+        "saving_wh": 42.73699255695837,
+        "saving_percent_of_hover": 25.02999796096882,
+        "break_even_dwell_per_site_s": 84.21424797490002,
+        "supported_energy_lower": true,
+        "usable_battery_wh": 192,
+        "hover_within_energy_budget": true,
+        "supported_within_energy_budget": true,
+        "hover_accounted_duration_s": 750,
+        "supported_accounted_duration_s": 840,
+        "duration_note": "Subtotal; additional-overhead duration is unspecified if nonzero",
+        "operational_feasibility_established": false,
+        "observation_equivalence_verified": false
+      }
+    },
+    "long_dwell": {
+      "inputs": {
+        "baseline_mass_kg": 8,
+        "added_support_mass_kg": 2,
+        "disk_area_m2": 0.8,
+        "loss_multiplier": 1.6,
+        "common_air_load_w": 25,
+        "supported_total_power_w": 40,
+        "travel_time_s": 300,
+        "sites": 3,
+        "dwell_per_site_s": 300,
+        "transition_per_site_s": 30,
+        "additional_support_overhead_wh": 0,
+        "battery_nominal_wh": 240,
+        "battery_usable_fraction": 0.8,
+        "air_density_kg_m3": 1.225,
+        "gravity_m_s2": 9.81
+      },
+      "result": {
+        "baseline_ideal_induced_power_w": 496.60427732876457,
+        "supported_ideal_induced_power_w": 694.025576265172,
+        "baseline_air_power_w": 819.5668437260233,
+        "supported_air_power_w": 1135.4409220242753,
+        "hover_segments_wh": {
+          "round_trip_travel": 68.29723697716861,
+          "sampling_hover": 204.89171093150583
+        },
+        "supported_segments_wh": {
+          "round_trip_travel": 94.62007683535627,
+          "land_takeoff": 28.386023050606884,
+          "supported_sampling": 10,
+          "additional_overhead": 0
+        },
+        "hover_energy_wh": 273.18894790867444,
+        "supported_energy_wh": 133.00609988596315,
+        "saving_wh": 140.18284802271128,
+        "saving_percent_of_hover": 51.31351363071014,
+        "break_even_dwell_per_site_s": 84.21424797490002,
+        "supported_energy_lower": true,
+        "usable_battery_wh": 192,
+        "hover_within_energy_budget": false,
+        "supported_within_energy_budget": true,
+        "hover_accounted_duration_s": 1200,
+        "supported_accounted_duration_s": 1290,
+        "duration_note": "Subtotal; additional-overhead duration is unspecified if nonzero",
+        "operational_feasibility_established": false,
+        "observation_equivalence_verified": false
+      }
+    },
+    "long_route_energy_only_win": {
+      "inputs": {
+        "baseline_mass_kg": 8,
+        "added_support_mass_kg": 2,
+        "disk_area_m2": 0.8,
+        "loss_multiplier": 1.6,
+        "common_air_load_w": 25,
+        "supported_total_power_w": 40,
+        "travel_time_s": 1200,
+        "sites": 3,
+        "dwell_per_site_s": 300,
+        "transition_per_site_s": 30,
+        "additional_support_overhead_wh": 0,
+        "battery_nominal_wh": 240,
+        "battery_usable_fraction": 0.8,
+        "air_density_kg_m3": 1.225,
+        "gravity_m_s2": 9.81
+      },
+      "result": {
+        "baseline_ideal_induced_power_w": 496.60427732876457,
+        "supported_ideal_induced_power_w": 694.025576265172,
+        "baseline_air_power_w": 819.5668437260233,
+        "supported_air_power_w": 1135.4409220242753,
+        "hover_segments_wh": {
+          "round_trip_travel": 273.18894790867444,
+          "sampling_hover": 204.89171093150583
+        },
+        "supported_segments_wh": {
+          "round_trip_travel": 378.4803073414251,
+          "land_takeoff": 28.386023050606884,
+          "supported_sampling": 10,
+          "additional_overhead": 0
+        },
+        "hover_energy_wh": 478.08065884018026,
+        "supported_energy_wh": 416.86633039203195,
+        "saving_wh": 61.21432844814831,
+        "saving_percent_of_hover": 12.804184255571803,
+        "break_even_dwell_per_site_s": 205.771782459755,
+        "supported_energy_lower": true,
+        "usable_battery_wh": 192,
+        "hover_within_energy_budget": false,
+        "supported_within_energy_budget": false,
+        "hover_accounted_duration_s": 2100,
+        "supported_accounted_duration_s": 2190,
+        "duration_note": "Subtotal; additional-overhead duration is unspecified if nonzero",
+        "operational_feasibility_established": false,
+        "observation_equivalence_verified": false
+      }
+    },
+    "extra_80_wh_overhead": {
+      "inputs": {
+        "baseline_mass_kg": 8,
+        "added_support_mass_kg": 2,
+        "disk_area_m2": 0.8,
+        "loss_multiplier": 1.6,
+        "common_air_load_w": 25,
+        "supported_total_power_w": 40,
+        "travel_time_s": 300,
+        "sites": 3,
+        "dwell_per_site_s": 150,
+        "transition_per_site_s": 30,
+        "additional_support_overhead_wh": 80,
+        "battery_nominal_wh": 240,
+        "battery_usable_fraction": 0.8,
+        "air_density_kg_m3": 1.225,
+        "gravity_m_s2": 9.81
+      },
+      "result": {
+        "baseline_ideal_induced_power_w": 496.60427732876457,
+        "supported_ideal_induced_power_w": 694.025576265172,
+        "baseline_air_power_w": 819.5668437260233,
+        "supported_air_power_w": 1135.4409220242753,
+        "hover_segments_wh": {
+          "round_trip_travel": 68.29723697716861,
+          "sampling_hover": 102.44585546575291
+        },
+        "supported_segments_wh": {
+          "round_trip_travel": 94.62007683535627,
+          "land_takeoff": 28.386023050606884,
+          "supported_sampling": 5,
+          "additional_overhead": 80
+        },
+        "hover_energy_wh": 170.74309244292152,
+        "supported_energy_wh": 208.00609988596315,
+        "saving_wh": -37.26300744304163,
+        "saving_percent_of_hover": -21.82402046835274,
+        "break_even_dwell_per_site_s": 207.35955715859708,
+        "supported_energy_lower": false,
+        "usable_battery_wh": 192,
+        "hover_within_energy_budget": true,
+        "supported_within_energy_budget": false,
+        "hover_accounted_duration_s": 750,
+        "supported_accounted_duration_s": 840,
+        "duration_note": "Subtotal; additional-overhead duration is unspecified if nonzero",
+        "operational_feasibility_established": false,
+        "observation_equivalence_verified": false
+      }
+    }
+  },
+  "sweep_summary": {
+    "scenarios": 864,
+    "energy_lower": 272,
+    "energy_lower_and_supported_budget_pass": 130,
+    "interpretation": "Grid counts are not probabilities or evidence of real mission success"
+  }
+}
