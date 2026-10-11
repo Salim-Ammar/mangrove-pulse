@@ -27,6 +27,8 @@ The 79.3% transition-adjacency figure uses the audit's eight-neighbour rule and 
 
 The [Tarif hyperspectral qualification](TARIF_SCENE_QUALIFICATION.md), executed on 9 October, read channels from a quality-screened fixed window. The inspected crop shows open water. It establishes source access, but does not resolve H2-H4, demonstrate hyperspectral improvement or justify a site switch.
 
+The [source qualification](PROVENANCE.md#sensor-lineage-and-radiometry-qualification-12-october-2026) verifies the cached Sentinel processing baseline and distinguishes conditional common-scale NDVI equivalence from fully verified crop radiometry. It also documents GMW optical/SAR lineage, the exact newer vector representation and WorldCover's auxiliary dependence. Hyperspectral use is optional under the official challenge description; demonstrated improvement remains absent.
+
 <a id="external-physical-precedents--not-team-results"></a>
 
 ## External physical precedents (not team results)

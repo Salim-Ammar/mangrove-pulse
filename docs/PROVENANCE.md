@@ -1,5 +1,21 @@
 # Provenance and scope of reproduction
 
+## Sensor lineage and radiometry qualification (12 October 2026)
+
+The item metadata inside [the cached comparison ZIP](../data/Khor_Kalba_Date_Comparison_Results.zip) records processing baseline **02.12** for both Sentinel-2B dates; the B04/B08 asset paths also identify `N0212`, relative orbit `R020` and tile `T40RDN`. These are the exact cached products, not another reprocessing of the same acquisition.
+
+Copernicus [Level-2A documentation](https://sentiwiki.copernicus.eu/web/s2-products) describes surface-reflectance products and the additive BOA offset introduced with baseline 04.00. For unmodified pre-offset red/NIR values with a common multiplicative scale, that scale cancels in `(mean NIR - mean red) / (mean NIR + mean red)`: the ratio equals NDVI of the mean reflectances. This is not the mean of four pixel-level NDVI values. The [baseline source](../src/reference_baseline.py) averages four native pixels per band and rejects nonpositive, nonfinite or nodata subpixels before calculating the ratio. The archived comparison source preserves November 30 DN values during window extraction, filling masked values with zero; display stretching is separate.
+
+The cache does not retain the original baseline-02.12 product XML for either date or the complete first-date crop-extraction source. Exact product quantification and the first-date transformation chain are therefore not independently verified here. We retain the feature name **normalized red/NIR DN contrast**, with the common-scale NDVI equivalence conditional on those checks. Neither interpretation establishes mangrove identity, health or ecological change. The smallest remaining radiometry check is to obtain only the two exact product metadata files and qualify the original first-date crop preparation; no imagery reacquisition or threshold change is needed.
+
+GMW v3's annual maps use L-band SAR-based change mapping from the GMW v2.5 baseline, whose development combined optical and radar evidence. The source mosaics have 25 m spacing. Our optical 20 m diagnostic cells and the reference differ in measurement physics, spatial support and preparation; disagreements do not identify which source is wrong. See the [GMW v3 dataset](https://doi.org/10.5281/zenodo.6894273) and [methods paper](https://doi.org/10.3390/rs14153657).
+
+The separate comparison uses **GMW v4.1.12 2018 vector membership**, not an independently labelled 10 m truth image. The [versioned provider record](https://doi.org/10.5281/zenodo.21346457) describes a timeseries built from the v4.0 10 m baseline, optical classifications, L-band SAR evidence and temporal filtering. A baseline's resolution is not the diagnostic grid or proof of local accuracy. Shared lineage, product construction and vector-versus-raster sampling remain relevant transfer limits.
+
+The [WorldCover 2020 v100 manual, page 10](https://esa-worldcover.s3.eu-central-1.amazonaws.com/v100/2020/docs/WorldCover_PUM_V1.0.pdf#page=10) explicitly includes GMW among auxiliary datasets used in expert rules that modulate class probabilities. WorldCover's later date and shared auxiliary lineage prevent treating its mangrove class as independent November 2018 truth.
+
+The [official hackathon description](https://spaceacademy-hackathons.space.gov.ae/) permits multiple EO data types and describes demonstrated hyperspectral added value as a bonus rather than a requirement. Our Tarif qualification shows bounded spectral-data access, not a mangrove improvement; it does not establish that bonus result.
+
 ## Notebook presentation revision (10 October 2026)
 
 `Mangrove_Pulse_Review.ipynb` is the main output-bearing reading copy. Its Markdown explains the recorded 7 October run; code, embedded inputs, execution counts and outputs remain from that run. The executed notebook also has presentation-only Markdown revisions. Neither copy is a new execution or incorporates later code repairs into the historical run.

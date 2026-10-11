@@ -84,6 +84,8 @@ The [water-contact rationale](docs/WATER_CONTACT_RATIONALE.md) uses official his
 
 The [Tarif hyperspectral qualification](docs/TARIF_SCENE_QUALIFICATION.md), executed on 9 October, read surface-reflectance channels using 2.22 MB of imagery rather than downloading the full 1.11 GB cube. The fixed window shows open water. It demonstrates bounded data access, but provides no mangrove-accuracy result, hyperspectral improvement or evidence of drone or ecological performance. The executed notebook, figure and reusable cache are included. Kalba remains the primary demonstration; older notebooks retain their original scope.
 
+The [official challenge description](https://spaceacademy-hackathons.space.gov.ae/) treats demonstrated hyperspectral added value as a bonus, not an eligibility requirement. This qualification alone does not establish that added value.
+
 Published aircraft tests are discussed separately in the [external tradeoff review](docs/CONNECTED_CONCEPT_ASSESSMENT.md#measured-third-party-tradeoffs).
 
 The [saved Colab scenarios](examples/inspection/energy_scenario_excerpt.json) compare hover and water-supported sensing under hypothetical inputs. The [symbolic audit](docs/SYMBOLIC_RESOURCE_GATES.md) derives the general conditions. Both are analytical comparisons; neither validates the aircraft inputs.
@@ -207,7 +209,9 @@ Run these commands in Colab, from the repository root with a fresh, empty output
 
 Provisional WGS84 window: `[56.350, 24.986, 56.374, 25.006]`; this is not an official reserve boundary. Sentinel-2B L2A dates: November 20 and 30, 2018; tile 40RDN, orbit 20, baseline 02.12. Exact item identifiers and source metadata are in the input ZIP. GMW v3 2018: [dataset DOI](https://doi.org/10.5281/zenodo.6894273). We retain this version for the frozen historical experiment, without claiming it is the newest or locally best reference.
 
-Use a 20 m EPSG:32640 diagnostic grid (13,401 AOI centres, 1,158 GMW positives). Average four valid native 10 m B04/B08 pixels per cell; compute normalized raw red/NIR digital-value contrast. This is not asserted calibrated NDVI or a health index. SCL classes 4/5/6 are eligible, retaining water.
+Use a 20 m EPSG:32640 diagnostic grid (13,401 AOI centres, 1,158 GMW positives). Average four valid native 10 m B04/B08 pixels per cell; compute normalized raw red/NIR digital-value contrast. Baseline 02.12 predates the later BOA additive offset; common-scale NDVI equivalence is conditional on the remaining product/crop checks described in [radiometry qualification](docs/PROVENANCE.md#sensor-lineage-and-radiometry-qualification-12-october-2026). The feature is not a health diagnosis. SCL classes 4/5/6 are eligible, retaining water.
+
+GMW v3's 2018 mapping uses L-band SAR change detection from an optical/radar baseline at a different spatial support. Sensor response, resolution and alignment may contribute to disagreement with this optical baseline; their contributions have not been isolated. [Source lineage and primary methods](docs/PROVENANCE.md#sensor-lineage-and-radiometry-qualification-12-october-2026).
 
 Calibrate in the north (northing ≥ 2,764,750 m), evaluate in the south (≤ 2,764,550 m), with a 200 m gap. Choose the northern November 20 F1-maximizing threshold from -1 to 1 in 0.01 steps, choosing the higher threshold for ties. Frozen threshold: **0.49**. Apply unchanged on November 30. The gap does not prove spatial independence; the inspected southern set is no longer fresh for future tuning.
 
