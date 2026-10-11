@@ -207,6 +207,14 @@ The [original source notebook](Mangrove_Pulse.ipynb) has no stored outputs; the 
 
 Run these commands in Colab, from the repository root with a fresh, empty output directory. Setting Agg before launching the child avoids an inherited inline-backend setting in environments without the inline module. The integrated notebook handles setup, reproduction, metadata tests, display and export. The 11 October run verified cb4b400 through its unchanged seven analysis cells. The [12 October check](docs/REVIEW_CHECKS_20261012.md) also successfully cloned, installed and ran the standalone route at a5131ce, matching the frozen baseline and audit. Later documentation and execution-evidence additions are not reruns of that candidate.
 
+The software tests run from the repository root:
+
+```sh
+python -m unittest discover -s tests -v
+```
+
+The suite checks synthetic equations, reference-sensitivity helpers and inspection-template metadata. Each test file also runs independently. These tests do not collect observations or establish field accuracy, aircraft performance or ecological benefit.
+
 ## Data and method
 
 Provisional WGS84 window: `[56.350, 24.986, 56.374, 25.006]`; this is not an official reserve boundary. Sentinel-2B L2A dates: November 20 and 30, 2018; tile 40RDN, orbit 20, baseline 02.12. Exact item identifiers and source metadata are in the input ZIP. GMW v3 2018: [dataset DOI](https://doi.org/10.5281/zenodo.6894273). We retain this version for the frozen historical experiment, without claiming it is the newest or locally best reference.

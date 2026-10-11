@@ -1,7 +1,11 @@
 """Synthetic equation/domain verification only; not aircraft or field tests."""
 import math
 import unittest
+from pathlib import Path
+import sys
 
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / 'src'))
 from supported_sensing_envelope import (
     accepted_resource_comparison, dwell_advantage_interval,
     restoring_coefficient, static_envelope, unknown_design_assessment,
