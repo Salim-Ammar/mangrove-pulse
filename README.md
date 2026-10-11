@@ -22,7 +22,7 @@ Read the [results notebook](Mangrove_Pulse_Review.ipynb), then [C001's evidence 
 
 - [Overview](#overview)
 - [Completed, proposed and future work](#completed-proposed-and-future-work)
-- [Clear drone tradeoffs](#clear-drone-tradeoffs)
+- [Conditional drone tradeoffs](#conditional-drone-tradeoffs)
 - [Team and contributors](#team-and-contributors)
 - [Repository structure](#repository-structure)
 - [Notebook guide](#notebook-guide)
@@ -43,9 +43,7 @@ Mangrove Pulse helps analysts review uncertain satellite evidence about mangrove
 
 The [claim-to-evidence map](docs/CLAIM_EVIDENCE_MAP.md) links each result to its evidence and explains what still needs testing.
 
-For a concise account of the results and their limits, read [what the PoC establishes](docs/WHAT_THE_POC_ESTABLISHES.md).
-
-The [results and limits](docs/WHAT_THE_POC_ESTABLISHES.md) separate demonstrated software and reference-map findings from the claims that still need field evidence.
+For a concise account of demonstrated results and claims still needing field evidence, read [what the PoC establishes](docs/WHAT_THE_POC_ESTABLISHES.md).
 
 We designed the briefs for analysts deciding what evidence an ambiguous patch needs next. We have not yet tested them with a monitoring team or secured a field partner or site access. The demonstration uses 2018 imagery and does not recommend intervention today.
 
@@ -77,7 +75,7 @@ The [historical Kalba workbook](docs/HISTORICAL_KALBA_FIELD_CONTEXT.md) contains
 
 The [water-contact rationale](docs/WATER_CONTACT_RATIONALE.md) uses official historical water-property evidence to motivate a separate conductivity/temperature question and compare collection methods. A successful free-Colab run supplies [24 September 2026 site context](docs/DATED_EO_CONTEXT.md): provider TCI imagery, native 20 m SCL labels and a reusable crop cache. These products describe display and quality context, not field cover, chemical measurements or ecological change. The [question contract](examples/inspection/water_context_question.json) has no assigned stations or collected observations. EnMAP data access returned a login page rather than imagery.
 
-## Clear drone tradeoffs
+## Conditional drone tradeoffs
 
 The [Tarif hyperspectral qualification](docs/TARIF_SCENE_QUALIFICATION.md), executed on 9 October, read surface-reflectance channels using 2.22 MB of imagery rather than downloading the full 1.11 GB cube. The fixed window shows open water. It demonstrates bounded data access, but provides no mangrove-accuracy result, hyperspectral improvement or evidence of drone or ecological performance. The executed notebook, figure and reusable cache are included. Kalba remains the primary demonstration; older notebooks retain their original scope.
 
@@ -85,13 +83,15 @@ Published aircraft tests are discussed separately in the [external tradeoff revi
 
 The [saved Colab scenarios](examples/inspection/energy_scenario_excerpt.json) compare hover and water-supported sensing under hypothetical inputs. The [symbolic audit](docs/SYMBOLIC_RESOURCE_GATES.md) derives the general conditions. Both are analytical comparisons; neither validates the aircraft inputs.
 
-The examples assume an 8 kg aircraft and payload, 2 kg of added support, three tasks, 300 seconds of travel and 30 seconds of extra airborne transition per task. Observation quality is assumed equal, and the usable battery budget is 192 Wh. Rotor area, power, loss factor and supported load are hypothetical. These tasks are separate from the 85 historical cell centres and do not define authorized stations.
+The examples assume an 8 kg aircraft and payload, 2 kg of added support, three tasks, 300 seconds of travel and 30 seconds of extra airborne transition per task. Observation quality is assumed equal. The battery is 240 Wh nominal with an assumed usable fraction of 0.8, giving 192 Wh. These tasks are separate from the 85 historical cell centres and do not define authorized stations.
+
+The [saved inputs](examples/inspection/energy_scenario_excerpt.json) specify 0.8 m² total rotor disk area, air density 1.225 kg/m³, gravity 9.81 m/s², an uncalibrated loss multiplier of 1.6, a common airborne load of 25 W and total supported draw of 40 W. The [model](examples/inspection/energy_source/sampling_energy_model.py) uses ideal induced power `(m*g)^1.5 / sqrt(2*rho*A)`, then multiplies it by 1.6 and adds 25 W. This gives about 819.567 W at 8 kg and 1,135.441 W at 10 kg. The additive load means total power does not scale exactly as mass to the 1.5 power. All design and mission inputs are hypothetical; travel is charged at this static power estimate, not a measured forward-flight curve.
 
 | Saved scenario | Hover energy | Supported energy | Accounted hover / supported time | Conditional design consequence |
 |---|---:|---:|---:|---|
 | 30 seconds dwell per task | 88.786 Wh | 124.006 Wh | 390 / 480 s | Support loses on modeled energy and time at equal acceptance. |
 | 150 seconds dwell per task | 170.743 Wh | 128.006 Wh | 750 / 840 s | Support saves about 25.03% modeled energy but takes 90 seconds longer. This is a tradeoff, not overall superiority. |
-| 150 seconds dwell plus 80 Wh extra support overhead | 170.743 Wh | 208.006 Wh | 750 / 840 s accounted subtotal; extra duration unspecified | Support loses the energy comparison and exceeds the assumed battery budget; full duration is unresolved. |
+| Energy-only sensitivity: 150 seconds dwell plus 80 Wh extra support overhead | 170.743 Wh | 208.006 Wh | 750 / 840 s accounted subtotal; extra duration unspecified | Support loses the energy comparison and exceeds the assumed battery budget. This is not a complete mission-time comparison. |
 
 With zero extra energy overhead, the model breaks even at 84.214 seconds of dwell per task. This is a model boundary, not a sensor requirement. The illustrative 150-second dwell has no measurement-protocol justification. A manufacturer's response time does not establish how long a field observation takes to pass acceptance checks, so dwell must be measured rather than chosen to favor a platform.
 
@@ -111,13 +111,13 @@ See the [project origin](docs/PROJECT_ORIGIN.md) for the division between concep
 ## Repository structure
 
 ```text
-submission/
+mangrove-pulse/
 ├── README.md                         Project overview and navigation
 ├── Mangrove_Pulse_Review.ipynb        Reading copy with real saved outputs
 ├── Mangrove_Pulse_End_to_End_Executed.ipynb  Actual saved Colab execution
 ├── Mangrove_Pulse_End_to_End.ipynb    Smaller integrated source entry point
 ├── Mangrove_Pulse.ipynb              Original workflow, revised explanations
-├── requirements.txt                 Pinned scientific dependencies
+├── requirements.txt                 Pinned baseline/audit dependencies
 ├── data/                            Cached example inputs
 ├── src/                             Analysis and handoff code
 ├── tests/                           Software and metadata tests
@@ -162,9 +162,6 @@ Original execution records retain their recorded prose and outputs. The main rea
 - [Dated EO context](docs/DATED_EO_CONTEXT.md): actual 24 September 2026 figures, report, source/specification and small native cache, retained unchanged with their returned manifest. Review these saved artifacts without rerunning acquisition; historical cover review, contemporary photography and contact-water research remain distinct.
 - [Cache-only replay companion](supplementary/Mangrove_Pulse_Offline_Context_Replay.ipynb): actual free-CPU Colab run passed 28 cache/schema/mask/count checks and exported a [new small report](supplementary/Mangrove_Pulse_Offline_Context_Replay_Report.zip), without another imagery request or repeated image/cache download. Its local source notebook remains unexecuted; actual run evidence and hosted link are documented separately. This is descriptive reproducibility, not independent validation.
 - [Supported-sensing envelope source](supplementary/Mangrove_Pulse_Supported_Sensing_Envelope.ipynb), [actual executed companion](supplementary/Mangrove_Pulse_Supported_Sensing_Envelope_Executed.ipynb) and [results ZIP](supplementary/Mangrove_Pulse_Supported_Sensing_Envelope_Results.zip): free-CPU Colab run completed 8 October with 26 passing synthetic tests, conditional buoyancy/lift/restoring-sign/resource screens and explicit counterexamples. [Static source checks](evidence/supported_envelope_source_review.json) and [returned-artifact verification](evidence/supported_envelope_colab_review.json) are separate. No hardware inputs or observations are invented, and no flight or ecological claim is established.
-- [Mangrove_Pulse_End_to_End_Executed.ipynb](Mangrove_Pulse_End_to_End_Executed.ipynb): actual successful Colab execution of the integrated review, including its input snapshot, seven executed cells, six figures and real output records. [Run evidence](evidence/final_colab_review.json) distinguishes reproduction from saved supplementary context and unvalidated drone claims.
-- [Mangrove_Pulse_End_to_End.ipynb](Mangrove_Pulse_End_to_End.ipynb): smaller source entry point with the same seven analysis/export code bodies; its portable counterpart supplied the verified inputs during the recorded execution.
-- [Mangrove_Pulse.ipynb](Mangrove_Pulse.ipynb): original baseline/audit code with revised explanatory Markdown and no stored outputs.
 - `src/`: the two executed analysis engines and the reproducibility runner.
 - `data/Khor_Kalba_Date_Comparison_Results.zip`: exact cached example input with small crops, metadata and GMW mask.
 - `examples/`: recorded baseline/audit results, plots, tables and case metadata.
@@ -172,7 +169,6 @@ Original execution records retain their recorded prose and outputs. The main rea
 - Inspection briefs for [C001](docs/C001_INSPECTION_BRIEF.md), [C017](docs/C017_INSPECTION_BRIEF.md) and [C027](docs/C027_INSPECTION_BRIEF.md): recorded evidence, updated reference context, proposed observation requests and unresolved review fields.
 - [Structured inspection requests](examples/inspection/inspection_requests.json), [85-centre GeoJSON](examples/inspection/inspection_targets.geojson), [blank observation returns](examples/inspection/observation_return_template.json) and a [no-upload Colab exporter](supplementary/Mangrove_Pulse_Inspection_Handoff.ipynb). These are historical evidence targets, never flight waypoints or landing sites. Exporter execution in Colab remains unverified.
 - [Logic and next-step audit](docs/POC_LOGIC_AND_NEXT_STEP.md): case-to-question mappings, primary-source constraints, explicit rejection tests for the proposed drone and final delivery gates. The recorded integrated execution passed 14 standard-library handoff tests. A subsequent current-checkout schema fix passed 17 local metadata tests; [scope and snapshot limits](docs/DRONE_KHOR_KALBA_HANDOFF.md#current-checkout-schema-hardening--9-october). Neither result establishes ecological or aircraft feasibility.
-- [C001 Colab review notebook](docs/C001_INSPECTION_BRIEF.ipynb): a reading companion with project and team details, embedded figures, source links and the exact 11-cell register. It needs no analysis run or dataset upload. Use the current Markdown brief for the acceptance and decision contract; the companion retains its earlier content.
 - [Reference sensitivity](docs/REFERENCE_SENSITIVITY.md): the separate completed Colab comparison, maps, returned tables, methods, limitations and optional supplementary notebook.
 - [Stakeholder-feedback guide](docs/STAKEHOLDER_FEEDBACK.md): a proposed three-person review process. No feedback or stakeholder validation is claimed as completed.
 
@@ -180,7 +176,7 @@ Original execution records retain their recorded prose and outputs. The main rea
 
 The [11 October release verification](docs/RELEASE_VERIFICATION_20261011.md) reproduced `cb4b400` in a fresh Colab runtime. [View its executed notebook](supplementary/Mangrove_Pulse_Release_cb4b400_Executed.ipynb), [open it in Colab](https://colab.research.google.com/drive/1DSr8g_p2pEhOVD4bVvGkW1hhB8l9VLMb), or [download the verified results and logs](evidence/release_cb4b400_results.zip). The run checked 178 input hashes, matched the baseline and audit, and passed 17 handoff-format tests. The executed Colab copy opened without signing in.
 
-Start with the [results reading notebook](Mangrove_Pulse_Review.ipynb) to inspect the saved outputs. It retains the code and exact 109-file input snapshot from the successful 7 October run, before later documentation and execution-evidence additions. The [executed notebook](Mangrove_Pulse_End_to_End_Executed.ipynb) retains its run outputs with presentation-only Markdown edits. The [smaller source notebook](Mangrove_Pulse_End_to_End.ipynb) uses a current checkout or supplied repository ZIP.
+Start with the [results reading notebook](Mangrove_Pulse_Review.ipynb) to inspect the saved outputs. It retains the code and exact 109-file input snapshot from the successful 7 October run, before later documentation and execution-evidence additions. The 109 and 178 counts describe different repository snapshots, not evaluation cells; their hashes and dates are in the [verification record](docs/RELEASE_VERIFICATION_20261011.md#what-ran). The [executed notebook](Mangrove_Pulse_End_to_End_Executed.ipynb) retains its run outputs with presentation-only Markdown edits. The [smaller source notebook](Mangrove_Pulse_End_to_End.ipynb) uses a current checkout or supplied repository ZIP.
 
 The integrated notebook installs pinned packages in an isolated environment and sets the child plotting backend to Agg. It reproduces the baseline and audit, displays saved reference and energy context, checks request/blank-return metadata for 85 historical centres and exports templates. It creates a uniquely named results or diagnostic ZIP for download; `status: succeeded` indicates a completed run. The 7 October CPU run succeeded, and the downloaded notebook contains execution counts 1-7, six PNG outputs and no errors. Its reported results ZIP was not recovered before that runtime ended, so its local integrity remains unverified. The separate 11 October reproduction above has a verified results ZIP. Allow about 1 GB of storage for dependencies and outputs. The workflow needs no EO acquisition, although installation and optional remote imagery require internet.
 
@@ -188,7 +184,9 @@ The assembled workflow passed cached reproduction on 28 September 2026; its [che
 
 ### Installation and commands
 
-The preserved baseline/audit environment used Python 3.13.15 with the direct package versions in [requirements.txt](requirements.txt). The fresh 11 October verification used Python 3.13.16. Environment creation and dependency installation took 14.3315 seconds; baseline and audit reproduction took 8.1099 seconds. These timings apply to that runtime. A separate kernel-restart test has not been established.
+The root [requirements.txt](requirements.txt) pins the three direct baseline/audit packages, not every supplementary study or transitive dependency. The [reference-context notebook](supplementary/Mangrove_Pulse_Reference_Context.ipynb) declares its own isolated package set, including a different Rasterio pin. The [SymPy source](supplementary/Mangrove_Pulse_SymPy_Resource_Audit.ipynb) requests SymPy 1.14.0 if SymPy is absent. Follow each study's setup rather than merging its environment into the baseline.
+
+The preserved baseline/audit environment used Python 3.13.15; the fresh 11 October verification used Python 3.13.16. These are recorded runtime versions, not Python constraints enforced by requirements.txt. The [verification record](docs/RELEASE_VERIFICATION_20261011.md) links the full installed-package list and logs. Environment creation and dependency installation took 14.3315 seconds; baseline and audit reproduction took 8.1099 seconds. These timings apply to that runtime. A separate kernel-restart test has not been established.
 
 The original source notebook has empty stored outputs. The portable integrated notebook records the successful 7 October execution in an isolated pinned environment. The following current-checkout alternative has not been executed end to end; it is not covered by that archived run. To try it in Colab, extract the repository and use:
 
@@ -222,9 +220,11 @@ Calibrate in the north (northing ≥ 2,764,750 m), evaluate in the south (≤ 2,
 | Excluded cells | 468 | 811 |
 | Excluded GMW-positive cells | 87 | 86 |
 
-Northern calibration F1 is 0.6652. On the matched-date subset of 5,211 cells, F1 is 0.8921 / 0.8906; full-date scores use different eligible populations. The always-negative control reaches 90.34% overall agreement on November 20 but has zero positive-class F1, which is why overall agreement alone is insufficient.
+Northern calibration F1 is 0.6652, compared with 0.8864 in the south on November 20. These are different spatial populations: the north has 5,618 eligible cells, 436 mapped positives and TP/FP/FN/TN of 312/190/124/4,992. The south has fewer false positives and false negatives at the frozen threshold. The [saved baseline summary](examples/baseline/baseline_summary.json) records both populations. Their different cover composition and image/reference characteristics may contribute to the gap, but its cause has not been isolated. The higher southern score does not establish regional generalization or independent field accuracy.
 
-The November 20 audit has 121 disagreements and 87 excluded GMW-positive cells in 36 clusters. Of 121 disagreements, 96 (79.3%) touch a GMW label transition; this is not an established cause or positional-error estimate. November 30 retains 111 disagreements, resolves 2 to agreement and excludes 8.
+On the matched-date subset of 5,211 cells, F1 is 0.8921 / 0.8906; full-date scores use different eligible populations. The always-negative control reaches 90.34% overall agreement on November 20 but has zero positive-class F1, which is why overall agreement alone is insufficient.
+
+The [saved November 20 audit](examples/audit/audit_summary.json) has 121 disagreements and 87 excluded GMW-positive cells in 36 clusters. Of 121 disagreements, 96 (79.3%) touch a GMW label transition; this is not an established cause or positional-error estimate. November 30 retains 111 disagreements, resolves 2 to agreement and excludes 8.
 
 ![Recorded southern audit](examples/audit/audit_overview.png)
 
@@ -250,7 +250,7 @@ The contribution is a review workflow that makes disagreements and exclusions in
 
 C001 (11 cells) overlaps a vegetation edge; C017 (32 cells) crosses mixed/open cover; C027 (42 cells) follows a channel margin with quality exclusions. See [the three-case table](docs/CASES.md). These were selected as the largest cluster per audit category, not by damage or urgency.
 
-Near-date GE01 imagery metadata is confirmed at three exact points: capture October 5, 2018; source resolution 1.2 m; stated accuracy 8.47 m. The archive release is October 14, 2020, which is not the capture date. Qualitative review did not assign individual-cell truth labels. The repository records the metadata and review findings; the imagery remains with its provider.
+The [saved Wayback metadata](examples/review/confirmed_metadata.json) identifies GE01 at three exact points, with capture October 5, 2018, provider-reported imagery resolution 1.2 m and stated accuracy 8.47 m. The 1.2 m value is a metadata field, not an independently verified native sensor resolution. The archive release is October 14, 2020, which is not the capture date. Qualitative review did not assign individual-cell truth labels; imagery remains with its provider.
 
 ## Limitations and next gate
 

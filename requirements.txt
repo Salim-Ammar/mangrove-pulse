@@ -1,4 +1,5 @@
-# Versions observed in the successful baseline and audit runs.
+# Direct baseline/audit packages; supplementary notebooks declare separate setup.
+# Python runtime and full installed-package versions are recorded in run evidence.
 # Original assembled cached reproduction passed on 2026-09-28.
 numpy==2.1.3
 rasterio==1.5.1

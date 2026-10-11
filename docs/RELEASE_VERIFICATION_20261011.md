@@ -10,6 +10,8 @@ The team reproduced release `cb4b400dd67aa79c7f5800006a14db4637926467` in a fres
 
 The wrapper adds input extraction, timing and environment records around the seven unchanged analysis cells. It recomputed the baseline and audit. It displayed the separate reference-map context and hypothetical drone-energy examples from saved results; those examples were not recomputed.
 
+The 178 verified input files belong to release `cb4b400`, not the 109 hashed payload files in the portable snapshot embedded in the earlier 7 October notebook. The older archive also contains its manifest, which is not one of those 109 hashed payloads. That snapshot has SHA-256 `3a861ebc54c85dc3216c4ea799bc5e74cd6b6e51236ca97b1a94487096ece43c`; the 11 October input release has SHA-256 `28aa20c925b8ddccf327f30e5e1408e716aa397960e7e7b7e1da7b2ddff6ccc6`. They identify different repository snapshots, not different pixel counts. The results ZIP's `review_status.json` records the fresh run on 11 October 2026 from 09:40:20 to 09:41:12 UTC. The older files under `evidence/verified_run/` document the separate 28 September reproduction.
+
 Python was 3.13.16, with NumPy 2.1.3, Matplotlib 3.10.0 and Rasterio 1.5.1. The ZIP includes the full package list and command logs.
 
 | Operation | Wall time |

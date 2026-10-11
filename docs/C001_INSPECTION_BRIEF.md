@@ -42,7 +42,7 @@ The outlines mark the original case centres. Read the legend and dates: the colo
 
 ## Evidence needed (PROPOSED)
 
-GE01 metadata at the locator records a 5 October 2018 capture, 1.2 m source resolution, 8.47 m stated positional accuracy and a 14 October 2020 archive release. The capture is 46 and 56 days before the Sentinel dates. This metadata is confirmed at one point; full-cluster metadata and relative alignment remain unmeasured. The [saved response](../evidence/metadata/C001_2020-10-14_response.json) contains the query result.
+GE01 metadata at the locator records a 5 October 2018 capture, 1.2 m provider-reported imagery resolution, 8.47 m stated positional accuracy and a 14 October 2020 archive release. The resolution field does not independently verify native sensor resolution. The capture is 46 and 56 days before the Sentinel dates. This metadata is confirmed at one point; full-cluster metadata and relative alignment remain unmeasured. The [saved response](../evidence/metadata/C001_2020-10-14_response.json) contains the query result.
 
 The [earlier qualitative review](../examples/review/case_reviews.json) describes cells along a vegetation edge and over canopy-like texture in the team's basemap views. These descriptions remain unverified as mangrove labels; this brief does not record a fresh image review.
 

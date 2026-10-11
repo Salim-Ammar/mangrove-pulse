@@ -23,7 +23,7 @@ The baseline applies threshold 0.49 to raw-DN red/NIR contrast. This is not cali
 
 ![C017 reference comparison and later-date context](../examples/reference_context/C017_reference_context.png)
 
-The team's earlier basemap review described patchy vegetation and lighter open cover. GE01 metadata at one case locator reports a 5 October 2018 capture, 1.2 m source resolution and 8.47 m positional accuracy. Metadata across the full cluster and relative layer alignment remain unmeasured. See the [case register](CASES.md) and [metadata response](../evidence/metadata/C017_2020-10-14_response.json).
+The team's earlier basemap review described patchy vegetation and lighter open cover. GE01 metadata at one case locator reports a 5 October 2018 capture, 1.2 m imagery resolution and 8.47 m positional accuracy. The provider's resolution field does not independently verify native sensor resolution. Metadata across the full cluster and relative layer alignment remain unmeasured. See the [case register](CASES.md) and [metadata response](../evidence/metadata/C017_2020-10-14_response.json).
 
 <a id="evidence-request--proposed"></a>
 

@@ -10,7 +10,7 @@ The briefs for [C001](C001_INSPECTION_BRIEF.md), [C017](C017_INSPECTION_BRIEF.md
 | [C017](C017_INSPECTION_BRIEF.md) | 32 | Prediction negative / GMW mapped | Cells cross patchy vegetation and lighter open cover. | Sparse or mixed cover is plausible; not 32 confirmed missed mangrove cells. Independent dated canopy labels; account for mixed cells. |
 | [C027](C027_INSPECTION_BRIEF.md) | 42 | Quality-excluded / GMW mapped | Long strip follows a dark channel and vegetation margin. | Quality and coverage gap; screening cause and cell cover remain unresolved. Review SCL, independent cover labels and alignment; do not assign a tidal cause. |
 
-GE01 source capture: 2018-10-05, 46/56 days before the Sentinel dates. Source resolution 1.2 m; stated positional accuracy 8.47 m. Archive: 2020-10-14 / release 119. Metadata is confirmed at one exact audit-cell centre per case, not every displayed cell. Relative alignment is unmeasured. Provider absolute accuracy is not an alignment correction.
+GE01 source capture: 2018-10-05, 46/56 days before the Sentinel dates. Provider-reported imagery resolution is 1.2 m; stated positional accuracy is 8.47 m. The resolution field does not independently verify native sensor resolution. Archive: 2020-10-14 / release 119. Metadata is confirmed at one exact audit-cell centre per case, not every displayed cell. Relative alignment is unmeasured. Provider absolute accuracy is not an alignment correction.
 
 <a id="reference-sensitivity-supplement--reviewed-2-october-2026"></a>
 

@@ -28,7 +28,7 @@ The baseline reproduction repeats the original deterministic northern-only selec
 
 The assembled runner uses fresh output directories. The original case checks predate visual review; [CASES.md](CASES.md) and the case-review records retain the qualified observations.
 
-Observed Python for baseline/audit: 3.13.15; NumPy 2.1.3, Rasterio 1.5.1, Matplotlib 3.10.0. These versions are pinned for reproduction. The original assembled cached run passed; this does not guarantee installation in every future runtime. Provider changes can affect browser basemap loading. No new screenshots, field labels or ecological validation were produced during this documentation revision.
+Observed Python for baseline/audit: 3.13.15; NumPy 2.1.3, Rasterio 1.5.1, Matplotlib 3.10.0. The three direct package versions are pinned in requirements.txt; the Python patch version is an environment observation, not enforced by that file. The original assembled cached run passed; this does not guarantee installation in every future runtime. Provider changes can affect browser basemap loading. No new screenshots, field labels or ecological validation were produced during this documentation revision.
 
 The source archive hashes identify the original inputs. `SHA256SUMS.json` covers the repository files. Verification uses file hashes, JSON/CSV values and syntax checks, not a new satellite analysis.
 
