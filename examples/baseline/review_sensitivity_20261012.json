@@ -1,0 +1,100 @@
+{
+  "status": "succeeded_exploratory_sensitivity",
+  "scope": "GMW reference agreement, not independent cover accuracy or a causal edge diagnosis",
+  "edge_definition": "Any of eight neighbouring 20 m cells has a different 0/1 GMW value; outside-AOI 255 ignored.",
+  "edge_populations": {
+    "all_eligible_south": {
+      "cells": 5653,
+      "edge_cells": 334,
+      "edge_fraction": 0.05908367238634354
+    },
+    "disagreements": {
+      "cells": 121,
+      "edge_cells": 96,
+      "edge_fraction": 0.7933884297520661
+    },
+    "agreements": {
+      "cells": 5532,
+      "edge_cells": 238,
+      "edge_fraction": 0.04302241503976862
+    }
+  },
+  "original": {
+    "threshold": 0.49,
+    "north_calibration": {
+      "tp": 312,
+      "fp": 190,
+      "fn": 124,
+      "tn": 4992,
+      "precision": 0.6215139442231076,
+      "recall": 0.7155963302752294,
+      "f1": 0.6652452025586354,
+      "iou": 0.4984025559105431
+    },
+    "south_evaluation": {
+      "tp": 472,
+      "fp": 47,
+      "fn": 74,
+      "tn": 5060,
+      "precision": 0.9094412331406551,
+      "recall": 0.8644688644688645,
+      "f1": 0.8863849765258216,
+      "iou": 0.7959527824620574
+    }
+  },
+  "reverse_exploratory": {
+    "threshold": 0.44999999999999996,
+    "south_calibration": {
+      "tp": 480,
+      "fp": 55,
+      "fn": 66,
+      "tn": 5052,
+      "precision": 0.897196261682243,
+      "recall": 0.8791208791208791,
+      "f1": 0.8880666049953746,
+      "iou": 0.7986688851913477
+    },
+    "north_evaluation": {
+      "tp": 317,
+      "fp": 211,
+      "fn": 119,
+      "tn": 4971,
+      "precision": 0.6003787878787878,
+      "recall": 0.7270642201834863,
+      "f1": 0.6576763485477178,
+      "iou": 0.4899536321483771
+    }
+  },
+  "limitations": [
+    "Both halves were already inspected; reversing them does not create an untouched holdout.",
+    "Cellwise edge proportions are descriptive and spatially dependent, not independent trials.",
+    "Different cover composition, source lineage and registration can affect agreement; this test does not isolate cause."
+  ],
+  "input_sha256": {
+    "2018-11-20_predictions.tif": "fffae476fdf82fab35ba46a6cb9af39afc5b430eec2741a472acd8dd9ac22d67",
+    "2018-11-30_predictions.tif": "4b348088476a9cc07aea28f894f30aebb1633453af78df2170dbd6329247341c",
+    "ATTRIBUTION.md": "acc3316e856b1b95657ffc05452b1b1bdd6ae76df50c8bcb64a799bb318c62d8",
+    "baseline_inspection.png": "09c2401bff0a81ccf313af692fa659eb437a56238b3515ac3f3e443eda0ffa4f",
+    "baseline_summary.json": "d7ff718de2b031fc440011e59d63a3d01bb1bf5faf6d9bb32a23f17658bb5123",
+    "calibration_thresholds.csv": "c56da5eb2aab85fbfb8bb7cc9c8e49c55f50d068514e9ea02c9d4b44faf642f2",
+    "environment.json": "b6211e38972512d4b04165e70ca672617464c2950be723d61ffc2551c02d557b",
+    "frozen_experiment_plan.json": "4b7e92ff7af7167d8cadc59e97cfd1b7d3f09cf714afa975981f32bf509a293f",
+    "frozen_threshold.json": "9036a0b00cc26e7ac057d041d44d1e619da3369b13e6d7a9704f0b886183f970",
+    "geographic_split.tif": "9ce3bbb9e4513cd524715ed2740a52dee237e87d182d733da0d833c382157b10",
+    "inputs/ATTRIBUTION.md": "5d344a237e302a57264317c885ea44fdef0d297867c7773066cf92326759f561",
+    "inputs/comparison_summary.json": "bb02b1a057a8a7384657adfb15184f93f32ae0ecb4d115cc39e894e94ccfab93",
+    "inputs/nov30_crops/B04_crop.tif": "21d72395f501a085d3ce760ab390c5a5865b43b12a696303b92944d0f4abaf2f",
+    "inputs/nov30_crops/B08_crop.tif": "0331331650971e432c9ae590b515529603d1fe19d7a12b6421903c00d5980c86",
+    "inputs/nov30_crops/SCL_crop.tif": "e4bd4600335930b91539c29dbbe30cd5ca248dfd4facfbc913b8a45e80009619",
+    "inputs/nov30_item_unsigned.json": "36cf9084618f8245b3be0b74935701b43fd6079b88644fb35100381498379283",
+    "inputs/previous/gmw2018_on_scl_grid.tif": "5613133dcd81fc4961bc8a4152afd127b8a0a250869b37dd5465c0aeb1fd63e0",
+    "inputs/previous/input_crops/B04_crop.tif": "aaf26d53a259fd93af635e2bc451968ec9e3b31b64cb9d46fa196984aaba03f0",
+    "inputs/previous/input_crops/B08_crop.tif": "22b6c7c71eb05eaf86b449b354f17518bd192488ca9a6a82f074d6aa566bc29b",
+    "inputs/previous/input_crops/SCL_crop.tif": "72354f5140a6ae8fa5305d880a55585c904faa47dda5fc7c1200f277996298f3",
+    "inputs/previous/input_crops/item_unsigned.json": "22dec006c240ef34b05c406be4c725fa294f1523500d81e4a2c115b7443a2947",
+    "inputs/previous/input_manifest.json": "de2aa3c61ced2997cb282f3dc4468272dec86c44bf5f786194b18c7e86e26b83",
+    "inputs/run_status.json": "223da80d57909449a45819f36f77d93d9f9c452c7f8e684fee9c759ab69d23a2",
+    "run_status.json": "aa4b0edea9824f737b9e083eeac5b214aab07d5818102243e68d5b3ef437c489",
+    "split_and_coverage.json": "037f02b1c29521d3946458920515dde5d6bf28cd9282300ab99b6ab9a639695b"
+  }
+}

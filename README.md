@@ -139,7 +139,7 @@ mangrove-pulse/
 
 ## Notebook guide
 
-[Open any repository notebook in the team's Colab account](docs/COLAB_LINKS.md#repository-notebooks-in-the-teams-drive). The register pairs each GitHub file with its Colab link.
+[Open repository notebooks in Colab](docs/COLAB_LINKS.md). The register pairs each GitHub file with its Colab route.
 
 | Entry point | Use | Evidence status |
 |---|---|---|
@@ -159,7 +159,9 @@ mangrove-pulse/
 | [Cached dated-context replay source](supplementary/Mangrove_Pulse_Offline_Context_Replay.ipynb) | Inspect the cache-only scene-label replay. | This source copy has no stored outputs; hosted execution/report evidence is documented in the dated-context guide. |
 | [Tarif hyperspectral qualification](supplementary/Mangrove_Pulse_Tarif_Scene_Qualification_Executed.ipynb) | Inspect an actual bounded spectral read, quality screening and fixed-window figure. | Separate water-dominated crop; not mangrove truth, model improvement or a site switch. |
 
-The table highlights the main entry points. Start with the results reading notebook for the main demonstration. The [Colab register](docs/COLAB_LINKS.md) links all 20 notebooks and distinguishes saved execution records from source notebooks; saved results can be read without acquiring the data again.
+The table highlights the main entry points. Start with the results reading notebook for the main demonstration. The [Colab register](docs/COLAB_LINKS.md) links all 21 notebooks and distinguishes saved execution records from source notebooks; saved results can be read without acquiring the data again.
+
+[12 October review checks](docs/REVIEW_CHECKS_20261012.md) include the eligible-cell edge base rate, exploratory split reversal and a successful standalone reproduction of commit a5131ce, with its [executed notebook](supplementary/Mangrove_Pulse_Review_Checks_Executed.ipynb) and [returned logs](evidence/review_checks_a5131ce_results.zip).
 
 Original execution records retain their recorded prose and outputs. The main reading copy and current guides provide the revised explanations; the [provenance record](docs/PROVENANCE.md) distinguishes presentation edits from new executions.
 
@@ -203,7 +205,7 @@ The original source notebook has empty stored outputs. The portable integrated n
 !python src/run_submission.py --root . --out runs/inspection_submission_check
 ```
 
-Run these commands in Colab, from the repository root with a fresh, empty output directory. Setting Agg before launching the child avoids an inherited inline-backend setting in environments without the inline module. The integrated notebook handles setup, reproduction, metadata tests, display and export. Its executed copy keeps actual outputs separate from source notebooks. The fresh 11 October run verified the full cb4b400 release through its unchanged seven analysis cells; this standalone command alternative remains untested. Subsequent documentation and execution-evidence additions have not been rerun as a new scientific release.
+Run these commands in Colab, from the repository root with a fresh, empty output directory. Setting Agg before launching the child avoids an inherited inline-backend setting in environments without the inline module. The integrated notebook handles setup, reproduction, metadata tests, display and export. The 11 October run verified cb4b400 through its unchanged seven analysis cells. The [12 October check](docs/REVIEW_CHECKS_20261012.md) also successfully cloned, installed and ran the standalone route at a5131ce, matching the frozen baseline and audit. Later documentation and execution-evidence additions are not reruns of that candidate.
 
 ## Data and method
 
@@ -242,9 +244,11 @@ These values are recomputed from the [stored counts](examples/baseline/baseline_
 
 Northern calibration F1 is 0.6652, compared with 0.8864 in the south on November 20. These are different spatial populations: the north has 5,618 eligible cells, 436 mapped positives and TP/FP/FN/TN of 312/190/124/4,992. The south has fewer false positives and false negatives at the frozen threshold. The [saved baseline summary](examples/baseline/baseline_summary.json) records both populations. Their different cover composition and image/reference characteristics may contribute to the gap, but its cause has not been isolated. The higher southern score does not establish regional generalization or independent field accuracy.
 
+An [exploratory reverse split](docs/REVIEW_CHECKS_20261012.md#exploratory-split-reversal) selects threshold 0.45 in the south (calibration F1 0.8881) and obtains northern F1 0.6577. The geographic difference persists when the roles are reversed. Both halves were already inspected; this is sensitivity analysis, not fresh validation or a replacement for the original threshold.
+
 On the matched-date subset of 5,211 cells, F1 is 0.8921 / 0.8906; full-date scores use different eligible populations. The always-negative control reaches 90.34% overall agreement on November 20 but has zero positive-class F1, which is why overall agreement alone is insufficient.
 
-The [saved November 20 audit](examples/audit/audit_summary.json) has 121 disagreements and 87 excluded GMW-positive cells in 36 clusters. Of 121 disagreements, 96 (79.3%) touch a GMW label transition: at least one of the eight neighbouring 20 m cells has a different GMW label, ignoring neighbours outside the AOI. This describes the disagreement cohort, not an established cause or positional-error estimate. The corresponding transition share among all eligible cells has not yet been computed, so the figure does not establish edge enrichment.
+The [saved November 20 audit](examples/audit/audit_summary.json) has 121 disagreements and 87 excluded GMW-positive cells in 36 clusters. Of 121 disagreements, 96 (79.3%) touch a GMW label transition: at least one of the eight neighbouring 20 m cells has a different GMW label, ignoring neighbours outside the AOI. The [population comparison](docs/REVIEW_CHECKS_20261012.md#population-edge-comparison) finds 334/5,653 (5.91%) transition-touching cells overall and 238/5,532 (4.30%) among agreements. Disagreements are descriptively concentrated near reference transitions, but this does not identify their cause or quantify positional error. Cells are spatially dependent, not independent accuracy trials.
 
 Of the original 121 disagreements, November 30 retains 111, resolves two to agreement and excludes eight. Its complete eligible population has 119 disagreements (48 FP + 71 FN), including eight additional disagreements outside the original cohort. The [cell-level audit](examples/audit/all_audit_cells.csv) records the original cohort's outcomes; these counts do not establish ecological change.
 

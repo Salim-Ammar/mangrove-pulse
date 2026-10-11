@@ -4,11 +4,11 @@
 
 [Review checks source](../supplementary/Mangrove_Pulse_Review_Checks.ipynb) · [Open from GitHub in Colab](https://colab.research.google.com/github/Salim-Ammar/mangrove-pulse/blob/main/supplementary/Mangrove_Pulse_Review_Checks.ipynb)
 
-This twentieth notebook tests the standalone reproduction route, the eligible-cell edge base rate and an exploratory reverse split for commit a5131ce. Execution evidence is not yet recorded. The 19 earlier team-owned copies below remain unchanged.
+The [executed companion](../supplementary/Mangrove_Pulse_Review_Checks_Executed.ipynb) and [verified results](REVIEW_CHECKS_20261012.md) record a successful run of commit a5131ce. [Open the executed file from GitHub in Colab](https://colab.research.google.com/github/Salim-Ammar/mangrove-pulse/blob/main/supplementary/Mangrove_Pulse_Review_Checks_Executed.ipynb). These two additions bring the repository to 21 notebooks. The 19 earlier team-owned copies below remain unchanged.
 
 ## Repository notebooks in the team's Drive
 
-These links open the team-owned Colab copies of the 19 notebooks in this repository. The [Drive folder](https://drive.google.com/drive/folders/1OBsACkqWNBxGpBK25VhkaJY8D95VNNXK) groups them. Drive reports link-viewer access for all 19; the executed release copy also opened in a signed-out browser with changes disabled. Readers can use their own Colab runtimes and save edits only to their own copies.
+These links open the team-owned Colab copies of the 19 earlier notebooks. The [Drive folder](https://drive.google.com/drive/folders/1OBsACkqWNBxGpBK25VhkaJY8D95VNNXK) groups them. Drive reports link-viewer access for these 19 copies; the executed release copy also opened in a signed-out browser with changes disabled. Readers can use their own Colab runtimes and save edits only to their own copies.
 
 | Repository notebook | Open the team-owned copy |
 | --- | --- |

@@ -47,3 +47,29 @@ Decision: retain the handoff as a working format. The proposed neutral review as
 The next empirical steps are source qualification for historical cover, a defined and authorized current observation task, and real practitioner use. Aircraft comparison follows measurement acceptance; ecological intervention follows established need and suitability. Switching to Abu Dhabi or Tarif is allowed, but the qualified evidence currently does not close these gates. The [Tarif crop](TARIF_SCENE_QUALIFICATION.md) demonstrates spectral access, not classification improvement.
 
 This review completes a bounded attempt, not the empirical claims. H1-H4 remain unresolved. Further acquisition should follow a concrete lead that can pass a stated gate, rather than repeat the same searches, downloads or synthetic checks.
+
+## Additional source qualification — 12 October 2026
+
+Two narrow research checks examined new leads while the [computational checks](REVIEW_CHECKS_20261012.md) ran. The sources below change what to test, not the status of team field, aircraft or ecological claims.
+
+### UAE labels and restoration-planning data
+
+The [Bellone dataset record](https://zenodo.org/records/21275271), published 9 July 2026, accompanies a submitted paper about UAV restoration planning in the UAE. Its description identifies five-class training points and example vegetation/tidal rasters. It does not establish point observation dates, annotation method, independent evaluation status, Kalba footprint or reuse terms; the displayed licence field is blank. The publication date is not the observation date, and model-generated vegetation maps are not reference labels.
+
+**TEST:** qualify the source paper and point metadata before acquiring the files. Require dated, interpretable cover labels, footprint/alignment, label lineage and permission. External training labels are not automatically unusable for a different method, but their independence from that method and reference must be established. If qualified contemporary labels support a better UAE task, freeze a separate experiment; do not apply them retrospectively to the 2018 score. No dataset was downloaded or evaluated in this check.
+
+### A simpler aerial water-sampling comparator
+
+A [2026 primary study](https://link.springer.com/article/10.1007/s10661-026-15473-0) compares tethered drone sampling with a boat at three Irish lakes on three dates in 2023. It used the same sonde at three depths, plus bottle samples. It reports no significant method difference for nine of ten tested variables, but a pH difference; reported workflow durations are 28 minutes for the drone and 45 for the boat. The cost model excludes repairs and travel and assumes comparable useful life and maintenance.
+
+**DEFEND:** conventional aerial delivery is a substantive comparator, not just photography. **TEST:** compare accepted measurements before mission resources. Nonsignificant differences do not establish equivalence within a useful tolerance. Depth readings and repeated seconds are not independent missions. The study does not measure our platform, water-supported delivery, UAE tidal channels, whole-mission energy per accepted observation or net habitat disturbance. It therefore supplies a simpler-method precedent and design warnings, not an amphibious advantage.
+
+### Ecological outcomes beyond planting counts
+
+A [2023 Sulawesi study](https://doi.org/10.1111/rec.13963) compared monoculture restoration, mixed-species regeneration and nearby reference stands 14–16 years after restoration. It measured structure, abundance, biomass and canopy, with 18 comparison plots at one site and 17 at the other. Some mixed-regeneration structure measures were closer to reference stands, while other deficits remained. This was an observational comparison, not randomized allocation or a team intervention.
+
+**DEFEND:** an ecological endpoint must extend beyond planted counts or survival alone. **TEST:** use site-appropriate reference conditions and controls. Tropical species-diversity targets do not transfer automatically to naturally species-poor UAE mangroves, and the study does not justify adding species, planting at Kalba or claiming carbon gain. Current need, suitability, permissions, independent plots and follow-up remain required.
+
+### Resulting decisions
+
+The original metrics and conditional model are retained with the completed sensitivity checks. H2 needs qualified independent dated labels; H3 needs a defined accepted observation and measured matched missions; H4 needs a justified intervention and controlled ecological outcomes. These are specific external evidence dependencies, not problems solved by another simulated score. The new UAE source is a qualification lead, not proof that no better site exists. No new hardware, fieldwork, ecological intervention or stakeholder contact is claimed.
