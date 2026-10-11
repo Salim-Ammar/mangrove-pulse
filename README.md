@@ -2,8 +2,15 @@
 
 *From satellite evidence to targeted mangrove inspection.*
 
-[![Arab Youth Space Hackathon: 813 Challenge](https://img.shields.io/badge/Arab%20Youth%20Space%20Hackathon-813%20Challenge-0B2F4F)](https://spaceacademy-hackathons.space.gov.ae/)
-[![Python 3.13](https://img.shields.io/badge/Python-3.13-996600?logo=python&logoColor=white)](requirements.txt) [![Sentinel-2 analysis](https://img.shields.io/badge/EO-Sentinel--2%20analysis-1F7A50)](Mangrove_Pulse_Review.ipynb) [![Khor Kalba data: Sentinel-2 and GMW](https://img.shields.io/badge/Data-Khor%20Kalba%20Sentinel--2%20%2B%20GMW-007C91)](docs/PROVENANCE.md) [![Planet Tanager STAC qualification](https://img.shields.io/badge/Data-Planet%20Tanager%20STAC-7542A6)](docs/TARIF_SCENE_QUALIFICATION.md) [![Drone: concept stage](https://img.shields.io/badge/Drone-concept%20stage-5B6470)](docs/CONNECTED_CONCEPT_ASSESSMENT.md)
+<p align="center">
+  <a href="https://spaceacademy-hackathons.space.gov.ae/"><img alt="Arab Youth Space Hackathon: 813 Challenge" src="https://img.shields.io/badge/Arab%20Youth%20Space%20Hackathon-813%20Challenge-0B2F4F"></a>
+  <a href="requirements.txt"><img alt="Python 3.13" src="https://img.shields.io/badge/Python-3.13-996600?logo=python&amp;logoColor=white"></a>
+  <a href="Mangrove_Pulse_Review.ipynb"><img alt="Sentinel-2 analysis" src="https://img.shields.io/badge/EO-Sentinel--2%20analysis-1F7A50"></a>
+  <br>
+  <a href="docs/PROVENANCE.md"><img alt="Khor Kalba data: Sentinel-2 and GMW" src="https://img.shields.io/badge/Data-Khor%20Kalba%20Sentinel--2%20%2B%20GMW-007C91"></a>
+  <a href="docs/TARIF_SCENE_QUALIFICATION.md"><img alt="Planet Tanager STAC qualification" src="https://img.shields.io/badge/Data-Planet%20Tanager%20STAC-7542A6"></a>
+  <a href="docs/CONNECTED_CONCEPT_ASSESSMENT.md"><img alt="Drone: concept stage" src="https://img.shields.io/badge/Drone-concept%20stage-5B6470"></a>
+</p>
 
 Arab Youth Space Hackathon: 813 Challenge
 
