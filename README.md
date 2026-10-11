@@ -2,6 +2,8 @@
 
 *From satellite evidence to targeted mangrove inspection.*
 
+![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white) ![Sentinel-2 analysis](https://img.shields.io/badge/EO-Sentinel--2%20analysis-2457A7) ![Drone concept only](https://img.shields.io/badge/Drone-concept%20only-777777)
+
 Arab Youth Space Hackathon: 813 Challenge
 
 [Results notebook](Mangrove_Pulse_Review.ipynb) · [Inspection briefs](docs/CASES.md) · [Evidence map](docs/CLAIM_EVIDENCE_MAP.md) · [Official starter repository](https://github.com/Tnecniv-Teikram/813-hyperspectral-hackathon)
