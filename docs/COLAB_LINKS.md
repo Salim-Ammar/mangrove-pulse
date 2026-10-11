@@ -1,10 +1,16 @@
 # Colab notebooks and execution records
 
+## Repaired-runner check
+
+[Source notebook](../supplementary/Mangrove_Pulse_Engineering_Checks.ipynb) · [Executed notebook](../supplementary/Mangrove_Pulse_Engineering_Checks_Executed.ipynb) · [Open executed notebook in Colab](https://colab.research.google.com/github/Salim-Ammar/mangrove-pulse/blob/main/supplementary/Mangrove_Pulse_Engineering_Checks_Executed.ipynb) · [Execution record](ENGINEERING_CHECKS_20261012.md)
+
+These additions bring the repository to 23 notebooks. They retain the initial setup failure and subsequent successful repaired-candidate reproduction. The 19 earlier team-owned copies below remain unchanged.
+
 ## Review sensitivity notebook
 
 [Review checks source](../supplementary/Mangrove_Pulse_Review_Checks.ipynb) · [Open from GitHub in Colab](https://colab.research.google.com/github/Salim-Ammar/mangrove-pulse/blob/main/supplementary/Mangrove_Pulse_Review_Checks.ipynb)
 
-The [executed companion](../supplementary/Mangrove_Pulse_Review_Checks_Executed.ipynb) and [verified results](REVIEW_CHECKS_20261012.md) record a successful run of commit a5131ce. [Open the executed file from GitHub in Colab](https://colab.research.google.com/github/Salim-Ammar/mangrove-pulse/blob/main/supplementary/Mangrove_Pulse_Review_Checks_Executed.ipynb). These two additions bring the repository to 21 notebooks. The 19 earlier team-owned copies below remain unchanged.
+The [executed companion](../supplementary/Mangrove_Pulse_Review_Checks_Executed.ipynb) and [verified results](REVIEW_CHECKS_20261012.md) record a successful run of commit a5131ce. [Open the executed file from GitHub in Colab](https://colab.research.google.com/github/Salim-Ammar/mangrove-pulse/blob/main/supplementary/Mangrove_Pulse_Review_Checks_Executed.ipynb).
 
 ## Repository notebooks in the team's Drive
 

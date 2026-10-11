@@ -9,7 +9,7 @@
   "docs/C027_INSPECTION_BRIEF.md": "cb1c030573457a6e46bfa07691390bb0cbb06ddc31a6ecc1dc8c757499a30451",
   "docs/CASES.md": "fc6421224e65bcb6020471f6f8dac70f6df06f5ff21b00bd9d1cd6b943934c98",
   "docs/CLAIM_EVIDENCE_MAP.md": "1bb489496b3121fdb538d78b154340e5cb894e9df72bd82278e176af7d34708b",
-  "docs/COLAB_LINKS.md": "f74c46f67f614d8e5d3923510f92bad6c5732fefb077d603ae424d6b41cbd511",
+  "docs/COLAB_LINKS.md": "da897143617a6c680a696c8bb94bbd5efbfe6f4ae43222c9caa87b243e0c6ac7",
   "docs/CONNECTED_CONCEPT_ASSESSMENT.md": "ef7f71a055b2ee2f8f549dbcbdf734e686beca5f68d83eeb85ac6ff869a3fe1f",
   "docs/DATED_EO_CONTEXT.md": "5ee70fda10ca94db3159ab980f0c9cd1977eaf4471182ebd1bc3a6323465b10c",
   "docs/DRONE_KHOR_KALBA_HANDOFF.md": "e9f4238ba8753f4475bff69d6251b6b8573c42076cff4f62d44e5dc08382add3",
@@ -19,7 +19,7 @@
   "docs/OBSERVABLES_AND_MEASUREMENT_CHAIN.md": "7a2714031faeb6d468c54bf6b8f564194d98a821152e835d123b144eb991abae",
   "docs/POC_LOGIC_AND_NEXT_STEP.md": "dc1f9405d2a567d0e9f45f9e96511b795cd04028fe291451522f5765df0297b1",
   "docs/PROJECT_ORIGIN.md": "7c7181f22ce6925462db5a07519f127e863b71d59f7bea7d672da2ec224190c7",
-  "docs/PROVENANCE.md": "7552825f17fd238153ab3d497bce69be890f447d93b71876cf83d62cc066b123",
+  "docs/PROVENANCE.md": "842c2d2cd881b72154b2c932a2d16abce6769380b6849dffe5658315f394828d",
   "docs/REFERENCE_SENSITIVITY.md": "1b0f4c9efa558423c1edc4186f99abbcd8c8416b8c65c514038b1d33909900bb",
   "docs/RELEASE_VERIFICATION_20261011.md": "b3c5f79c033a6708ca81e0343b3ae21c8280d598ea844aeb8d53aba85593c43e",
   "docs/STAKEHOLDER_FEEDBACK.md": "75e316840882782ea3f121f705689dd649f2f9f808a17befa34de655f49105a0",
@@ -128,7 +128,7 @@
   "Mangrove_Pulse_End_to_End.ipynb": "9ec5554f806b7d00f4276dac44e7d647f704ab2b320f3c6507bb3361e7b5e230",
   "Mangrove_Pulse_Review.ipynb": "90332c52b279b6b2cbfef6dfd6529579d2694e4fc9500bbdb396756c2fa57561",
   "Mangrove_Pulse.ipynb": "3e9efee2a2cb89265343456ddd720b533ba60745631a107d4a7221ac954d4b61",
-  "README.md": "6bdc09883d679a03e180a2e4ec9eb1860212bd3396eaf660c4c5e5d5b636ac51",
+  "README.md": "dd0e02fafbd743fac8fa1d1ab57d9e3253c43c7cbe75d03462e7f15dcd3e67d6",
   "requirements.txt": "a8d8608455d9064f434e212ccaa134dc400aaa61146c90f4db642cb3ffb2681e",
   "src/concept_screen.py": "7520c532cc741fe27eda71044acb1cf8cf693875d41232f90cf6da320515429b",
   "src/disagreement_audit.py": "ad10d029445f4b2b1de450fc9ae245688ec494629e553743f98ae3a7d0e9149a",
@@ -169,5 +169,8 @@
   "tests/test_reference_baseline.py": "dc231be745efe05b34c6e439a6508a0dc51ad8ba695b027a95d264058d5f133f",
   "tests/test_run_submission.py": "011ddd360409da5fce633202a544912718ef26fd77a6ec889f17940a0e4eb800",
   ".github/workflows/checks.yml": "fa658d7e12c7e19fff63895733232a7ba0b379aac0513d1bc880bac60a28036e",
-  "supplementary/Mangrove_Pulse_Engineering_Checks.ipynb": "5ad640a765d525c9cb414aa22de6c3319f8cf237f55e323c58d4356367a05d7d"
+  "supplementary/Mangrove_Pulse_Engineering_Checks.ipynb": "5ad640a765d525c9cb414aa22de6c3319f8cf237f55e323c58d4356367a05d7d",
+  "docs/ENGINEERING_CHECKS_20261012.md": "894dd549127342206ff65bf45baef9739288ffe64670b77a55e4055110922802",
+  "supplementary/Mangrove_Pulse_Engineering_Checks_Executed.ipynb": "bfe8740e1167392916f9e03afc5ba4bc2ce1b9e9bcdbbed13eaa403a21bee111",
+  "evidence/engineering_04fa7c1_results.zip": "6ef393329fdd3564d85b5794ca6715ecc63e6a8aee93f336aa47c5e752519a04"
 }

@@ -1,5 +1,7 @@
 # Provenance and scope of reproduction
 
+The [12 October repaired-runner check](ENGINEERING_CHECKS_20261012.md) reproduces candidate `04fa7c1` with the original cached inputs. Its initial environment failure, isolated setup repair, successful baseline/audit comparison and exact returned bytes are preserved separately from earlier execution records. It does not change the original scientific experiment.
+
 ## Sensor lineage and radiometry qualification (12 October 2026)
 
 The item metadata inside [the cached comparison ZIP](../data/Khor_Kalba_Date_Comparison_Results.zip) records processing baseline **02.12** for both Sentinel-2B dates; the B04/B08 asset paths also identify `N0212`, relative orbit `R020` and tile `T40RDN`. These are the exact cached products, not another reprocessing of the same acquisition.
