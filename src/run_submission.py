@@ -33,6 +33,8 @@ def verify_manifest(root):
             raise ValueError('Unmanifested Python source: ' + str(source.relative_to(root)))
     return manifest
 def compare(a, b, where='value'):
+    if isinstance(a, bool) != isinstance(b, bool):
+        raise ValueError(where + ': boolean type differs')
     if isinstance(a, dict):
         if not isinstance(b, dict) or set(a) != set(b): raise ValueError(where + ': keys differ')
         for k in a: compare(a[k], b[k], where + '.' + k)

@@ -12,7 +12,40 @@ import unittest
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
-from run_submission import run
+from run_submission import run, compare, compare_csv
+
+
+class ComparisonTests(unittest.TestCase):
+    def test_boolean_numeric_type_drift_is_rejected(self):
+        for saved, new in [(False, 0), (0, False), (True, 1), (1, True)]:
+            with self.subTest(saved=saved, new=new):
+                with self.assertRaises(ValueError):
+                    compare({'flags': [saved]}, {'flags': [new]})
+
+    def test_matching_nested_metadata_retains_numeric_tolerance(self):
+        compare({'values': [1, 0.49, None, 'Kalba', False]},
+                {'values': [1.0, 0.49 + 1e-12, None, 'Kalba', False]})
+
+    def test_changed_nested_metadata_is_rejected(self):
+        for saved, new in [({'a': 1}, {'b': 1}), ([1], [1, 2]),
+                           ([1], {'a': 1}), ('Kalba', 'Tarif'),
+                           (0.49, 0.50), (False, True), (1, '1')]:
+            with self.subTest(saved=saved, new=new):
+                with self.assertRaises(ValueError):
+                    compare(saved, new)
+
+    def test_csv_numeric_tolerance_does_not_hide_changed_records(self):
+        with tempfile.TemporaryDirectory(dir=os.environ.get('MP_FORMAT_TEST_TMP')) as temp:
+            saved, new = Path(temp) / 'saved.csv', Path(temp) / 'new.csv'
+            saved.write_text('case,score\nC001,0.49\n', encoding='utf-8')
+            new.write_text('case,score\nC001,0.490000000001\n', encoding='utf-8')
+            compare_csv(saved, new)
+            for changed in ['case,score\nC001,0.50\n', 'case,score\nC017,0.49\n',
+                            'case,score\n', 'case,value\nC001,0.49\n']:
+                with self.subTest(changed=changed):
+                    new.write_text(changed, encoding='utf-8')
+                    with self.assertRaises(ValueError):
+                        compare_csv(saved, new)
 
 
 class RunnerTests(unittest.TestCase):

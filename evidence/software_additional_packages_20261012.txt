@@ -1,0 +1,8 @@
+rasterio==1.4.4
+geopandas==1.1.1
+pyogrio==0.11.1
+shapely==2.1.2
+pyproj==3.7.2
+sympy==1.14.0
+requests==2.32.4
+planetary-computer==1.0.0

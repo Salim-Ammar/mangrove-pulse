@@ -1,0 +1,428 @@
+{
+  "base_commit": "de1cca236980e33065acc382b06c8d4a0624aed5",
+  "measurement_environment": {
+    "python": "3.13.13",
+    "platform": "Windows x86_64",
+    "numpy": "2.1.3",
+    "coverage": "7.16.2",
+    "pip_audit": "2.10.1",
+    "pip": "26.2.1"
+  },
+  "coverage": {
+    "command": "python -m coverage run --branch --source=src -m unittest discover -s tests -v",
+    "before": {
+      "tests_passed": 84,
+      "totals": {
+        "covered_lines": 405,
+        "num_statements": 849,
+        "percent_covered": 47.18826405867971,
+        "percent_covered_display": "47",
+        "missing_lines": 444,
+        "excluded_lines": 0,
+        "percent_statements_covered": 47.70318021201413,
+        "percent_statements_covered_display": "48",
+        "num_branches": 378,
+        "num_partial_branches": 14,
+        "covered_branches": 174,
+        "missing_branches": 204,
+        "percent_branches_covered": 46.03174603174603,
+        "percent_branches_covered_display": "46"
+      }
+    },
+    "after": {
+      "tests_passed": 88,
+      "totals": {
+        "covered_lines": 429,
+        "num_statements": 851,
+        "percent_covered": 51.09666937449228,
+        "percent_covered_display": "51",
+        "missing_lines": 422,
+        "excluded_lines": 0,
+        "percent_statements_covered": 50.411280846063455,
+        "percent_statements_covered_display": "50",
+        "num_branches": 380,
+        "num_partial_branches": 14,
+        "covered_branches": 200,
+        "missing_branches": 180,
+        "percent_branches_covered": 52.63157894736842,
+        "percent_branches_covered_display": "53"
+      },
+      "modules": {
+        "concept_screen.py": {
+          "covered_lines": 98,
+          "num_statements": 106,
+          "percent_covered": 90.11627906976744,
+          "percent_covered_display": "90",
+          "missing_lines": 8,
+          "excluded_lines": 0,
+          "percent_statements_covered": 92.45283018867924,
+          "percent_statements_covered_display": "92",
+          "num_branches": 66,
+          "num_partial_branches": 9,
+          "covered_branches": 57,
+          "missing_branches": 9,
+          "percent_branches_covered": 86.36363636363636,
+          "percent_branches_covered_display": "86"
+        },
+        "disagreement_audit.py": {
+          "covered_lines": 0,
+          "num_statements": 142,
+          "percent_covered": 0,
+          "percent_covered_display": "0",
+          "missing_lines": 142,
+          "excluded_lines": 0,
+          "percent_statements_covered": 0,
+          "percent_statements_covered_display": "0",
+          "num_branches": 68,
+          "num_partial_branches": 0,
+          "covered_branches": 0,
+          "missing_branches": 68,
+          "percent_branches_covered": 0,
+          "percent_branches_covered_display": "0"
+        },
+        "inspection_handoff.py": {
+          "covered_lines": 87,
+          "num_statements": 92,
+          "percent_covered": 94.33962264150944,
+          "percent_covered_display": "94",
+          "missing_lines": 5,
+          "excluded_lines": 0,
+          "percent_statements_covered": 94.56521739130434,
+          "percent_statements_covered_display": "95",
+          "num_branches": 14,
+          "num_partial_branches": 1,
+          "covered_branches": 13,
+          "missing_branches": 1,
+          "percent_branches_covered": 92.85714285714286,
+          "percent_branches_covered_display": "93"
+        },
+        "offline_context_reader.py": {
+          "covered_lines": 0,
+          "num_statements": 49,
+          "percent_covered": 0,
+          "percent_covered_display": "0",
+          "missing_lines": 49,
+          "excluded_lines": 0,
+          "percent_statements_covered": 0,
+          "percent_statements_covered_display": "0",
+          "num_branches": 6,
+          "num_partial_branches": 0,
+          "covered_branches": 0,
+          "missing_branches": 6,
+          "percent_branches_covered": 0,
+          "percent_branches_covered_display": "0"
+        },
+        "reference_baseline.py": {
+          "covered_lines": 26,
+          "num_statements": 137,
+          "percent_covered": 19.09547738693467,
+          "percent_covered_display": "19",
+          "missing_lines": 111,
+          "excluded_lines": 0,
+          "percent_statements_covered": 18.978102189781023,
+          "percent_statements_covered_display": "19",
+          "num_branches": 62,
+          "num_partial_branches": 2,
+          "covered_branches": 12,
+          "missing_branches": 50,
+          "percent_branches_covered": 19.35483870967742,
+          "percent_branches_covered_display": "19"
+        },
+        "review_sensitivity.py": {
+          "covered_lines": 30,
+          "num_statements": 106,
+          "percent_covered": 26.71232876712329,
+          "percent_covered_display": "27",
+          "missing_lines": 76,
+          "excluded_lines": 0,
+          "percent_statements_covered": 28.30188679245283,
+          "percent_statements_covered_display": "28",
+          "num_branches": 40,
+          "num_partial_branches": 1,
+          "covered_branches": 9,
+          "missing_branches": 31,
+          "percent_branches_covered": 22.5,
+          "percent_branches_covered_display": "22"
+        },
+        "run_submission.py": {
+          "covered_lines": 78,
+          "num_statements": 109,
+          "percent_covered": 74.01129943502825,
+          "percent_covered_display": "74",
+          "missing_lines": 31,
+          "excluded_lines": 0,
+          "percent_statements_covered": 71.55963302752293,
+          "percent_statements_covered_display": "72",
+          "num_branches": 68,
+          "num_partial_branches": 1,
+          "covered_branches": 53,
+          "missing_branches": 15,
+          "percent_branches_covered": 77.94117647058823,
+          "percent_branches_covered_display": "78"
+        },
+        "supported_sensing_envelope.py": {
+          "covered_lines": 110,
+          "num_statements": 110,
+          "percent_covered": 100,
+          "percent_covered_display": "100",
+          "missing_lines": 0,
+          "excluded_lines": 0,
+          "percent_statements_covered": 100,
+          "percent_statements_covered_display": "100",
+          "num_branches": 56,
+          "num_partial_branches": 0,
+          "covered_branches": 56,
+          "missing_branches": 0,
+          "percent_branches_covered": 100,
+          "percent_branches_covered_display": "100"
+        }
+      }
+    },
+    "exclusions": 0
+  },
+  "advisories": {
+    "queried_at_utc": "2026-10-12T00:23:07.381519+00:00",
+    "service": "PyPI / Python Packaging Advisory Database",
+    "command": "python -m pip_audit --no-deps --disable-pip -r evidence/software_audit_packages_20261012.txt -f json",
+    "exit_code": 0,
+    "packages_queried": 16,
+    "packages_skipped": 0,
+    "report": {
+      "dependencies": [
+        {
+          "name": "affine",
+          "version": "3.0.1",
+          "vulns": []
+        },
+        {
+          "name": "attrs",
+          "version": "26.1.0",
+          "vulns": []
+        },
+        {
+          "name": "certifi",
+          "version": "2026.7.22",
+          "vulns": []
+        },
+        {
+          "name": "click",
+          "version": "8.5.0",
+          "vulns": []
+        },
+        {
+          "name": "contourpy",
+          "version": "1.4.0",
+          "vulns": []
+        },
+        {
+          "name": "cycler",
+          "version": "0.12.1",
+          "vulns": []
+        },
+        {
+          "name": "fonttools",
+          "version": "4.66.1",
+          "vulns": []
+        },
+        {
+          "name": "kiwisolver",
+          "version": "1.5.1",
+          "vulns": []
+        },
+        {
+          "name": "matplotlib",
+          "version": "3.10.0",
+          "vulns": []
+        },
+        {
+          "name": "numpy",
+          "version": "2.1.3",
+          "vulns": []
+        },
+        {
+          "name": "packaging",
+          "version": "26.3",
+          "vulns": []
+        },
+        {
+          "name": "pillow",
+          "version": "12.3.0",
+          "vulns": []
+        },
+        {
+          "name": "pyparsing",
+          "version": "3.3.3",
+          "vulns": []
+        },
+        {
+          "name": "python-dateutil",
+          "version": "2.9.0.post0",
+          "vulns": []
+        },
+        {
+          "name": "rasterio",
+          "version": "1.5.1",
+          "vulns": []
+        },
+        {
+          "name": "six",
+          "version": "1.17.0",
+          "vulns": []
+        }
+      ],
+      "fixes": []
+    }
+  },
+  "additional_advisories": {
+    "completed_utc": "2026-10-12T00:32:24.442983+00:00",
+    "command": "python -m pip_audit --no-deps --disable-pip -r evidence/software_additional_packages_20261012.txt -f json",
+    "exit_status": 1,
+    "queried_packages": 8,
+    "skipped_packages": 0,
+    "raw_advisory_records": 4,
+    "unique_advisory_ids": 2,
+    "scope": "Additional exact declared/recorded versions, not a complete supplementary transitive inventory",
+    "sources": [
+      {
+        "artifact": "examples/reference_context/requirements.txt",
+        "qualification": "Five pins absent from the isolated baseline; environment.json records the same versions"
+      },
+      {
+        "artifact": "supplementary/Mangrove_Pulse_SymPy_Results.zip",
+        "member": "symbolic_resource_audit.json",
+        "qualification": "Recorded SymPy 1.14.0"
+      },
+      {
+        "artifact": "data/Khor_Kalba_Date_Comparison_Results.zip",
+        "member": "environment.json",
+        "qualification": "Recorded Requests 2.32.4 and planetary-computer 1.0.0"
+      }
+    ],
+    "affected_function_check": {
+      "tracked_python_and_notebook_sources": 42,
+      "identifiers": [
+        "to_postgis",
+        "extract_zipped_paths"
+      ],
+      "direct_identifier_matches": 0,
+      "additional_archive_source": "data/Khor_Kalba_Date_Comparison_Results.zip:compare_dates.py",
+      "archive_identifier_matches": 0,
+      "scope": "Static direct-identifier check only; not comprehensive dependency reachability or exploitation testing"
+    },
+    "decision": "Preserve historical pins/archives; no direct affected-function use found in inspected team sources. Use fixed versions and qualify the changed environment before new affected-operation use.",
+    "result": {
+      "dependencies": [
+        {
+          "name": "rasterio",
+          "version": "1.4.4",
+          "vulns": []
+        },
+        {
+          "name": "geopandas",
+          "version": "1.1.1",
+          "vulns": [
+            {
+              "id": "PYSEC-2026-62",
+              "fix_versions": [
+                "1.1.2"
+              ],
+              "aliases": [
+                "CVE-2025-69662",
+                "GHSA-6497-prx7-gpmq"
+              ],
+              "description": "SQL injection vulnerability in geopandas before v.1.1.2 allows an attacker to obtain sensitive information via the to_postgis()` function being used to write GeoDataFrames to a PostgreSQL database."
+            },
+            {
+              "id": "PYSEC-2026-62",
+              "fix_versions": [
+                "1.1.2"
+              ],
+              "aliases": [
+                "CVE-2025-69662",
+                "GHSA-6497-prx7-gpmq"
+              ],
+              "description": "SQL injection vulnerability in geopandas before v.1.1.2 allows an attacker to obtain sensitive information via the to_postgis()` function being used to write GeoDataFrames to a PostgreSQL database."
+            }
+          ]
+        },
+        {
+          "name": "pyogrio",
+          "version": "0.11.1",
+          "vulns": []
+        },
+        {
+          "name": "shapely",
+          "version": "2.1.2",
+          "vulns": []
+        },
+        {
+          "name": "pyproj",
+          "version": "3.7.2",
+          "vulns": []
+        },
+        {
+          "name": "sympy",
+          "version": "1.14.0",
+          "vulns": []
+        },
+        {
+          "name": "requests",
+          "version": "2.32.4",
+          "vulns": [
+            {
+              "id": "PYSEC-2026-2275",
+              "fix_versions": [
+                "2.33.0"
+              ],
+              "aliases": [
+                "GHSA-gc5v-m9x4-r6x2",
+                "CVE-2026-25645"
+              ],
+              "description": "### Impact The `requests.utils.extract_zipped_paths()` utility function uses a predictable filename when extracting files from zip archives into the system temporary directory. If the target file already exists, it is reused without validation. A local attacker with write access to the temp directory could pre-create a malicious file that would be loaded in place of the legitimate one.  ### Affected usages **Standard usage of the Requests library is not affected by this vulnerability.** Only applications that call `extract_zipped_paths()` directly are impacted.  ### Remediation Upgrade to at least Requests 2.33.0, where the library now extracts files to a non-deterministic location.  If developers are unable to upgrade, they can set `TMPDIR` in their environment to a directory with restricted write access."
+            },
+            {
+              "id": "PYSEC-2026-2275",
+              "fix_versions": [
+                "2.33.0"
+              ],
+              "aliases": [
+                "GHSA-gc5v-m9x4-r6x2",
+                "CVE-2026-25645"
+              ],
+              "description": "Requests is a HTTP library. Prior to version 2.33.0, the `requests.utils.extract_zipped_paths()` utility function uses a predictable filename when extracting files from zip archives into the system temporary directory. If the target file already exists, it is reused without validation. A local attacker with write access to the temp directory could pre-create a malicious file that would be loaded in place of the legitimate one. Standard usage of the Requests library is not affected by this vulnerability. Only applications that call `extract_zipped_paths()` directly are impacted. Starting in version 2.33.0, the library extracts files to a non-deterministic location. If developers are unable to upgrade, they can set `TMPDIR` in their environment to a directory with restricted write access."
+            }
+          ]
+        },
+        {
+          "name": "planetary-computer",
+          "version": "1.0.0",
+          "vulns": []
+        }
+      ],
+      "fixes": []
+    }
+  },
+  "inventory_source": {
+    "archive": "evidence/engineering_04fa7c1_results.zip",
+    "member": "packages.log",
+    "sha256": "6ef393329fdd3564d85b5794ca6715ecc63e6a8aee93f336aa47c5e752519a04",
+    "runtime": "Linux x86_64 / Python 3.13.16",
+    "scope": "16 installed Python runtime packages; no supplementary-environment, Python-interpreter or bundled-native-library security claim"
+  },
+  "linux_resolution": {
+    "pip_version": "26.2.1",
+    "target_python": "3.13 / cp313",
+    "target_platforms": [
+      "manylinux_2_28_x86_64",
+      "manylinux_2_17_x86_64"
+    ],
+    "packages": 16,
+    "wheel_metadata_resolution": "succeeded",
+    "fresh_target_installation": "not performed",
+    "lock_decision": "Retain recorded exact-version inventory; do not publish a newly generated untested lock."
+  },
+  "verified_file_hashes": {
+    "src/run_submission.py": "b8e38b3ad6deb78bcf6af8a4063a4d3d2f5fa320ff29167efff87ee381b5e53d",
+    "tests/test_run_submission.py": "e821927a905a5085902300a5d6ffd99754b6401dcbd6279b41ec19f345c79666"
+  }
+}

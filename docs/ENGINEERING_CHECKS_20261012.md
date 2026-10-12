@@ -1,5 +1,7 @@
 # Software checks and repaired-runner reproduction
 
+The subsequent [coverage and dependency audit](SOFTWARE_AUDIT_20261012.md) records measured coverage, a dated advisory query and a separate comparator repair. The 84-test Colab execution below remains tied to its original candidate.
+
 12 October 2026 | Candidate `04fa7c18ccc39e6cf5656686b39b53ca82a81ce5`
 
 [Executed notebook](../supplementary/Mangrove_Pulse_Engineering_Checks_Executed.ipynb) · [Results and logs](../evidence/engineering_04fa7c1_results.zip) · [Source notebook](../supplementary/Mangrove_Pulse_Engineering_Checks.ipynb) · [Hosted software check](https://github.com/Salim-Ammar/mangrove-pulse/actions/runs/38183276594)
