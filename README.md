@@ -193,7 +193,7 @@ The assembled workflow passed cached reproduction on 28 September 2026; its [che
 
 ### Installation and commands
 
-The root [requirements.txt](requirements.txt) pins the three direct baseline/audit packages, not every supplementary study or transitive dependency. The [reference-context notebook](supplementary/Mangrove_Pulse_Reference_Context.ipynb) declares its own isolated package set, including a different Rasterio pin. The [SymPy source](supplementary/Mangrove_Pulse_SymPy_Resource_Audit.ipynb) requests SymPy 1.14.0 if SymPy is absent. Follow each study's setup rather than merging its environment into the baseline.
+The root [requirements.txt](requirements.txt) pins the three direct baseline/audit packages, not every supplementary study or transitive dependency. The [reference-context notebook](supplementary/Mangrove_Pulse_Reference_Context.ipynb) declares its own isolated package set, including a different Rasterio pin. The [SymPy source](supplementary/Mangrove_Pulse_SymPy_Resource_Audit.ipynb) requires and checks SymPy 1.14.0; a mismatched already-loaded version requires a runtime restart. Follow each study's setup rather than merging its environment into the baseline.
 
 The preserved baseline/audit environment used Python 3.13.15; the fresh 11 October verification used Python 3.13.16. These are recorded runtime versions, not Python constraints enforced by requirements.txt. The [verification record](docs/RELEASE_VERIFICATION_20261011.md) links the full installed-package list and logs. Environment creation and dependency installation took 14.3315 seconds; baseline and audit reproduction took 8.1099 seconds. These timings apply to that runtime. A separate kernel-restart test has not been established.
 
@@ -250,7 +250,7 @@ The scores above apply only to eligible cells. The southern population has 6,121
 | Recall over all 633 GMW-positive cells | 0.7457 | 0.7520 |
 | F1 with exclusions treated as negative | 0.8194 | 0.8228 |
 
-These values are recomputed from the [stored counts](examples/baseline/baseline_summary.json): recall is `TP / (eligible GMW positives + excluded GMW positives)` and F1 is `2*TP / (2*TP + FP + FN + excluded GMW positives)`. They expose the screening cost; neither metric establishes independent cover accuracy.
+These values are recomputed from the [stored counts](examples/baseline/baseline_summary.json): recall is `TP / (eligible GMW positives + excluded GMW positives)` and F1 is `2*TP / (2*TP + FP + FN + excluded GMW positives)`. The standalone runner also writes a separate [machine-readable policy report](examples/baseline/coverage_policy_summary.json), retaining the original eligible-cell scores. [Reporting and setup checks](docs/COVERAGE_POLICY_REPORT.md) cover the new behavior; the current software suite passes 97 tests. They expose the screening cost; neither metric establishes independent cover accuracy.
 
 Northern calibration F1 is 0.6652, compared with 0.8864 in the south on November 20. These are different spatial populations: the north has 5,618 eligible cells, 436 mapped positives and TP/FP/FN/TN of 312/190/124/4,992. The south has fewer false positives and false negatives at the frozen threshold. The [saved baseline summary](examples/baseline/baseline_summary.json) records both populations. Their different cover composition and image/reference characteristics may contribute to the gap, but its cause has not been isolated. The higher southern score does not establish regional generalization or independent field accuracy.
 

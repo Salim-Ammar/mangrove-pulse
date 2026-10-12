@@ -60,6 +60,33 @@ def compare_csv(saved, new):
             except ValueError: pass
             raise ValueError(f'{saved.name}: row {i}, {k} differs')
 
+def coverage_policy_report(summary):
+    report = {'policy': 'excluded_cells_as_negative_predictions',
+              'scope': 'GMW reference agreement; not independent accuracy or a worst-case bound',
+              'dates': {}}
+    for date, row in sorted(summary['held_out'].items()):
+        m, coverage, excluded = row['all_eligible_southern_cells'], row['evaluation_coverage'], row['evaluation_excluded']
+        tp, fp, fn, tn = (m[k] for k in ('tp', 'fp', 'fn', 'tn'))
+        counts = [tp, fp, fn, tn] + [r[k] for r in (coverage, excluded) for k in ('total', 'mapped_mangrove', 'not_mapped')]
+        if any(type(v) is not int or v < 0 for v in counts):
+            raise ValueError(date + ': coverage counts must be nonnegative integers')
+        if (coverage['total'] != tp+fp+fn+tn or coverage['mapped_mangrove'] != tp+fn
+                or coverage['not_mapped'] != fp+tn
+                or excluded['total'] != excluded['mapped_mangrove']+excluded['not_mapped']):
+            raise ValueError(date + ': coverage counts do not reconcile')
+        policy_fn, policy_tn = fn+excluded['mapped_mangrove'], tn+excluded['not_mapped']
+        population = coverage['total']+excluded['total']
+        nominal_denominator, policy_denominator = 2*tp+fp+fn, 2*tp+fp+policy_fn
+        report['dates'][date] = {
+            'eligible_cells': coverage['total'], 'excluded_cells': excluded['total'],
+            'population_cells': population,
+            'eligible_fraction': coverage['total']/population if population else None,
+            'eligible_f1': 2*tp/nominal_denominator if nominal_denominator else None,
+            'policy_counts': {'tp': tp, 'fp': fp, 'fn': policy_fn, 'tn': policy_tn},
+            'policy_recall': tp/(tp+policy_fn) if tp+policy_fn else None,
+            'policy_f1': 2*tp/policy_denominator if policy_denominator else None}
+    return report
+
 def run(root,out):
     if any(out.iterdir()): raise ValueError('Output directory must be fresh and empty.')
     state={'status':'running','started_utc':datetime.now(timezone.utc).isoformat(),
@@ -85,6 +112,9 @@ def run(root,out):
         # Compare before passing predictions to the audit. Never tune to resolve a mismatch.
         for name in ['baseline_summary.json','frozen_experiment_plan.json','frozen_threshold.json','split_and_coverage.json']:
             compare(read(root/'examples/baseline'/name),read(baseline/name),name)
+        coverage = coverage_policy_report(read(baseline/'baseline_summary.json'))
+        coverage['source_summary_sha256'] = hashlib.sha256((baseline/'baseline_summary.json').read_bytes()).hexdigest()
+        dump(out/'coverage_policy_summary.json', coverage)
         import numpy as np, rasterio
         for name in ['2018-11-20_predictions.tif','2018-11-30_predictions.tif','geographic_split.tif']:
             with rasterio.open(root/'examples/baseline'/name) as a, rasterio.open(baseline/name) as b:

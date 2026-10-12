@@ -8,6 +8,8 @@ Mangrove Pulse reproduces historical satellite/reference disagreements and cover
 
 The [software coverage and dependency audit](SOFTWARE_AUDIT_20261012.md) records 88 passing tests, measured full-source coverage and a dated advisory query for the preserved runtime inventory. These are software checks, not evidence for the open empirical claims.
 
+The later [coverage-policy and setup checks](COVERAGE_POLICY_REPORT.md) add a machine-readable exclusion-as-negative report and enforce the SymPy source version. Its 97-test suite and stored-count example do not establish a fresh raster execution or upgrade the empirical claims.
+
 [Evidence gaps and decisions](GAP_CLOSING_REVIEW.md) records the bounded follow-up, rejected substitutes and decisive next observations for H1-H4. Their empirical status remains unresolved.
 
 The [results summary](WHAT_THE_POC_ESTABLISHES.md) separates demonstrated working features from unestablished field, aircraft and ecological outcomes. It does not change the scientific status of H1-H4.

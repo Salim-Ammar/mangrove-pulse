@@ -13,6 +13,87 @@ from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from run_submission import run, compare, compare_csv
+import run_submission
+
+
+class CoveragePolicyTests(unittest.TestCase):
+    def report(self, tp=2, fp=1, fn=1, tn=6, excluded_positive=2, excluded_negative=3):
+        summary = {'held_out': {'test-date': {
+            'all_eligible_southern_cells': {'tp': tp, 'fp': fp, 'fn': fn, 'tn': tn},
+            'evaluation_coverage': {'total': tp+fp+fn+tn, 'mapped_mangrove': tp+fn, 'not_mapped': fp+tn},
+            'evaluation_excluded': {'total': excluded_positive+excluded_negative,
+                                   'mapped_mangrove': excluded_positive, 'not_mapped': excluded_negative}}}}
+        self.assertTrue(callable(getattr(run_submission, 'coverage_policy_report', None)),
+                        'Runner must derive the explicit coverage-policy report')
+        return run_submission.coverage_policy_report(summary)
+
+    def test_exclusions_are_negative_predictions_not_worst_case(self):
+        report = self.report()
+        self.assertEqual(report['policy'], 'excluded_cells_as_negative_predictions')
+        row = report['dates']['test-date']
+        self.assertEqual(row['eligible_cells'], 10)
+        self.assertEqual(row['excluded_cells'], 5)
+        self.assertEqual(row['population_cells'], 15)
+        self.assertAlmostEqual(row['eligible_f1'], 2/3)
+        self.assertEqual(row['policy_counts'], {'tp': 2, 'fp': 1, 'fn': 3, 'tn': 9})
+        self.assertEqual(row['policy_f1'], 0.5)
+        self.assertEqual(row['policy_recall'], 0.4)
+        self.assertEqual(row['eligible_fraction'], 2/3)
+
+    def test_no_exclusions_preserves_f1(self):
+        row = self.report(excluded_positive=0, excluded_negative=0)['dates']['test-date']
+        self.assertEqual(row['eligible_f1'], row['policy_f1'])
+        self.assertEqual(row['eligible_fraction'], 1.0)
+
+    def test_undefined_metrics_are_null_not_perfect_scores(self):
+        row = self.report(0, 0, 0, 0, 0, 0)['dates']['test-date']
+        self.assertIsNone(row['eligible_f1'])
+        self.assertIsNone(row['policy_f1'])
+        self.assertIsNone(row['policy_recall'])
+        self.assertIsNone(row['eligible_fraction'])
+
+    def test_saved_date_counts_reproduce_documented_scores(self):
+        self.assertTrue(callable(getattr(run_submission, 'coverage_policy_report', None)))
+        root = Path(__file__).resolve().parents[1]
+        summary = json.loads((root/'examples/baseline/baseline_summary.json').read_text())
+        report = run_submission.coverage_policy_report(summary)
+        self.assertAlmostEqual(report['dates']['2018-11-20']['policy_f1'], 0.8194444444444444)
+        self.assertAlmostEqual(report['dates']['2018-11-30']['policy_f1'], 0.8228176318063959)
+
+    def test_invalid_or_unreconciled_counts_are_rejected(self):
+        self.assertTrue(callable(getattr(run_submission, 'coverage_policy_report', None)))
+        root = Path(__file__).resolve().parents[1]
+        for field, value in [('total', 469), ('mapped_mangrove', -1), ('not_mapped', True)]:
+            summary = json.loads((root/'examples/baseline/baseline_summary.json').read_text())
+            summary['held_out']['2018-11-20']['evaluation_excluded'][field] = value
+            with self.subTest(field=field), self.assertRaises(ValueError):
+                run_submission.coverage_policy_report(summary)
+
+    def test_runner_emits_report_after_verified_summary_without_rasters(self):
+        root = Path(__file__).resolve().parents[1]
+        with tempfile.TemporaryDirectory(dir=os.environ.get('MP_FORMAT_TEST_TMP')) as temp:
+            out = Path(temp)
+            baseline = out/'baseline'
+            baseline.mkdir()
+            for name in ['baseline_summary.json','frozen_experiment_plan.json','frozen_threshold.json','split_and_coverage.json']:
+                (baseline/name).write_bytes((root/'examples/baseline'/name).read_bytes())
+            (baseline/'run_status.json').write_text('{"status":"succeeded"}')
+            def reproduced_baseline(command, **kwargs):
+                target = Path(command[-1])
+                target.mkdir()
+                for source in baseline.iterdir():
+                    (target/source.name).write_bytes(source.read_bytes())
+                return subprocess.CompletedProcess(command, 0)
+            # Existing baseline files stand in for the scientific child; imports stop before raster I/O.
+            with patch('run_submission.verify_manifest'), patch('importlib.metadata.version', return_value='fixture'), \
+                 patch('run_submission.subprocess.run', side_effect=reproduced_baseline), \
+                 patch.dict(sys.modules, {'rasterio': None}), contextlib.redirect_stdout(io.StringIO()):
+                staging = out/'run'
+                staging.mkdir()
+                self.assertFalse(run(root, staging))
+            report = json.loads((staging/'coverage_policy_summary.json').read_text())
+            self.assertEqual(report['dates']['2018-11-20']['excluded_cells'], 468)
+            self.assertAlmostEqual(report['dates']['2018-11-20']['policy_f1'], 0.8194444444444444)
 
 
 class ComparisonTests(unittest.TestCase):

@@ -1,0 +1,37 @@
+{
+  "policy": "excluded_cells_as_negative_predictions",
+  "scope": "GMW reference agreement; not independent accuracy or a worst-case bound",
+  "dates": {
+    "2018-11-20": {
+      "eligible_cells": 5653,
+      "excluded_cells": 468,
+      "population_cells": 6121,
+      "eligible_fraction": 0.9235419049174971,
+      "eligible_f1": 0.8863849765258216,
+      "policy_counts": {
+        "tp": 472,
+        "fp": 47,
+        "fn": 161,
+        "tn": 5441
+      },
+      "policy_recall": 0.7456556082148499,
+      "policy_f1": 0.8194444444444444
+    },
+    "2018-11-30": {
+      "eligible_cells": 5310,
+      "excluded_cells": 811,
+      "population_cells": 6121,
+      "eligible_fraction": 0.8675053095899363,
+      "eligible_f1": 0.8888888888888888,
+      "policy_counts": {
+        "tp": 476,
+        "fp": 48,
+        "fn": 157,
+        "tn": 5440
+      },
+      "policy_recall": 0.7519747235387045,
+      "policy_f1": 0.8228176318063959
+    }
+  },
+  "source_summary_sha256": "d7ff718de2b031fc440011e59d63a3d01bb1bf5faf6d9bb32a23f17658bb5123"
+}
